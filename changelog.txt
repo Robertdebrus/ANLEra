@@ -1,0 +1,60 @@
+0.0.3 :
+- fixed some image path to reduce the numbers of invisible units.
+
+0.0.4 :
+- fixed some image path to reduce the numbers of invisible units by creating new folder and deleting some
+- refactoring code to make it more consistant and readable
+- fixed the leader negociation menu for all factions
+
+0.0.5 :
+- fixed unit ids
+- added code for different factions to research differently.
+- fixed many bugs mentioned by inkana
+
+0.1.6 :    --the verison numbers don't make sense... should put it to 1.0.
+- removed extra units.
+- started an attempt to fix the map duplicating the research.
+
+1.0
+- decided to just move it to 1.0 instead of going all the way up, it is in full working condition
+- fixed a few bugs.
+- let different factions build differnt style buildings, drakes might need a better castle (currently using dwarvish)
+
+1.0.1
+- fixed a missing folder
+
+1.1
+- ANLEra SP!
+- Dead Water just got 67% easier.
+
+1.2
+- Fixed Elvish Archer not getting researched
+- Reorganized folders a bit 
+- Fixed the water builder not filling in deep water
+- Tried to increase compatability inbetween 1.12 and 1.13 to make it so there is only one version, different features.
+
+1.4
+- Refactored ANL_working_options.cfg, hopefully clearer and supports more terrain
+- Attempted to make factions unable to negociate with their own faction
+- Simplified code in several places
+- Updated unit sprites and animations for Dwarvish Miner and Witness Line
+- Gave the Orcish Shaman more hitpoints and damage
+- Got rid of "ANLEra Maps"
+- Fixed wrong image paths in multiple places
+- Updated paths to new images and terrains
+
+
+
+
+
+TODO :
+Inkana's ideas
+- fix the leader negociation menus so a faction can't negociate with itself (make it so elves cannot negociate with elves)
+- add more images for the Drake Worker (attack, defense, etc.)
+- fix the "donate fund" option for PVP. for now, you can give to ally or enemy without distinction. (may try and fix, but it seems to show the name)
+
+
+- add more to the changelog. ;)
+
+bugs:
+- with fog of war, the fog is removed only after you can see the little numbers of money and research gained (not sure how to fix)
