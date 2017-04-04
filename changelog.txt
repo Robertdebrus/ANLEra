@@ -42,7 +42,7 @@
 - Got rid of "ANLEra Maps"
 - Fixed wrong image paths in multiple places
 - Updated paths to new images and terrains
-
+- Uploaded to GitHub: https://github.com/Robertdebrus/ANLEra
 
 
 
@@ -53,8 +53,3 @@ Inkana's ideas
 - add more images for the Drake Worker (attack, defense, etc.)
 - fix the "donate fund" option for PVP. for now, you can give to ally or enemy without distinction. (may try and fix, but it seems to show the name)
 
-
-- add more to the changelog. ;)
-
-bugs:
-- with fog of war, the fog is removed only after you can see the little numbers of money and research gained (not sure how to fix)
