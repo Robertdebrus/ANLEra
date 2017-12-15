@@ -44,6 +44,8 @@
 - Updated paths to new images and terrains
 - Uploaded to GitHub: https://github.com/Robertdebrus/ANLEra
 
+1.4.1
+ - Fixes #25
 
 
 
