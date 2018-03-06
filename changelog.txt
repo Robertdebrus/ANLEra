@@ -46,7 +46,10 @@
 
 1.4.1
  - Fixes #25
-
+ 
+1.4.2
+ - Fixes #27
+ - Fixes #28
 
 
 TODO :
