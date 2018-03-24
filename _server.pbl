@@ -1,0 +1,11 @@
+author="Robertdebrus"
+icon="units/drakes/fighter.png"
+version="1.5.3"
+title="A New Land Era"
+type="era"
+description="An Era that uses the macros from the mainline scenario A New Land made by Bob_The_Mighty, and puts them into an Era, with more factions. Also includes a mostly functioning SP/MP modification that allows any lvl 0 to build as in ANL."
+[feedback]
+topic_id=41450
+[/feedback]
+passphrase="anewland"
+email="robertdebrus@hotmail.com"
