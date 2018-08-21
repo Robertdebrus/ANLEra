@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-08-20 23:19 UTC\n"
-"PO-Revision-Date: 2018-08-21 01:47+0200\n"
+"POT-Creation-Date: 2018-08-21 21:47 UTC\n"
+"PO-Revision-Date: 2018-08-21 23:39+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -53,7 +53,7 @@ msgstr "Boden urbar machen"
 #. [option]
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
-#: ANLEra/utils/ANLEra_worker_options.cfg:378
+#: ANLEra/utils/ANLEra_worker_options.cfg:380
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
 
@@ -267,77 +267,77 @@ msgid "Negotiation Progress: "
 msgstr "Fortschritt der Verhandlungen: "
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:487
+#: ANLEra/utils/ANLEra_leader_options.cfg:483
 msgid "Negotiate with the Dwarves"
 msgstr "Verhandlungen mit den Zwergen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:487
+#: ANLEra/utils/ANLEra_leader_options.cfg:483
 msgid "Lets you recruit a Dwarvish unit"
 msgstr "Dies erlaubt es Euch, eine zwergische Einheit zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:500
+#: ANLEra/utils/ANLEra_leader_options.cfg:496
 msgid "Negotiate with the Elves"
 msgstr "Verhandlungen mit den Elfen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:500
+#: ANLEra/utils/ANLEra_leader_options.cfg:496
 msgid "Lets you recruit an Elvish unit"
 msgstr "Dies erlaubt es Euch, eine elfische Einheit zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:514
+#: ANLEra/utils/ANLEra_leader_options.cfg:510
 msgid "Negotiate with the Drakes"
 msgstr "Verhandlungen mit den Draken"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:514
+#: ANLEra/utils/ANLEra_leader_options.cfg:510
 msgid "Lets you recruit a Drake unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:527
+#: ANLEra/utils/ANLEra_leader_options.cfg:523
 msgid "Negotiate with the Undead"
 msgstr "Verhandlungen mit den Untoten"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:527
+#: ANLEra/utils/ANLEra_leader_options.cfg:523
 msgid "Lets you recruit an Undead unit"
 msgstr "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:541
+#: ANLEra/utils/ANLEra_leader_options.cfg:537
 msgid "Negotiate with Humans"
 msgstr "Verhandlungen mit den Menschen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:541
+#: ANLEra/utils/ANLEra_leader_options.cfg:537
 msgid "Lets you recruit a Human unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Menschen zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:555
+#: ANLEra/utils/ANLEra_leader_options.cfg:551
 msgid "Negotiate with the Merfolk"
 msgstr "Verhandlungen mit dem Meervolk"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:555
+#: ANLEra/utils/ANLEra_leader_options.cfg:551
 msgid "Lets you recruit an Merman unit"
 msgstr "Dies erlaubt es Euch, eine Einheit des Merfolkes zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:563
+#: ANLEra/utils/ANLEra_leader_options.cfg:559
 msgid "Negotiate with Mercenaries"
 msgstr "Verhandlungen mit Söldnern"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:563
+#: ANLEra/utils/ANLEra_leader_options.cfg:559
 msgid "Lets you recruit Mercenary units"
 msgstr "Dies erlaubt es Euch, einen Söldner zu rekrutieren"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:656
+#: ANLEra/utils/ANLEra_leader_options.cfg:652
 msgid ""
 "Our talks are complete — the Drakes will gladly fight by your side. Which of "
 "our brethren do you want to recruit?"
@@ -346,7 +346,7 @@ msgstr ""
 "wollt ihr rekrutieren?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:689
+#: ANLEra/utils/ANLEra_leader_options.cfg:685
 msgid ""
 "Our talks are complete — I will summon the dead for you. Which of our them "
 "do you want to come?"
@@ -355,7 +355,7 @@ msgstr ""
 "von Ihnen wollt ihr sehen?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:724
+#: ANLEra/utils/ANLEra_leader_options.cfg:720
 msgid ""
 "Our talks are complete — the Humans will gladly fight by your side. Which of "
 "our men do you want to recruit?"
@@ -364,7 +364,7 @@ msgstr ""
 "Wen von uns wollt ihr in euren Reihen sehen?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:760
+#: ANLEra/utils/ANLEra_leader_options.cfg:756
 msgid ""
 "Our talks are complete — the Merfolk will gladly fight by your side. Which "
 "of our people do you want to recruit?"
@@ -373,7 +373,7 @@ msgstr ""
 "Unterstützung benötigt ihr?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:794
+#: ANLEra/utils/ANLEra_leader_options.cfg:790
 msgid ""
 "Our talks are complete — some Mercenaries will gladly fight by your side. "
 "Which of us do you want to recruit?"
@@ -381,8 +381,25 @@ msgstr ""
 "Unsere Gespräche sind beendet. Wir Söldner nehmen euren Auftrag an. Wessen "
 "Hilfe benötigt ihr?"
 
+#. [option]: description=<span size='small'>
+#: ANLEra/utils/ANLEra_worker_options.cfg:21
+msgid "Cost:"
+msgstr "Kosten:"
+
+#. [option]: description=<span size='small'>
+#. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
+#: ANLEra/utils/ANLEra_worker_options.cfg:23
+#: ANLEra/utils/ANLEra_worker_options.cfg:57
+msgid "g"
+msgstr "G"
+
+#. [option]: description=<span size='small'>
+#: ANLEra/utils/ANLEra_worker_options.cfg:57
+msgid "Earns:"
+msgstr "Einnahmen:"
+
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_worker_options.cfg:368
+#: ANLEra/utils/ANLEra_worker_options.cfg:370
 msgid "Remove Path"
 msgstr "Pfad beseitigen"
 
@@ -440,7 +457,7 @@ msgstr ""
 "Forschungsgebiet festlegen."
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_research_options.cfg:637
+#: ANLEra/utils/ANLEra_research_options.cfg:605
 msgid ""
 "$player_$side_number|.name|, we have finished researching warfare. Right-"
 "click on a researcher in a university to select a unit to recruit."
