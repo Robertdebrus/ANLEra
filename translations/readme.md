@@ -15,4 +15,4 @@ If you only have the .mo file and need a .po file, you can recover it:
 
 The [Era of Myths](https://github.com/sevu/EoM/tree/master/translations) contains more information about translations.  
 
-When translating, have a look at the [official ANL translation](https://www.wesnoth.org/gettext/?version=master&package=wesnoth-anl&order=trans).  There are several cases in ANLEra which differ slightly from the official ANL and should be translated in the same manner.
+When translating, have a look at the [official ANL translation](https://www.wesnoth.org/gettext/?version=branch&package=wesnoth-anl&order=trans).  There are several cases in ANLEra which differ slightly from the official ANL and should be translated in the same manner.

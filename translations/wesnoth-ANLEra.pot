@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-10-15 17:37 UTC\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-08-21 00:01 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,36 +26,48 @@ msgid "Convert to Grassland"
 msgstr ""
 
 #. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:499
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:514
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:529
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:511
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:525
 msgid "Shovel Snow"
 msgstr ""
 
 #. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:544
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:511
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:525
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:539
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:568
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:582
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:596
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:609
+msgid "Cost: 1g"
+msgstr ""
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:539
 msgid "Break Up Floor"
 msgstr ""
 
 #. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:560
-#: ANLEra/utils/ANLEra_worker_options.cfg:557
+#. [message]: speaker=unit
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
+#: ANLEra/utils/ANLEra_worker_options.cfg:378
 msgid "Melt Ice"
 msgstr ""
 
 #. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:575
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:568
 msgid "Plant Grass"
 msgstr ""
 
 #. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:590
-msgid "Water Grass"
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:582
+msgid "Water"
 msgstr ""
 
 #. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:605
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:619
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:596
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:609
 msgid "Dig Out Sand"
 msgstr ""
 
@@ -70,9 +82,9 @@ msgid "The Drake Magi are fresh members of the Obsidian Citadel, who have been b
 msgstr ""
 
 #. [attack]: type=cold
-#: ANLEra/units/drakes/Apprentice.cfg:51
-#: ANLEra/units/drakes/Druid.cfg:52
-#: ANLEra/units/drakes/Shaman.cfg:53
+#: ANLEra/units/drakes/Apprentice.cfg:50
+#: ANLEra/units/drakes/Druid.cfg:51
+#: ANLEra/units/drakes/Shaman.cfg:52
 msgid "ice shot"
 msgstr ""
 
@@ -84,7 +96,7 @@ msgstr ""
 #. [unit_type]: id=ANLEra Drake Druid, race=drake
 #. [unit_type]: id=ANLEra Drake Shaman, race=drake
 #: ANLEra/units/drakes/Druid.cfg:20
-#: ANLEra/units/drakes/Shaman.cfg:21
+#: ANLEra/units/drakes/Shaman.cfg:20
 msgid "The Drake High Magi are elite members of an order of magic-using drakes who spend their days in the Obsidian Citadel, honing their powers for use in times of crisis. They can summon blasts of intense cold with a gesture, and can hurl powerful fireballs across great distances. However, due to the extensive energy that is required of these drakes to harness and use these powers, they are frail and slow."
 msgstr ""
 
@@ -99,7 +111,7 @@ msgid "Drake Worker"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Worker, race=drake
-#: ANLEra/units/drakes/Worker.cfg:24
+#: ANLEra/units/drakes/Worker.cfg:18
 msgid "Drake Workers are the working class of the Drakes. They can still fight, but if you're hutling workers at the enemy, you're clearly out of superior forces."
 msgstr ""
 
@@ -109,12 +121,12 @@ msgid "Elvish Civilian"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:24
+#: ANLEra/units/elves/Civilian.cfg:18
 msgid "Since elves are not warlike by nature, most of their population is composed by civilians who learn, at very early age, basic usage of swords and bows. This enables them to defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you’re clearly out of superior forces."
 msgstr ""
 
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:144
+#: ANLEra/units/elves/Civilian.cfg:87
 msgid "female^Elvish Civilian"
 msgstr ""
 
@@ -144,53 +156,53 @@ msgid "Defeat All Enemy Leaders"
 msgstr ""
 
 #. [unit]: id=Peasant-1, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:50
+#: ANLEra/scenarios/4p_The_Wall.cfg:45
 msgid "Owan"
 msgstr ""
 
 #. [unit]: id=Peasant-2, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:57
+#: ANLEra/scenarios/4p_The_Wall.cfg:52
 msgid "Aethubry"
 msgstr ""
 
 #. [unit]: id=Peasant-3, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:82
+#: ANLEra/scenarios/4p_The_Wall.cfg:72
 msgid "Blygwyn"
 msgstr ""
 
 #. [unit]: id=Peasant-4, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:89
+#: ANLEra/scenarios/4p_The_Wall.cfg:79
 msgid "Midoc"
 msgstr ""
 
 #. [unit]: id=Peasant-5, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:114
+#: ANLEra/scenarios/4p_The_Wall.cfg:99
 msgid "Rhygwyddryn"
 msgstr ""
 
 #. [unit]: id=Peasant-6, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:121
+#: ANLEra/scenarios/4p_The_Wall.cfg:106
 msgid "Blyn"
 msgstr ""
 
 #. [unit]: id=Peasant-7, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:146
+#: ANLEra/scenarios/4p_The_Wall.cfg:126
 msgid "Sec"
 msgstr ""
 
 #. [unit]: id=Peasant-8, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:153
+#: ANLEra/scenarios/4p_The_Wall.cfg:133
 msgid "Gwyn"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:168
-#: ANLEra/scenarios/4p_The_Wall.cfg:185
+#: ANLEra/scenarios/4p_The_Wall.cfg:148
+#: ANLEra/scenarios/4p_The_Wall.cfg:165
 msgid "The Wall crumbles."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:207
+#: ANLEra/scenarios/4p_The_Wall.cfg:187
 msgid "The Wall falls."
 msgstr ""
 
@@ -205,133 +217,119 @@ msgid "Due to their dedication to research, the Universities heal less."
 msgstr ""
 
 #. [option]
-#: ANLEra/utils/ANLEra_leader_options.cfg:769
-msgid ""
-"<span color='green'>Negotiate with the Drakes</span>\n"
-"Lets you recruit a Drake unit\n"
-"Negotiation Progress: $player_$side_number|.leader_option_3.progress|/$player_$side_number|.leader_option_3.target"
+#: ANLEra/utils/ANLEra_leader_options.cfg:210
+msgid "Negotiation Progress: "
 msgstr ""
 
-#. [option]
-#: ANLEra/utils/ANLEra_leader_options.cfg:837
-msgid ""
-"<span color='green'>Negotiate with the Undead</span>\n"
-"Lets you recruit an Undead unit\n"
-"Negotiation Progress: $player_$side_number|.leader_option_4.progress|/$player_$side_number|.leader_option_4.target"
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:487
+msgid "Negotiate with the Dwarves"
 msgstr ""
 
-#. [option]
-#: ANLEra/utils/ANLEra_leader_options.cfg:904
-msgid ""
-"<span color='green'>Negotiate with Humans</span>\n"
-"Lets you recruit a Human unit\n"
-"Negotiation Progress: $player_$side_number|.leader_option_5.progress|/$player_$side_number|.leader_option_5.target"
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:487
+msgid "Lets you recruit a Dwarvish unit"
 msgstr ""
 
-#. [option]
-#: ANLEra/utils/ANLEra_leader_options.cfg:979
-msgid ""
-"<span color='green'>Negotiate with the Merfolk</span>\n"
-"Lets you recruit a Merman unit\n"
-"Negotiation Progress: $player_$side_number|.leader_option_6.progress|/$player_$side_number|.leader_option_6.target"
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:500
+msgid "Negotiate with the Elves"
 msgstr ""
 
-#. [option]
-#: ANLEra/utils/ANLEra_leader_options.cfg:1037
-msgid ""
-"<span color='green'>Negotiate with Mercenaries</span>\n"
-"Lets you recruit Mercenary units\n"
-"Negotiation Progress: $player_$side_number|.leader_option_7.progress|/$player_$side_number|.leader_option_7.target"
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:500
+msgid "Lets you recruit an Elvish unit"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:514
+msgid "Negotiate with the Drakes"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:514
+msgid "Lets you recruit a Drake unit"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:527
+msgid "Negotiate with the Undead"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:527
+msgid "Lets you recruit an Undead unit"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:541
+msgid "Negotiate with Humans"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:541
+msgid "Lets you recruit a Human unit"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:555
+msgid "Negotiate with the Merfolk"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:555
+msgid "Lets you recruit an Merman unit"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:563
+msgid "Negotiate with Mercenaries"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:563
+msgid "Lets you recruit Mercenary units"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:1176
+#: ANLEra/utils/ANLEra_leader_options.cfg:656
 msgid "Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:1209
+#: ANLEra/utils/ANLEra_leader_options.cfg:689
 msgid "Our talks are complete — I will summon the dead for you. Which of our them do you want to come?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:1244
+#: ANLEra/utils/ANLEra_leader_options.cfg:724
 msgid "Our talks are complete — the Humans will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:1281
+#: ANLEra/utils/ANLEra_leader_options.cfg:760
 msgid "Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:1315
+#: ANLEra/utils/ANLEra_leader_options.cfg:794
 msgid "Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?"
 msgstr ""
 
-#. [option]
-#: ANLEra/utils/ANLEra_worker_options.cfg:533
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_worker_options.cfg:368
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:64
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:288
-msgid "Team 1 has allied with an Orcish tribe!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:88
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:312
-msgid "Team 2 has allied with the Undead!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:112
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:336
-msgid "Team 3 has allied with the Undead!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:136
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:360
-msgid "Team 4 has allied with an Orcish Tribe!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:160
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:384
-msgid "Team 5 has allied with some Drakes!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:184
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:408
-msgid "Team 6 has allied with some Humans!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:208
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:432
-msgid "Team 7 has allied with a Necromancer!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:232
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:456
-msgid "Team 8 has allied with some Elves!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:256
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:480
-msgid "Team 9 has allied with some Undead!"
+#: ANLEra/utils/ANLEra_extra_ai_units.cfg:36
+msgid "$name_of_side| can now recruit $new_recruit|!"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/ANLEra_help.cfg:17
-#: ANLEra/utils/ANLEra_help.cfg:128
+#: ANLEra/utils/ANLEra_help.cfg:130
 msgid "Workers"
 msgstr ""
 
@@ -343,7 +341,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/ANLEra_help.cfg:28
-#: ANLEra/utils/ANLEra_help.cfg:135
+#: ANLEra/utils/ANLEra_help.cfg:137
 msgid "Reasearchers"
 msgstr ""
 
@@ -352,13 +350,18 @@ msgstr ""
 msgid "Mages, and the other people who know some form of magic, can study at universities, pursuing advances in mining, farming and recruitment."
 msgstr ""
 
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_help.cfg:72
+msgid "Any of the “Town” style villages represent universities. At the start of your turn, researcher in universities automatically add to the study progress of your chosen research target. Right-click on a researcher in an university to change the research target."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_research_options.cfg:637
+msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
+msgstr ""
+
 #. [era]: id=Anewlandera
 #: ANLEra/ANLEra.cfg:5
 msgid "An Era that uses the macros for the mainline scenario A New Land, with more factions. Works best with less than 10 players."
 msgstr ""
 
-msgid "Cost: 0g"
-msgstr ""
-
-msgid "Cost: 1g"
-msgstr ""

@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-08-20 23:19 UTC\n"
+"PO-Revision-Date: 2018-08-21 01:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#. [multiplayer_side]: id=ANLEra_Humans, type=Peasant
+#: ANLEra/factions/humans.cfg:4
+msgid "Humans"
+msgstr "Menschen"
+
+#. [multiplayer_side]: id=ANLEra_Outlaws, type=Ruffian
+#: ANLEra/factions/outlaws.cfg:4
+msgid "Outlaws"
+msgstr "Geächtete"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:90
+msgid "Convert to Grassland"
+msgstr "Zu Grasland umwandeln"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:511
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:525
+msgid "Shovel Snow"
+msgstr "Schnee wegschaufeln"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:511
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:525
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:539
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:568
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:582
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:596
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:609
+msgid "Cost: 1g"
+msgstr "Kosten: 1G"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:539
+msgid "Break Up Floor"
+msgstr "Boden urbar machen"
+
+#. [option]
+#. [message]: speaker=unit
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
+#: ANLEra/utils/ANLEra_worker_options.cfg:378
+msgid "Melt Ice"
+msgstr "Eis schmelzen"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:568
+msgid "Plant Grass"
+msgstr "Gras pflanzen"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:582
+msgid "Water"
+msgstr "Grass wässern"
+
+#. [option]
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:596
+#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:609
+msgid "Dig Out Sand"
+msgstr "Sand ausgraben"
+
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
+#: ANLEra/units/drakes/Apprentice.cfg:5
+msgid "Drake Apprentice"
+msgstr "Drakenlehrling"
+
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
+#: ANLEra/units/drakes/Apprentice.cfg:19
+msgid ""
+"The Drake Magi are fresh members of the Obsidian Citadel, who have been "
+"bound to the cult. Although they have undergone training harsh enough to "
+"kill any human or orc, they are inexperienced, and thus can only safely "
+"wield a weaker form of their feared fireball spell. However, they also share "
+"the weaknesses of the High Magi."
+msgstr ""
+"Die Drakenmagier sind fitte Mitglieder der Obsidianischen Zitadelle, welche "
+"mit dem dem Kult zusammenarbeitet. Obwohl sie ein hartes Training "
+"durchgegangen haben und stark genug sind Menschen oder Orks zu töten, so "
+"sind sie noch unerfahren, und können daher nur eine schwächere Form ihres "
+"mächtigen Zaubers kontrollieren. Und leider teilen sie auch die Schwächen "
+"der mächtigen Magier."
+
+#. [attack]: type=cold
+#: ANLEra/units/drakes/Apprentice.cfg:50 ANLEra/units/drakes/Druid.cfg:51
+#: ANLEra/units/drakes/Shaman.cfg:52
+msgid "ice shot"
+msgstr "Eisgeschoss"
+
+#. [unit_type]: id=ANLEra Drake Druid, race=drake
+#: ANLEra/units/drakes/Druid.cfg:5
+msgid "Drake Druid"
+msgstr "Drakendruide"
+
+#. [unit_type]: id=ANLEra Drake Druid, race=drake
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake
+#: ANLEra/units/drakes/Druid.cfg:20 ANLEra/units/drakes/Shaman.cfg:20
+msgid ""
+"The Drake High Magi are elite members of an order of magic-using drakes who "
+"spend their days in the Obsidian Citadel, honing their powers for use in "
+"times of crisis. They can summon blasts of intense cold with a gesture, and "
+"can hurl powerful fireballs across great distances. However, due to the "
+"extensive energy that is required of these drakes to harness and use these "
+"powers, they are frail and slow."
+msgstr ""
+"Die mächtigen Drakenmagier sind die Elite eines Ordens von Magie "
+"einsetzenden Draken, welche ihre Tage in der Obsidianischen Zitadelle "
+"verbringen, und dort ihre Kräfte für den Ernstfall sammeln. Sie sind in der "
+"Lage Stöße enormster Kälte und mächtige Feuerbälle über weite Distanzen "
+"hinweg einsetzen. Aufgrund der Energie welche sie dafür benötigen fehlt es "
+"ihnen jedoch an Schnelligkeit und Kraft."
+
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake
+#: ANLEra/units/drakes/Shaman.cfg:5
+msgid "Drake Shaman"
+msgstr "Drakenschamane"
+
+#. [unit_type]: id=ANLEra Drake Worker, race=drake
+#: ANLEra/units/drakes/Worker.cfg:5
+msgid "Drake Worker"
+msgstr "Drakenarbeiter"
+
+#. [unit_type]: id=ANLEra Drake Worker, race=drake
+#: ANLEra/units/drakes/Worker.cfg:18
+msgid ""
+"Drake Workers are the working class of the Drakes. They can still fight, but "
+"if you're hutling workers at the enemy, you're clearly out of superior "
+"forces."
+msgstr ""
+"Drakenarbeiter sind die Arbeiterklasse unter den Draken. Sie können auch "
+"kämpfen, aber wenn ihr Arbeiter auf den Gegner ansetzt fehlt es euch "
+"eindeutig an stärkeren Einheiten."
+
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
+#: ANLEra/units/elves/Civilian.cfg:4
+msgid "Elvish Civilian"
+msgstr "Elfischer Bürger"
+
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
+#: ANLEra/units/elves/Civilian.cfg:18
+msgid ""
+"Since elves are not warlike by nature, most of their population is composed "
+"by civilians who learn, at very early age, basic usage of swords and bows. "
+"This enables them to defend themselves, or their homes, in times of need, "
+"forming a fairly skilled militia. However, if you are hurling civilians at "
+"your foes, you’re clearly out of superior forces."
+msgstr ""
+"Da Elfen von Natur aus nicht kriegerisch sind besteht der größte Teil ihrer "
+"Bevölkerung aus Bürgern, welche bereits in jungen Jahren lernen mit Schwert "
+"und Bogen zu hantieren. Dies erlaubt es ihnen sich oder ihre Heimat im Falle "
+"des Falles zu verteidigen, und eine fähige Miliz zu bilden. Wenn ihr jedoch "
+"auf Elfische Bürger gegen eure Gegner setzen fehlt es euch deutlich an "
+"überlegenen Einheiten."
+
+#. [female]
+#: ANLEra/units/elves/Civilian.cfg:87
+msgid "female^Elvish Civilian"
+msgstr "Elfische Bürgerin"
+
+#. [multiplayer]: id=ANLMap
+#: ANLEra/scenarios/4p_A_New_Land.cfg:4
+msgid "4p — ANLEra A New Land"
+msgstr "4S – ANLEra Eine neue Heimat"
+
+#. [multiplayer]: id=ANLMap
+#: ANLEra/scenarios/4p_A_New_Land.cfg:10
+msgid "Edited by Robertdebrus for use with A New Land Era."
+msgstr "Von Robertdebrus für die Benutzung mit der ANL Epoche angepasst."
+
+#. [multiplayer]: id=ANLEra_The_Wall
+#: ANLEra/scenarios/4p_The_Wall.cfg:4
+msgid "4p — ANLEra The Wall"
+msgstr "4S – ANLEra Die Mauer"
+
+#. [multiplayer]: id=ANLEra_The_Wall
+#: ANLEra/scenarios/4p_The_Wall.cfg:6
+msgid ""
+"On this map, you will have to build your own keep, while you start with two "
+"peasants. In the middle of this map, there is a wall that will start opening "
+"on turn 8, and fully open by turn 14"
+msgstr ""
+"Auf dieser Karte müsst ihr euren eigenen Burgfried bauen, ihr starten mit "
+"zwei Bauern. In der Mitte der Karte gibt es eine Mauer, welche sich ab Runde "
+"8 zu öffnen beginnt, und mit Runde 14 komplett geöffnet sein wird"
+
+#. [objective]: condition=win
+#: ANLEra/scenarios/4p_The_Wall.cfg:24
+msgid "Defeat All Enemy Leaders"
+msgstr "Besiegt alle gegnerischen Anführer"
+
+#. [unit]: id=Peasant-1, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:45
+msgid "Owan"
+msgstr "Owan"
+
+#. [unit]: id=Peasant-2, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:52
+msgid "Aethubry"
+msgstr "Aethubry"
+
+#. [unit]: id=Peasant-3, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:72
+msgid "Blygwyn"
+msgstr "Blygwyn"
+
+#. [unit]: id=Peasant-4, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:79
+msgid "Midoc"
+msgstr "Midoc"
+
+#. [unit]: id=Peasant-5, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:99
+msgid "Rhygwyddryn"
+msgstr "Rhygwyddryn"
+
+#. [unit]: id=Peasant-6, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:106
+msgid "Blyn"
+msgstr "Blyn"
+
+#. [unit]: id=Peasant-7, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:126
+msgid "Sec"
+msgstr "Sec"
+
+#. [unit]: id=Peasant-8, type=Peasant
+#: ANLEra/scenarios/4p_The_Wall.cfg:133
+msgid "Gwyn"
+msgstr "Gwyn"
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_The_Wall.cfg:148 ANLEra/scenarios/4p_The_Wall.cfg:165
+msgid "The Wall crumbles."
+msgstr "Die Mauer bröckelt."
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_The_Wall.cfg:187
+msgid "The Wall falls."
+msgstr "Die Mauer fällt."
+
+#. [terrain_type]: id=ANLEra_university
+#: ANLEra/terrain/terrain.cfg:6
+msgid "University"
+msgstr "Universität"
+
+#. [terrain_type]: id=ANLEra_university
+#: ANLEra/terrain/terrain.cfg:12
+msgid "Due to their dedication to research, the Universities heal less."
+msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
+
+#. [option]
+#: ANLEra/utils/ANLEra_leader_options.cfg:210
+msgid "Negotiation Progress: "
+msgstr "Fortschritt der Verhandlungen: "
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:487
+msgid "Negotiate with the Dwarves"
+msgstr "Verhandlungen mit den Zwergen"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:487
+msgid "Lets you recruit a Dwarvish unit"
+msgstr "Dies erlaubt es Euch, eine zwergische Einheit zu rekrutieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:500
+msgid "Negotiate with the Elves"
+msgstr "Verhandlungen mit den Elfen"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:500
+msgid "Lets you recruit an Elvish unit"
+msgstr "Dies erlaubt es Euch, eine elfische Einheit zu rekrutieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:514
+msgid "Negotiate with the Drakes"
+msgstr "Verhandlungen mit den Draken"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:514
+msgid "Lets you recruit a Drake unit"
+msgstr "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:527
+msgid "Negotiate with the Undead"
+msgstr "Verhandlungen mit den Untoten"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:527
+msgid "Lets you recruit an Undead unit"
+msgstr "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:541
+msgid "Negotiate with Humans"
+msgstr "Verhandlungen mit den Menschen"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:541
+msgid "Lets you recruit a Human unit"
+msgstr "Dies erlaubt es Euch, eine Einheit der Menschen zu rekrutieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:555
+msgid "Negotiate with the Merfolk"
+msgstr "Verhandlungen mit dem Meervolk"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:555
+msgid "Lets you recruit an Merman unit"
+msgstr "Dies erlaubt es Euch, eine Einheit des Merfolkes zu rekrutieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:563
+msgid "Negotiate with Mercenaries"
+msgstr "Verhandlungen mit Söldnern"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:563
+msgid "Lets you recruit Mercenary units"
+msgstr "Dies erlaubt es Euch, einen Söldner zu rekrutieren"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_leader_options.cfg:656
+msgid ""
+"Our talks are complete — the Drakes will gladly fight by your side. Which of "
+"our brethren do you want to recruit?"
+msgstr ""
+"Unsere Gespräche sind beendet. Wir Draken werden euch unterstützen. Wen "
+"wollt ihr rekrutieren?"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_leader_options.cfg:689
+msgid ""
+"Our talks are complete — I will summon the dead for you. Which of our them "
+"do you want to come?"
+msgstr ""
+"Unsere Gespräche sind beendet. Ich werde die Toten für euch rufen. Welchen "
+"von Ihnen wollt ihr sehen?"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_leader_options.cfg:724
+msgid ""
+"Our talks are complete — the Humans will gladly fight by your side. Which of "
+"our men do you want to recruit?"
+msgstr ""
+"Unsere Gespräche sind beendet. Wir Menschen werden an eurer Seite kämpfen. "
+"Wen von uns wollt ihr in euren Reihen sehen?"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_leader_options.cfg:760
+msgid ""
+"Our talks are complete — the Merfolk will gladly fight by your side. Which "
+"of our people do you want to recruit?"
+msgstr ""
+"Unsere Gespräche sind beendet. Unser Volk nimmt euer Ersuchen an. Wessen "
+"Unterstützung benötigt ihr?"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_leader_options.cfg:794
+msgid ""
+"Our talks are complete — some Mercenaries will gladly fight by your side. "
+"Which of us do you want to recruit?"
+msgstr ""
+"Unsere Gespräche sind beendet. Wir Söldner nehmen euren Auftrag an. Wessen "
+"Hilfe benötigt ihr?"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_worker_options.cfg:368
+msgid "Remove Path"
+msgstr "Pfad beseitigen"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_extra_ai_units.cfg:36
+msgid "$name_of_side| can now recruit $new_recruit|!"
+msgstr "$name_of_side| kann nun eine neue Einheit ausbilden: $new_recruit|"
+
+#. [message]: speaker=narrator
+#. [option]
+#: ANLEra/utils/ANLEra_help.cfg:17 ANLEra/utils/ANLEra_help.cfg:130
+msgid "Workers"
+msgstr "Arbeiter"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_help.cfg:20
+msgid ""
+"Peasants, and others of this working class are your workers. Depending on "
+"the terrain, right-clicking on a peasant allows you to terraform the "
+"landscape and/or build castles, mines, farms, villages and universities."
+msgstr ""
+"Bauern und andere Einheiten der Stufe 0 sind eure Arbeiter. Abhängig vom "
+"aktuellen Gelände kann man per Rechtsklick die Landschaft umformen, Burgen "
+"und Bergwerke bauen, Dörfer und Universitäten gründen oder Ackerland anlegen."
+
+#. [message]: speaker=narrator
+#. [option]
+#: ANLEra/utils/ANLEra_help.cfg:28 ANLEra/utils/ANLEra_help.cfg:137
+msgid "Reasearchers"
+msgstr "Forscher"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_help.cfg:30
+msgid ""
+"Mages, and the other people who know some form of magic, can study at "
+"universities, pursuing advances in mining, farming and recruitment."
+msgstr ""
+"Magier, und andere Leute die eine Art von Magie beherrschen, sind eure "
+"weisesten Untertanen. Sie können an Universitäten studieren, um Euch so neue "
+"Kenntnisse beim Ackerbau, der Arbeit in den Bergwerken oder euren Truppen zu "
+"bringen."
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_help.cfg:72
+msgid ""
+"Any of the “Town” style villages represent universities. At the start of "
+"your turn, researcher in universities automatically add to the study "
+"progress of your chosen research target. Right-click on a researcher in an "
+"university to change the research target."
+msgstr ""
+"Die »städtischen« Dörfer stehen für Universitäten. Zu Beginn Eures Zuges "
+"sorgen in Universitäten stationierte Forscher dafür, dass Ihr Fortschritte "
+"in der Forschung im aktuell gewählten Gebiet erzielt. Mit einem Rechtsklick "
+"auf einen Forscher in einer Universität könnt Ihr das aktuelle "
+"Forschungsgebiet festlegen."
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_research_options.cfg:637
+msgid ""
+"$player_$side_number|.name|, we have finished researching warfare. Right-"
+"click on a researcher in a university to select a unit to recruit."
+msgstr ""
+"Wir haben neue Fortschritte in der Kriegsführung erzielt, $player_"
+"$side_number|.name|. Rechtsklickt auf einen Forscher in einer Universität, "
+"um den neuen Einheitentyp auszuwählen."
+
+#. [era]: id=Anewlandera
+#: ANLEra/ANLEra.cfg:5
+msgid ""
+"An Era that uses the macros for the mainline scenario A New Land, with more "
+"factions. Works best with less than 10 players."
+msgstr ""
+"Eine Ära welche die Macros des Szenarios \"Eine neue Heimat\" im Hauptspiel "
+"benutzt, sie aber um mehr Fraktionen erweitert. Funktioniert am besten bei "
+"unter 10 Spielern."
+
+#~ msgid "Water Grass"
+#~ msgstr "Gras wässern"
+
+#~ msgid ""
+#~ "<span color='green'>Negotiate with the Drakes</span>\n"
+#~ "Lets you recruit a Drake unit\n"
+#~ "Negotiation Progress: $player_$side_number|.leader_option_3.progress|/"
+#~ "$player_$side_number|.leader_option_3.target"
+#~ msgstr ""
+#~ "<span color='green'>Verhandlungen mit den Draken</span>\n"
+#~ "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren\n"
+#~ "Fortschritt der Verhandlungen: $player_$side_number|.leader_option_3."
+#~ "progress|/$player_$side_number|.leader_option_3.target"
+
+#~ msgid ""
+#~ "<span color='green'>Negotiate with the Undead</span>\n"
+#~ "Lets you recruit an Undead unit\n"
+#~ "Negotiation Progress: $player_$side_number|.leader_option_4.progress|/"
+#~ "$player_$side_number|.leader_option_4.target"
+#~ msgstr ""
+#~ "<span color='green'>Verhandlungen mit den Untoten</span>\n"
+#~ "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren\n"
+#~ "Fortschritt der Verhandlungen: $player_$side_number|.leader_option_4."
+#~ "progress|/$player_$side_number|.leader_option_4.target"
+
+#~ msgid ""
+#~ "<span color='green'>Negotiate with Humans</span>\n"
+#~ "Lets you recruit a Human unit\n"
+#~ "Negotiation Progress: $player_$side_number|.leader_option_5.progress|/"
+#~ "$player_$side_number|.leader_option_5.target"
+#~ msgstr ""
+#~ "<span color='green'>Verhandlungen mit den Menschen</span>\n"
+#~ "Dies erlaubt es Euch, eine Einheit der Menschen zu rekrutieren\n"
+#~ "Fortschritt der Verhandlungen: $player_$side_number|.leader_option_5."
+#~ "progress|/$player_$side_number|.leader_option_5.target"
+
+#~ msgid ""
+#~ "<span color='green'>Negotiate with the Merfolk</span>\n"
+#~ "Lets you recruit a Merman unit\n"
+#~ "Negotiation Progress: $player_$side_number|.leader_option_6.progress|/"
+#~ "$player_$side_number|.leader_option_6.target"
+#~ msgstr ""
+#~ "<span color='green'>Verhandlungen mit dem Meervolk</span>\n"
+#~ "Dies erlaubt es Euch, eine Einheit des Meervolks zu rekrutieren\n"
+#~ "Fortschritt der Verhandlungen: $player_$side_number|.leader_option_6."
+#~ "progress|/$player_$side_number|.leader_option_6.target"
+
+#~ msgid ""
+#~ "<span color='green'>Negotiate with Mercenaries</span>\n"
+#~ "Lets you recruit Mercenary units\n"
+#~ "Negotiation Progress: $player_$side_number|.leader_option_7.progress|/"
+#~ "$player_$side_number|.leader_option_7.target"
+#~ msgstr ""
+#~ "<span color='green'>Verhandlungen mit Söldnern</span>\n"
+#~ "Dies erlaubt es Euch, einen Söldner zu rekrutieren\n"
+#~ "Fortschritt der Verhandlungen: $player_$side_number|.leader_option_7."
+#~ "progress|/$player_$side_number|.leader_option_7.target"
+
+#~ msgid "Team 1 has allied with an Orcish tribe!"
+#~ msgstr "Team 1 hat sich mit einem Orkischen Stamm verbündet!"
+
+#~ msgid "Team 3 has allied with the Undead!"
+#~ msgstr "Team 3 hat ein Pakt mit den Untoten geschlossen!"
+
+#~ msgid "Team 4 has allied with an Orcish Tribe!"
+#~ msgstr "Team 1 hat sich mit einem Orkischen Stamm verbündet!"
+
+#~ msgid "Team 5 has allied with some Drakes!"
+#~ msgstr "Team 5 ist ein Bündnis mit Draken eingegangen!"
+
+#~ msgid "Team 6 has allied with some Humans!"
+#~ msgstr "Team 5 hat eine Allianz mit den Menschen!"
+
+#~ msgid "Team 7 has allied with a Necromancer!"
+#~ msgstr "Team 7 hat sich mit einem Totenbeschwörer zusammengetan!"
+
+#~ msgid "Team 8 has allied with some Elves!"
+#~ msgstr "Team 8 hat ein Bündnis mit den Elfen geschlossen!"
+
+#~ msgid "Team 9 has allied with some Undead!"
+#~ msgstr "Team 9 hat ein Pakt mit den Untoten geschlossen!"
+
+#~ msgid "Cost: 0g"
+#~ msgstr "Kosten: 0G"
