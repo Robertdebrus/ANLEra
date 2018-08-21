@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-08-21 21:47 UTC\n"
-"PO-Revision-Date: 2018-08-21 23:39+0200\n"
+"POT-Creation-Date: 2018-08-21 22:35 UTC\n"
+"PO-Revision-Date: 2018-08-22 00:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -53,7 +53,7 @@ msgstr "Boden urbar machen"
 #. [option]
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
-#: ANLEra/utils/ANLEra_worker_options.cfg:380
+#: ANLEra/utils/ANLEra_worker_options.cfg:392
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
 
@@ -261,6 +261,19 @@ msgstr "Universität"
 msgid "Due to their dedication to research, the Universities heal less."
 msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
 
+#: ANLEra/utils/buildings/buildings_undead.cfg:21
+msgid "Putrefy the Land"
+msgstr "Land versumpfen"
+
+#: ANLEra/utils/buildings/buildings_undead.cfg:26
+msgid "Corrupt the Ford"
+msgstr "Furt bepflanzen"
+
+#: ANLEra/utils/buildings/buildings_undead.cfg:33
+#: ANLEra/utils/buildings/buildings_undead.cfg:38
+msgid "Plant Mushrooms"
+msgstr "Pilze pflanzen"
+
 #. [option]
 #: ANLEra/utils/ANLEra_leader_options.cfg:210
 msgid "Negotiation Progress: "
@@ -399,7 +412,7 @@ msgid "Earns:"
 msgstr "Einnahmen:"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_worker_options.cfg:370
+#: ANLEra/utils/ANLEra_worker_options.cfg:382
 msgid "Remove Path"
 msgstr "Pfad beseitigen"
 
