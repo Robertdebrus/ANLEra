@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-08-21 22:35 UTC\n"
+"POT-Creation-Date: 2018-08-24 05:33 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr ""
 #. [option]
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
-#: ANLEra/utils/ANLEra_worker_options.cfg:392
+#: ANLEra/utils/ANLEra_worker_options.cfg:421
 msgid "Melt Ice"
 msgstr ""
 
@@ -156,32 +156,32 @@ msgid "Defeat All Enemy Leaders"
 msgstr ""
 
 #. [unit]: id=Peasant-1, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:45
+#: ANLEra/scenarios/4p_The_Wall.cfg:48
 msgid "Owan"
 msgstr ""
 
 #. [unit]: id=Peasant-2, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:52
+#: ANLEra/scenarios/4p_The_Wall.cfg:55
 msgid "Aethubry"
 msgstr ""
 
 #. [unit]: id=Peasant-3, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:72
+#: ANLEra/scenarios/4p_The_Wall.cfg:74
 msgid "Blygwyn"
 msgstr ""
 
 #. [unit]: id=Peasant-4, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:79
+#: ANLEra/scenarios/4p_The_Wall.cfg:81
 msgid "Midoc"
 msgstr ""
 
 #. [unit]: id=Peasant-5, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:99
+#: ANLEra/scenarios/4p_The_Wall.cfg:100
 msgid "Rhygwyddryn"
 msgstr ""
 
 #. [unit]: id=Peasant-6, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:106
+#: ANLEra/scenarios/4p_The_Wall.cfg:107
 msgid "Blyn"
 msgstr ""
 
@@ -196,13 +196,13 @@ msgid "Gwyn"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:148
-#: ANLEra/scenarios/4p_The_Wall.cfg:165
+#: ANLEra/scenarios/4p_The_Wall.cfg:147
+#: ANLEra/scenarios/4p_The_Wall.cfg:163
 msgid "The Wall crumbles."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:187
+#: ANLEra/scenarios/4p_The_Wall.cfg:184
 msgid "The Wall falls."
 msgstr ""
 
@@ -216,17 +216,32 @@ msgstr ""
 msgid "Due to their dedication to research, the Universities heal less."
 msgstr ""
 
-#: ANLEra/utils/buildings/buildings_undead.cfg:21
+#: ANLEra/utils/buildings/buildings_outlaw.cfg:16
+#: ANLEra/utils/buildings/buildings_outlaw.cfg:21
+msgid "Build Tent Camp"
+msgstr ""
+
+#: ANLEra/utils/buildings/buildings_outlaw.cfg:31
+#: ANLEra/utils/buildings/buildings_outlaw.cfg:37
+msgid "Build Encampment"
+msgstr ""
+
+#: ANLEra/utils/buildings/buildings_undead.cfg:31
 msgid "Putrefy the Land"
 msgstr ""
 
-#: ANLEra/utils/buildings/buildings_undead.cfg:26
+#: ANLEra/utils/buildings/buildings_undead.cfg:36
 msgid "Corrupt the Ford"
 msgstr ""
 
-#: ANLEra/utils/buildings/buildings_undead.cfg:33
-#: ANLEra/utils/buildings/buildings_undead.cfg:38
+#: ANLEra/utils/buildings/buildings_undead.cfg:43
+#: ANLEra/utils/buildings/buildings_undead.cfg:48
+#: ANLEra/utils/buildings/buildings_undead.cfg:53
 msgid "Plant Mushrooms"
+msgstr ""
+
+#: ANLEra/utils/buildings/buildings_merfolk.cfg:45
+msgid "Remove Water Lilies"
 msgstr ""
 
 #. [option]
@@ -330,24 +345,24 @@ msgid "Our talks are complete — some Mercenaries will gladly fight by your sid
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/ANLEra_worker_options.cfg:21
+#: ANLEra/utils/ANLEra_worker_options.cfg:35
 msgid "Cost:"
 msgstr ""
 
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
-#: ANLEra/utils/ANLEra_worker_options.cfg:23
-#: ANLEra/utils/ANLEra_worker_options.cfg:57
+#: ANLEra/utils/ANLEra_worker_options.cfg:37
+#: ANLEra/utils/ANLEra_worker_options.cfg:71
 msgid "g"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/ANLEra_worker_options.cfg:57
+#: ANLEra/utils/ANLEra_worker_options.cfg:71
 msgid "Earns:"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_worker_options.cfg:382
+#: ANLEra/utils/ANLEra_worker_options.cfg:411
 msgid "Remove Path"
 msgstr ""
 
