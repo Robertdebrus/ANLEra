@@ -50,3 +50,6 @@ Wesnoth
 
 *.pbl
 info.cfg
+
+# autmatic backup files (e.g. created by msgmerge, unless disabled)
+*~
