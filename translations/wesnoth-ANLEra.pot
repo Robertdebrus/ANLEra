@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-08-24 05:33 UTC\n"
+"POT-Creation-Date: 2018-08-30 04:12 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,65 +10,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. [multiplayer_side]: id=ANLEra_Humans, type=Peasant
-#: ANLEra/factions/humans.cfg:4
-msgid "Humans"
-msgstr ""
-
 #. [multiplayer_side]: id=ANLEra_Outlaws, type=Ruffian
 #: ANLEra/factions/outlaws.cfg:4
 msgid "Outlaws"
 msgstr ""
 
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:90
+#. [message]: speaker=unit
+#: ANLEra/ANLEra_Sp/ANLEra_worker_options_sp.cfg:88
+#: ANLEra/utils/ANLEra_worker_options.cfg:189
 msgid "Convert to Grassland"
 msgstr ""
 
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:511
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:525
-msgid "Shovel Snow"
-msgstr ""
-
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:511
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:525
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:539
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:568
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:582
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:596
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:609
-msgid "Cost: 1g"
-msgstr ""
-
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:539
-msgid "Break Up Floor"
-msgstr ""
-
-#. [option]
 #. [message]: speaker=unit
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:554
-#: ANLEra/utils/ANLEra_worker_options.cfg:421
+#: ANLEra/ANLEra_Sp/ANLEra_worker_options_sp.cfg:332
+#: ANLEra/utils/ANLEra_worker_options.cfg:434
+msgid "Remove Path"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/ANLEra_Sp/ANLEra_worker_options_sp.cfg:342
+#: ANLEra/utils/ANLEra_worker_options.cfg:444
 msgid "Melt Ice"
-msgstr ""
-
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:568
-msgid "Plant Grass"
-msgstr ""
-
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:582
-msgid "Water"
-msgstr ""
-
-#. [option]
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:596
-#: ANLEra/ANLEra_Sp/ANL_worker_options_sp.cfg:609
-msgid "Dig Out Sand"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
@@ -291,56 +253,71 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/utils/ANLEra_leader_options.cfg:537
-msgid "Negotiate with Humans"
+msgid "Negotiate with Loyalists"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/utils/ANLEra_leader_options.cfg:537
-msgid "Lets you recruit a Human unit"
+msgid "Lets you recruit a Loyalist unit"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/utils/ANLEra_leader_options.cfg:551
+msgid "Negotiate with the Outlaws"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:551
+msgid "Lets you recruit a Outlaw unit"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/ANLEra_leader_options.cfg:564
 msgid "Negotiate with the Merfolk"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:551
+#: ANLEra/utils/ANLEra_leader_options.cfg:564
 msgid "Lets you recruit an Merman unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:559
+#: ANLEra/utils/ANLEra_leader_options.cfg:572
 msgid "Negotiate with Mercenaries"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_leader_options.cfg:559
+#: ANLEra/utils/ANLEra_leader_options.cfg:572
 msgid "Lets you recruit Mercenary units"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:652
+#: ANLEra/utils/ANLEra_leader_options.cfg:665
 msgid "Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:685
+#: ANLEra/utils/ANLEra_leader_options.cfg:698
 msgid "Our talks are complete — I will summon the dead for you. Which of our them do you want to come?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:720
-msgid "Our talks are complete — the Humans will gladly fight by your side. Which of our men do you want to recruit?"
+#: ANLEra/utils/ANLEra_leader_options.cfg:733
+msgid "Our talks are complete — the Loyalists will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:756
+#: ANLEra/utils/ANLEra_leader_options.cfg:769
+msgid "Our talks are complete — the Outlaws will gladly fight by your side. Which of our men do you want to recruit?"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_leader_options.cfg:803
 msgid "Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_leader_options.cfg:790
+#: ANLEra/utils/ANLEra_leader_options.cfg:837
 msgid "Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?"
 msgstr ""
 
@@ -352,51 +329,69 @@ msgstr ""
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
 #: ANLEra/utils/ANLEra_worker_options.cfg:37
-#: ANLEra/utils/ANLEra_worker_options.cfg:71
+#: ANLEra/utils/ANLEra_worker_options.cfg:77
 msgid "g"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/ANLEra_worker_options.cfg:71
+#: ANLEra/utils/ANLEra_worker_options.cfg:77
 msgid "Earns:"
 msgstr ""
 
-#. [message]: speaker=unit
-#: ANLEra/utils/ANLEra_worker_options.cfg:411
-msgid "Remove Path"
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_extra_ai_units.cfg:63
+msgid "$name_of_side| can now recruit a new unit type: $unit_type.name|"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_extra_ai_units.cfg:36
-msgid "$name_of_side| can now recruit $new_recruit|!"
+#: ANLEra/utils/ANLEra_extra_ai_units.cfg:97
+msgid "$name_of_side| can now recruit new unit types: $namelist| and $last_one|"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/ANLEra_help.cfg:17
-#: ANLEra/utils/ANLEra_help.cfg:130
+#: ANLEra/utils/ANLEra_help.cfg:148
 msgid "Workers"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_help.cfg:20
+#. This contains only slight variations compared to the string from mainline.
+#. See https://www.wesnoth.org/gettext/?version=branch&package=wesnoth-anl&order=trans
+#: ANLEra/utils/ANLEra_help.cfg:22
 msgid "Peasants, and others of this working class are your workers. Depending on the terrain, right-clicking on a peasant allows you to terraform the landscape and/or build castles, mines, farms, villages and universities."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: ANLEra/utils/ANLEra_help.cfg:28
-#: ANLEra/utils/ANLEra_help.cfg:137
+#: ANLEra/utils/ANLEra_help.cfg:30
+#: ANLEra/utils/ANLEra_help.cfg:155
 msgid "Reasearchers"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_help.cfg:30
+#. This contains only slight variations compared to the string from mainline.
+#. See https://www.wesnoth.org/gettext/?version=branch&package=wesnoth-anl&order=trans
+#: ANLEra/utils/ANLEra_help.cfg:34
 msgid "Mages, and the other people who know some form of magic, can study at universities, pursuing advances in mining, farming and recruitment."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/ANLEra_help.cfg:72
+#. [option]
+#: ANLEra/utils/ANLEra_help.cfg:54
+#: ANLEra/utils/ANLEra_help.cfg:171
+msgid "Forests"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/ANLEra_help.cfg:56
+msgid "Forests can only be planted on grassland. The Loyalist and Outlaw factions can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forsest, producing gold dependent on their level."
+msgstr ""
+
+#. [message]: speaker=narrator
+#. This contains only slight variations compared to the string from mainline.
+#. See https://www.wesnoth.org/gettext/?version=branch&package=wesnoth-anl&order=trans
+#: ANLEra/utils/ANLEra_help.cfg:90
 msgid "Any of the “Town” style villages represent universities. At the start of your turn, researcher in universities automatically add to the study progress of your chosen research target. Right-click on a researcher in an university to change the research target."
 msgstr ""
 
