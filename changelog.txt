@@ -3,8 +3,8 @@
 
 0.0.4 :
 - fixed some image path to reduce the numbers of invisible units by creating new folder and deleting some
-- refactoring code to make it more consistant and readable
-- fixed the leader negociation menu for all factions
+- refactoring code to make it more consistent and readable
+- fixed the leader negotiation menu for all factions
 
 0.0.5 :
 - fixed unit ids
@@ -18,7 +18,7 @@
 1.0
 - decided to just move it to 1.0 instead of going all the way up, it is in full working condition
 - fixed a few bugs.
-- let different factions build differnt style buildings, drakes might need a better castle (currently using dwarvish)
+- let different factions build different style buildings, drakes might need a better castle (currently using dwarvish)
 
 1.0.1
 - fixed a missing folder
@@ -31,11 +31,11 @@
 - Fixed Elvish Archer not getting researched
 - Reorganized folders a bit 
 - Fixed the water builder not filling in deep water
-- Tried to increase compatability inbetween 1.12 and 1.13 to make it so there is only one version, different features.
+- Tried to increase compatibility inbetween 1.12 and 1.13 to make it so there is only one version, different features.
 
 1.4
 - Refactored ANL_working_options.cfg, hopefully clearer and supports more terrain
-- Attempted to make factions unable to negociate with their own faction
+- Attempted to make factions unable to negotiate with their own faction
 - Simplified code in several places
 - Updated unit sprites and animations for Dwarvish Miner and Witness Line
 - Gave the Orcish Shaman more hitpoints and damage
@@ -51,10 +51,15 @@
  - Fixes #27
  - Fixes #28
 
+...
+
+1.6.0
+- Many fixes and improvements thanks to sevu (#49)
+- Port of The Last Stand by sevu
+
 
 TODO :
 Inkana's ideas
-- fix the leader negociation menus so a faction can't negociate with itself (make it so elves cannot negociate with elves)
-- add more images for the Drake Worker (attack, defense, etc.)
+- fix the leader negotiation menus so a faction can't negotiate with itself (make it so elves cannot negotiate with elves)
 - fix the "donate fund" option for PVP. for now, you can give to ally or enemy without distinction. (may try and fix, but it seems to show the name)
 
