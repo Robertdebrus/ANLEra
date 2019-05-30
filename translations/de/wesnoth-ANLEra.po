@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2019-03-31 06:14 UTC\n"
-"PO-Revision-Date: 2019-03-31 07:45+0200\n"
+"PO-Revision-Date: 2019-05-30 23:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -247,8 +247,8 @@ msgstr "Ich höre Kriegstrommeln der Goblins."
 #: ANLEra/scenarios/ANI/messages.cfg:21
 msgid "It will soon be night. I sense an undead horde coming."
 msgstr ""
-"Es ist fast Nacht. Ich habe das so ein Gespür, dass da eine Horde Untote auf "
-"und zukommt."
+"Es ist fast Nacht. Ich habe da so ein Gespür, dass da eine Horde Untote auf "
+"uns zukommt."
 
 #. [message]: speaker=narrator
 #. similar string in mainline anl
