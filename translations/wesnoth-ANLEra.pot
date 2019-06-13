@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-03-31 06:14 UTC\n"
+"POT-Creation-Date: 2019-06-13 01:34 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:88
-#: ANLEra/utils/worker_options.cfg:190
+#: ANLEra/utils/worker_options.cfg:184
 msgid "Convert to Grassland"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:332
-#: ANLEra/utils/worker_options.cfg:435
+#: ANLEra/utils/worker_options.cfg:429
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:342
-#: ANLEra/utils/worker_options.cfg:445
+#: ANLEra/utils/worker_options.cfg:439
 msgid "Melt Ice"
 msgstr ""
 
@@ -182,18 +182,18 @@ msgid "Gagor"
 msgstr ""
 
 #. [message]
-#: ANLEra/scenarios/ANI/messages.cfg:10
+#: ANLEra/scenarios/ANI/messages.cfg:9
 msgid "I hear goblin war drums."
 msgstr ""
 
 #. [message]
-#: ANLEra/scenarios/ANI/messages.cfg:21
+#: ANLEra/scenarios/ANI/messages.cfg:20
 msgid "It will soon be night. I sense an undead horde coming."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. similar string in mainline anl
-#: ANLEra/scenarios/ANI/messages.cfg:32
+#: ANLEra/scenarios/ANI/messages.cfg:31
 msgid "Your men report strange sounds coming from some caves to the west."
 msgstr ""
 
@@ -204,9 +204,49 @@ msgstr ""
 msgid "Move any unit onto these villages to destroy the mine."
 msgstr ""
 
+#. [multiplayer]: id=ANLEra_ANL5p
+#: ANLEra/scenarios/5p_A_New_Land.cfg:6
+msgid "5p — A New Land"
+msgstr ""
+
+#. [multiplayer]: id=ANLEra_ANL5p
+#: ANLEra/scenarios/5p_A_New_Land.cfg:8
+msgid "This 5p survival scenario allows you to construct buildings and terraform the land."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/5p_A_New_Land.cfg:540
+msgid "You recieved word about something dangerous in the nearby shallow water."
+msgstr ""
+
+#. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
+#: ANLEra/scenarios/5p_A_New_Land.cfg:546
+msgid "Maybe we should be careful, there’s a lot of dangers about."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/5p_A_New_Land.cfg:573
+msgid "Beware of enemy creatures in the mud."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/5p_A_New_Land.cfg:692
+msgid "Not so fast…"
+msgstr ""
+
+#. [message]: speaker=Death Knight
+#: ANLEra/scenarios/5p_A_New_Land.cfg:697
+msgid "Deeaaathh…"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/scenarios/5p_A_New_Land.cfg:768
+msgid "They'll never take me alive!"
+msgstr ""
+
 #. [multiplayer]: id=ANLEra_ANL
 #: ANLEra/scenarios/4p_A_New_Land.cfg:8
-msgid "This 4p survival scenario allows you to construct buildings and terraform the land. The recommended starting gold is 100."
+msgid "This 4p survival scenario allows you to construct buildings and terraform the land."
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANL
@@ -260,66 +300,54 @@ msgstr ""
 msgid "On this map, you will have to build your own keep, while you start with two peasants. In the middle of this map is a wall that will start opening on turn 8, and fully open by turn 14."
 msgstr ""
 
-#. [objectives]
-#: ANLEra/scenarios/4p_The_Wall.cfg:21
-msgid "Right-click on your leader for help"
-msgstr ""
-
-#. [objective]: condition=win
-#. Part of the scenario objectives
-#: ANLEra/scenarios/4p_The_Wall.cfg:23
-#: ANLEra/utils/objectives.cfg:33
-msgid "Defeat All Enemy Leaders"
-msgstr ""
-
 #. [unit]: id=Peasant-1, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:47
+#: ANLEra/scenarios/4p_The_Wall.cfg:38
 msgid "Owan"
 msgstr ""
 
 #. [unit]: id=Peasant-2, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:54
+#: ANLEra/scenarios/4p_The_Wall.cfg:45
 msgid "Aethubry"
 msgstr ""
 
 #. [unit]: id=Peasant-3, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:73
+#: ANLEra/scenarios/4p_The_Wall.cfg:64
 msgid "Blygwyn"
 msgstr ""
 
 #. [unit]: id=Peasant-4, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:80
+#: ANLEra/scenarios/4p_The_Wall.cfg:71
 msgid "Midoc"
 msgstr ""
 
 #. [unit]: id=Peasant-5, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:99
+#: ANLEra/scenarios/4p_The_Wall.cfg:90
 msgid "Rhygwyddryn"
 msgstr ""
 
 #. [unit]: id=Peasant-6, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:106
+#: ANLEra/scenarios/4p_The_Wall.cfg:97
 msgid "Blyn"
 msgstr ""
 
 #. [unit]: id=Peasant-7, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:125
+#: ANLEra/scenarios/4p_The_Wall.cfg:116
 msgid "Sec"
 msgstr ""
 
 #. [unit]: id=Peasant-8, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:132
+#: ANLEra/scenarios/4p_The_Wall.cfg:123
 msgid "Gwyn"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:146
-#: ANLEra/scenarios/4p_The_Wall.cfg:162
+#: ANLEra/scenarios/4p_The_Wall.cfg:137
+#: ANLEra/scenarios/4p_The_Wall.cfg:153
 msgid "The Wall crumbles."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:183
+#: ANLEra/scenarios/4p_The_Wall.cfg:174
 msgid "The Wall falls."
 msgstr ""
 
@@ -411,10 +439,15 @@ msgstr ""
 msgid "Hints:"
 msgstr ""
 
+#. Part of the scenario objectives
+#: ANLEra/utils/objectives.cfg:33
+msgid "Defeat All Enemy Leaders"
+msgstr ""
+
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/help.cfg:15
-#: ANLEra/utils/help.cfg:148
+#: ANLEra/utils/help.cfg:140
 msgid "Workers"
 msgstr ""
 
@@ -427,34 +460,34 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: ANLEra/utils/help.cfg:29
-#: ANLEra/utils/help.cfg:155
+#: ANLEra/utils/help.cfg:28
+#: ANLEra/utils/help.cfg:147
 msgid "Researchers"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. This contains only slight variations compared to the string from mainline.
 #. See https://www.wesnoth.org/gettext/?package=wesnoth-anl
-#: ANLEra/utils/help.cfg:34
+#: ANLEra/utils/help.cfg:33
 msgid "Mages, and the other people who know some form of magic, can study at universities, pursuing advances in mining, farming and recruitment."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: ANLEra/utils/help.cfg:54
-#: ANLEra/utils/help.cfg:171
+#: ANLEra/utils/help.cfg:51
+#: ANLEra/utils/help.cfg:163
 msgid "Forests"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/help.cfg:56
+#: ANLEra/utils/help.cfg:53
 msgid "Forests can only be planted on grassland. The Loyalist and Outlaw factions can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. This contains only slight variations compared to the string from mainline.
 #. See https://www.wesnoth.org/gettext/?package=wesnoth-anl
-#: ANLEra/utils/help.cfg:90
+#: ANLEra/utils/help.cfg:84
 msgid "Any of the “Town” style villages represent universities. At the start of your turn, researcher in universities automatically add to the study progress of your chosen research target. Right-click on a researcher in an university to change the research target."
 msgstr ""
 
@@ -466,12 +499,12 @@ msgstr ""
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
 #: ANLEra/utils/worker_options.cfg:38
-#: ANLEra/utils/worker_options.cfg:78
+#: ANLEra/utils/worker_options.cfg:80
 msgid "g"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:78
+#: ANLEra/utils/worker_options.cfg:80
 msgid "Earns:"
 msgstr ""
 
