@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2019-06-13 02:59 UTC\n"
-"PO-Revision-Date: 2019-06-13 05:01+0200\n"
+"PO-Revision-Date: 2019-06-13 17:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -600,8 +600,8 @@ msgid ""
 "their level."
 msgstr ""
 "Wälder können nur auf Wiesen gepflanzt werden. Die Loyalisten und Geächteten "
-"können Förster rekrutieren; sie als auch Einheiten der Wilddieblinie werden "
-"in Wälder jagen und in Abhängigkeit ihrer Stufe Gold einbringen."
+"können Förster rekrutieren – sie als auch Einheiten der Wilddieblinie werden "
+"in Wälder jagen und Gold in Abhängigkeit ihrer Stufe einbringen."
 
 #. [message]: speaker=narrator
 #. This contains only slight variations compared to the string from mainline.
@@ -718,7 +718,7 @@ msgstr "Verhandlungen mit dem Meervolk"
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:633
 msgid "Lets you recruit an Merman unit"
-msgstr "Dies erlaubt es Euch, eine Einheit des Merfolkes zu rekrutieren"
+msgstr "Dies erlaubt es Euch, eine Einheit des Meerfolkes zu rekrutieren"
 
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:643
