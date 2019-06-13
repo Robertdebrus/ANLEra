@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-06-13 01:34 UTC\n"
+"POT-Creation-Date: 2019-06-13 03:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -214,33 +214,38 @@ msgstr ""
 msgid "This 5p survival scenario allows you to construct buildings and terraform the land."
 msgstr ""
 
+#. [multiplayer]: id=ANLEra_ANL5p
+#: ANLEra/scenarios/5p_A_New_Land.cfg:8
+msgid "Same difficulty as 4p variant, but one more player."
+msgstr ""
+
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:540
+#: ANLEra/scenarios/5p_A_New_Land.cfg:575
 msgid "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:546
+#: ANLEra/scenarios/5p_A_New_Land.cfg:581
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:573
+#: ANLEra/scenarios/5p_A_New_Land.cfg:608
 msgid "Beware of enemy creatures in the mud."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:692
+#: ANLEra/scenarios/5p_A_New_Land.cfg:727
 msgid "Not so fast…"
 msgstr ""
 
 #. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:697
+#: ANLEra/scenarios/5p_A_New_Land.cfg:732
 msgid "Deeaaathh…"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:768
+#: ANLEra/scenarios/5p_A_New_Land.cfg:803
 msgid "They'll never take me alive!"
 msgstr ""
 

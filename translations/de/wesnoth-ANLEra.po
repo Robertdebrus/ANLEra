@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-06-13 01:34 UTC\n"
-"PO-Revision-Date: 2019-06-13 02:58+0200\n"
+"POT-Creation-Date: 2019-06-13 02:59 UTC\n"
+"PO-Revision-Date: 2019-06-13 05:01+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -281,8 +281,15 @@ msgstr ""
 "Dies ist ein Überlebensszenario für 5 Spieler, in welchem es Euch ermöglicht "
 "wird Gebäude zu bauen und die Landschaft umzuformen."
 
+#. [multiplayer]: id=ANLEra_ANL5p
+#: ANLEra/scenarios/5p_A_New_Land.cfg:8
+msgid "Same difficulty as 4p variant, but one more player."
+msgstr ""
+"Selbe Gegner wie in der Variante für vier Spieler, jedoch könnt Ihr einen "
+"weiteren Mitstreiter hinzuziehen."
+
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:540
+#: ANLEra/scenarios/5p_A_New_Land.cfg:575
 msgid ""
 "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
@@ -290,27 +297,27 @@ msgstr ""
 "gibt."
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:546
+#: ANLEra/scenarios/5p_A_New_Land.cfg:581
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr "Wir sollten vorsichtig sein, es gibt hier eine Menge Gefahren."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:573
+#: ANLEra/scenarios/5p_A_New_Land.cfg:608
 msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:692
+#: ANLEra/scenarios/5p_A_New_Land.cfg:727
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
 #. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:697
+#: ANLEra/scenarios/5p_A_New_Land.cfg:732
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:768
+#: ANLEra/scenarios/5p_A_New_Land.cfg:803
 msgid "They'll never take me alive!"
 msgstr "Sie werden mich nicht lebend bekommen!"
 
