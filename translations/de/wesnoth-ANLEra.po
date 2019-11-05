@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-06-13 02:59 UTC\n"
-"PO-Revision-Date: 2019-06-13 17:51+0200\n"
+"POT-Creation-Date: 2019-10-23 11:11 UTC\n"
+"PO-Revision-Date: 2019-10-23 13:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. [multiplayer_side]: id=ANLEra_Outlaws, type=Ruffian
 #: ANLEra/factions/outlaws.cfg:4
@@ -18,19 +18,19 @@ msgid "Outlaws"
 msgstr "Geächtete"
 
 #. [message]: speaker=unit
-#: ANLEra/ANLEra_Sp/worker_options_sp.cfg:88
+#: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
 #: ANLEra/utils/worker_options.cfg:184
 msgid "Convert to Grassland"
 msgstr "Zu Grasland umwandeln"
 
 #. [message]: speaker=unit
-#: ANLEra/ANLEra_Sp/worker_options_sp.cfg:332
+#: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
 #: ANLEra/utils/worker_options.cfg:429
 msgid "Remove Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
-#: ANLEra/ANLEra_Sp/worker_options_sp.cfg:342
+#: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
 #: ANLEra/utils/worker_options.cfg:439
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
@@ -112,7 +112,7 @@ msgid "Elvish Civilian"
 msgstr "Elfischer Bürger"
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:23
+#: ANLEra/units/elves/Civilian.cfg:24
 msgid ""
 "Since elves are not warlike by nature, most of their population is composed "
 "by civilians who learn, at very early age, basic usage of swords and bows. "
@@ -128,13 +128,13 @@ msgstr ""
 "überlegenen Einheiten."
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:23
+#: ANLEra/units/elves/Civilian.cfg:24
 msgid " Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 " Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:94
+#: ANLEra/units/elves/Civilian.cfg:95
 msgid "female^Elvish Civilian"
 msgstr "Elfische Bürgerin"
 
@@ -212,8 +212,8 @@ msgstr "Das ist noch nicht vorbei!"
 
 #. [message]: speaker=unit
 #: ANLEra/scenarios/ANI/deaths.cfg:55
-msgid "It's over…"
-msgstr "Das war’s…"
+msgid "It’s over …"
+msgstr "Das war’s …"
 
 #. [message]: speaker=unit
 #: ANLEra/scenarios/ANI/deaths.cfg:62
@@ -289,7 +289,7 @@ msgstr ""
 "weiteren Mitstreiter hinzuziehen."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:575
+#: ANLEra/scenarios/5p_A_New_Land.cfg:601
 msgid ""
 "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
@@ -297,29 +297,29 @@ msgstr ""
 "gibt."
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:581
+#: ANLEra/scenarios/5p_A_New_Land.cfg:607
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr "Wir sollten vorsichtig sein, es gibt hier eine Menge Gefahren."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:608
+#: ANLEra/scenarios/5p_A_New_Land.cfg:634
 msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:727
+#: ANLEra/scenarios/5p_A_New_Land.cfg:753
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
 #. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:732
+#: ANLEra/scenarios/5p_A_New_Land.cfg:758
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:803
-msgid "They'll never take me alive!"
-msgstr "Sie werden mich nicht lebend bekommen!"
+#: ANLEra/scenarios/5p_A_New_Land.cfg:829
+msgid "They’ll never take me alive!"
+msgstr "Sie werden mich nicht lebend bekommen! Niemals!"
 
 #. [multiplayer]: id=ANLEra_ANL
 #: ANLEra/scenarios/4p_A_New_Land.cfg:8
@@ -449,14 +449,14 @@ msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
 
 #. [message]: speaker=unit
 #. similar string in mainline
-#: ANLEra/utils/general_purpose/trapped.cfg:63
+#: ANLEra/utils/general_purpose/trapped.cfg:64
 msgid "Let’s cut you free from this web."
 msgstr "Dann will ich euch mal von den Spinnweben befreien!"
 
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:77
+#: ANLEra/utils/general_purpose/trapped.cfg:78
 msgid ""
 "male critter^You release the $critter.language_name from the web and it "
 "agrees to help you."
@@ -467,7 +467,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:88
+#: ANLEra/utils/general_purpose/trapped.cfg:89
 msgid ""
 "female critter^You release the $critter.language_name from the web and it "
 "agrees to help you."
@@ -718,7 +718,7 @@ msgstr "Verhandlungen mit dem Meervolk"
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:633
 msgid "Lets you recruit an Merman unit"
-msgstr "Dies erlaubt es Euch, eine Einheit des Meerfolkes zu rekrutieren"
+msgstr "Dies erlaubt es Euch, eine Einheit des Meervolk zu rekrutieren"
 
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:643
@@ -785,14 +785,14 @@ msgstr ""
 "an. Wessen Hilfe benötigt Ihr?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/extra_ai_units.cfg:68
+#: ANLEra/utils/extra_ai_units.cfg:64
 msgid "$name_of_side| can now recruit a new unit type: $unit_type.name|"
 msgstr ""
 "$name_of_side| kann nun einen neuen Einheitentypen ausbilden: $unit_type."
 "name|"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/extra_ai_units.cfg:102
+#: ANLEra/utils/extra_ai_units.cfg:98
 msgid ""
 "$name_of_side| can now recruit new unit types: $namelist| and $last_one|"
 msgstr ""
