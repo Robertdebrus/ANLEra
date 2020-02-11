@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-10-23 11:11 UTC\n"
-"PO-Revision-Date: 2019-10-23 13:22+0200\n"
+"POT-Creation-Date: 2020-02-11 03:42 UTC\n"
+"PO-Revision-Date: 2020-02-11 05:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -41,7 +41,7 @@ msgid "Drake Apprentice"
 msgstr "Drakenlehrling"
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
-#: ANLEra/units/drakes/Apprentice.cfg:18
+#: ANLEra/units/drakes/Apprentice.cfg:19 ANLEra/units/drakes/Apprentice.cfg:22
 msgid ""
 "The Drake Magi are fresh members of the Obsidian Citadel, who have been "
 "bound to the cult. Although they have undergone training harsh enough to "
@@ -57,8 +57,8 @@ msgstr ""
 "der mächtigen Magier."
 
 #. [attack]: type=cold
-#: ANLEra/units/drakes/Apprentice.cfg:49 ANLEra/units/drakes/Druid.cfg:50
-#: ANLEra/units/drakes/Shaman.cfg:51
+#: ANLEra/units/drakes/Apprentice.cfg:55 ANLEra/units/drakes/Druid.cfg:56
+#: ANLEra/units/drakes/Shaman.cfg:57
 msgid "ice shot"
 msgstr "Eisgeschoss"
 
@@ -69,7 +69,8 @@ msgstr "Drakendruide"
 
 #. [unit_type]: id=ANLEra Drake Druid, race=drake
 #. [unit_type]: id=ANLEra Drake Shaman, race=drake
-#: ANLEra/units/drakes/Druid.cfg:19 ANLEra/units/drakes/Shaman.cfg:19
+#: ANLEra/units/drakes/Druid.cfg:20 ANLEra/units/drakes/Druid.cfg:22
+#: ANLEra/units/drakes/Shaman.cfg:20 ANLEra/units/drakes/Shaman.cfg:22
 msgid ""
 "The Drake High Magi are elite members of an order of magic-using drakes who "
 "spend their days in the Obsidian Citadel, honing their powers for use in "
@@ -112,7 +113,7 @@ msgid "Elvish Civilian"
 msgstr "Elfischer Bürger"
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:24
+#: ANLEra/units/elves/Civilian.cfg:25 ANLEra/units/elves/Civilian.cfg:27
 msgid ""
 "Since elves are not warlike by nature, most of their population is composed "
 "by civilians who learn, at very early age, basic usage of swords and bows. "
@@ -128,13 +129,19 @@ msgstr ""
 "überlegenen Einheiten."
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:24
+#: ANLEra/units/elves/Civilian.cfg:25
 msgid " Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 " Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
+#. [special_note]
+#: ANLEra/units/elves/Civilian.cfg:29
+msgid "Depending on it’s gender this unit has different advancement paths."
+msgstr ""
+"Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
+
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:95
+#: ANLEra/units/elves/Civilian.cfg:102
 msgid "female^Elvish Civilian"
 msgstr "Elfische Bürgerin"
 
@@ -289,7 +296,7 @@ msgstr ""
 "weiteren Mitstreiter hinzuziehen."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:601
+#: ANLEra/scenarios/5p_A_New_Land.cfg:602
 msgid ""
 "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
@@ -297,27 +304,27 @@ msgstr ""
 "gibt."
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:607
+#: ANLEra/scenarios/5p_A_New_Land.cfg:608
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr "Wir sollten vorsichtig sein, es gibt hier eine Menge Gefahren."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:634
+#: ANLEra/scenarios/5p_A_New_Land.cfg:635
 msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:753
+#: ANLEra/scenarios/5p_A_New_Land.cfg:754
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
 #. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:758
+#: ANLEra/scenarios/5p_A_New_Land.cfg:759
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:829
+#: ANLEra/scenarios/5p_A_New_Land.cfg:830
 msgid "They’ll never take me alive!"
 msgstr "Sie werden mich nicht lebend bekommen! Niemals!"
 
@@ -353,25 +360,25 @@ msgstr ""
 "Ereignisse ist diese Region in Vergessenheit geraten."
 
 #. [label]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:26
-#: ANLEra/scenarios/2p_A_New_Island.cfg:41
+#: ANLEra/scenarios/2p_A_New_Island.cfg:27
+#: ANLEra/scenarios/2p_A_New_Island.cfg:42
 msgid "The farm"
 msgstr "Die Farm"
 
 #. [label]
 #. [terrain_type]: id=ANLEra_university
-#: ANLEra/scenarios/2p_A_New_Island.cfg:31
-#: ANLEra/scenarios/2p_A_New_Island.cfg:36 ANLEra/terrain/terrain.cfg:6
+#: ANLEra/scenarios/2p_A_New_Island.cfg:32
+#: ANLEra/scenarios/2p_A_New_Island.cfg:37 ANLEra/terrain/terrain.cfg:6
 msgid "University"
 msgstr "Universität"
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:53
+#: ANLEra/scenarios/2p_A_New_Island.cfg:54
 msgid "You have landed on an unknown island."
 msgstr "Ihr seid auf einer unbekannten Insel gelandet."
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:59
+#: ANLEra/scenarios/2p_A_New_Island.cfg:60
 msgid "Can you settle here?"
 msgstr "Könnt Ihr Euch hier niederlassen?"
 
@@ -502,6 +509,12 @@ msgstr "Pilze pflanzen"
 #: ANLEra/utils/buildings/buildings_merfolk.cfg:45
 msgid "Remove Water Lilies"
 msgstr "Seerosen entfernen"
+
+#. [option]
+#. Decide later which unit to obtain from research
+#: ANLEra/utils/special_macros.cfg:244
+msgid "Choose later"
+msgstr "Einheitentyp später wählen"
 
 #. Part of the scenario objectives
 #: ANLEra/utils/objectives.cfg:5
@@ -636,7 +649,7 @@ msgid "Earns:"
 msgstr "Einnahmen:"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:605
+#: ANLEra/utils/research_options.cfg:614
 msgid ""
 "$player_$side_number|.name|, we have finished researching warfare. Right-"
 "click on a researcher in a university to select a unit to recruit."
@@ -776,13 +789,33 @@ msgstr ""
 "Wessen Unterstützung benötigt Ihr?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:910
+#: ANLEra/utils/leader_options.cfg:911
 msgid ""
 "Our talks are complete — some Mercenaries will gladly fight by your side. "
 "Which of us do you want to recruit?"
 msgstr ""
 "Unsere Verhandlungen sind abgeschlossen. Wir Söldner nehmen Euren Auftrag "
-"an. Wessen Hilfe benötigt Ihr?"
+"an. Wessen Fähigkeiten benötigt Ihr?"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:914
+msgid "Elvish Hero"
+msgstr "Heldenhafter Elf"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:915
+msgid "Mage Hero"
+msgstr "Meisterhafter Magier"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:916
+msgid "Fallen Hero"
+msgstr "Gefallener Held"
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:917
+msgid "Berserker Hero"
+msgstr "Bärenstarker Berserker"
 
 #. [message]: speaker=narrator
 #: ANLEra/utils/extra_ai_units.cfg:64
@@ -798,6 +831,18 @@ msgid ""
 msgstr ""
 "$name_of_side| kann nun neue Einheitentypen ausbilden: $namelist| und "
 "$last_one|"
+
+#. [modification]: id=Anewlandsp, type=hybrid
+#: ANLEra/_main.cfg:11
+msgid ""
+"An experimental Sp/Mp modification, which allows lvl 0s to build (no "
+"research)."
+msgstr ""
+"Experimentelle Modifikation, welche es Einheiten der Stufe 0 das bauen "
+"verschiedener Dinge erlaubt, z.B. Dörfer, Burgen oder das Pflanzen und "
+"Abholzen von Wäldern.\n"
+"Forschung ist nicht möglich. Für den Einzelspieler- als auch "
+"Mehrspielermodus verfügbar."
 
 #. [era]: id=ANLEra
 #: ANLEra/ANLEra.cfg:5
