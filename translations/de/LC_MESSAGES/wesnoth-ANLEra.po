@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-02-11 03:42 UTC\n"
-"PO-Revision-Date: 2020-02-11 05:08+0100\n"
+"POT-Creation-Date: 2020-02-14 07:25 UTC\n"
+"PO-Revision-Date: 2020-02-14 08:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #. [multiplayer_side]: id=ANLEra_Outlaws, type=Ruffian
 #: ANLEra/factions/outlaws.cfg:4
@@ -512,9 +512,15 @@ msgstr "Seerosen entfernen"
 
 #. [option]
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/special_macros.cfg:244
+#: ANLEra/utils/special_macros.cfg:223
 msgid "Choose later"
 msgstr "Einheitentyp später wählen"
+
+#. [option]
+#. Decide later whether to obtain this unit from research
+#: ANLEra/utils/special_macros.cfg:236
+msgid "No, maybe not."
+msgstr "Nein, vielleicht nicht."
 
 #. Part of the scenario objectives
 #: ANLEra/utils/objectives.cfg:5
@@ -648,8 +654,19 @@ msgstr "G"
 msgid "Earns:"
 msgstr "Einnahmen:"
 
+#. [set_menu_item]: id=anl_choose_new_recruit_merfolk
+#: ANLEra/utils/research_options.cfg:395
+msgid "Choose Special Recruit"
+msgstr "Speziellen Einheitentyp wählen"
+
+#. [message]: speaker=unit
+#. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
+#: ANLEra/utils/research_options.cfg:429
+msgid "Would you like to be able to recruit this unit?"
+msgstr "Wollt Ihr diesen Einheitentyp rekrutieren können?"
+
 #. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:614
+#: ANLEra/utils/research_options.cfg:680
 msgid ""
 "$player_$side_number|.name|, we have finished researching warfare. Right-"
 "click on a researcher in a university to select a unit to recruit."
@@ -659,92 +676,92 @@ msgstr ""
 "um den neuen Einheitentyp auszuwählen."
 
 #. [option]
-#: ANLEra/utils/leader_options.cfg:267
+#: ANLEra/utils/leader_options.cfg:264
 msgid "Negotiation Progress: "
 msgstr "Fortschritt der Verhandlungen: "
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:540
+#: ANLEra/utils/leader_options.cfg:537
 msgid "Negotiate with the Dwarves"
 msgstr "Verhandlungen mit den Zwergen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:540
+#: ANLEra/utils/leader_options.cfg:537
 msgid "Lets you recruit a Dwarvish unit"
 msgstr "Dies erlaubt es Euch, eine zwergische Einheit zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:555
+#: ANLEra/utils/leader_options.cfg:553
 msgid "Negotiate with the Elves"
 msgstr "Verhandlungen mit den Elfen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:555
+#: ANLEra/utils/leader_options.cfg:553
 msgid "Lets you recruit an Elvish unit"
 msgstr "Dies erlaubt es Euch, eine elfische Einheit zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:571
+#: ANLEra/utils/leader_options.cfg:568
 msgid "Negotiate with the Drakes"
 msgstr "Verhandlungen mit den Draken"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:571
+#: ANLEra/utils/leader_options.cfg:568
 msgid "Lets you recruit a Drake unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:586
+#: ANLEra/utils/leader_options.cfg:583
 msgid "Negotiate with the Undead"
 msgstr "Verhandlungen mit den Untoten"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:586
+#: ANLEra/utils/leader_options.cfg:583
 msgid "Lets you recruit an Undead unit"
 msgstr "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:602
+#: ANLEra/utils/leader_options.cfg:599
 msgid "Negotiate with Loyalists"
 msgstr "Verhandlungen mit den Loyalisten"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:602
+#: ANLEra/utils/leader_options.cfg:599
 msgid "Lets you recruit a Loyalist unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Loyalisten zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:618
+#: ANLEra/utils/leader_options.cfg:615
 msgid "Negotiate with the Outlaws"
 msgstr "Verhandlungen mit den Geächteten"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:618
+#: ANLEra/utils/leader_options.cfg:615
 msgid "Lets you recruit a Outlaw unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Geächteten zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:633
+#: ANLEra/utils/leader_options.cfg:630
 msgid "Negotiate with the Merfolk"
 msgstr "Verhandlungen mit dem Meervolk"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:633
+#: ANLEra/utils/leader_options.cfg:630
 msgid "Lets you recruit an Merman unit"
 msgstr "Dies erlaubt es Euch, eine Einheit des Meervolk zu rekrutieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:643
+#: ANLEra/utils/leader_options.cfg:640
 msgid "Negotiate with Mercenaries"
 msgstr "Verhandlungen mit Söldnern"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:643
+#: ANLEra/utils/leader_options.cfg:640
 msgid "Lets you recruit Mercenary units"
 msgstr "Dies erlaubt es Euch, einen Söldner zu rekrutieren"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:738
+#: ANLEra/utils/leader_options.cfg:735
 msgid ""
 "Our talks are complete — the Drakes will gladly fight by your side. Which of "
 "our brethren do you want to recruit?"
@@ -753,7 +770,7 @@ msgstr ""
 "unterstützen. Wen wollt Ihr rekrutieren?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:771
+#: ANLEra/utils/leader_options.cfg:768
 msgid ""
 "Our talks are complete — I will summon the dead for you. Which of our them "
 "do you want to come?"
@@ -762,7 +779,7 @@ msgstr ""
 "Welchen von Ihnen wollt Ihr sehen?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:806
+#: ANLEra/utils/leader_options.cfg:803
 msgid ""
 "Our talks are complete — the Loyalists will gladly fight by your side. Which "
 "of our men do you want to recruit?"
@@ -771,7 +788,7 @@ msgstr ""
 "Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:842
+#: ANLEra/utils/leader_options.cfg:839
 msgid ""
 "Our talks are complete — the Outlaws will gladly fight by your side. Which "
 "of our men do you want to recruit?"
@@ -780,7 +797,7 @@ msgstr ""
 "Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:876
+#: ANLEra/utils/leader_options.cfg:873
 msgid ""
 "Our talks are complete — the Merfolk will gladly fight by your side. Which "
 "of our people do you want to recruit?"
@@ -789,7 +806,7 @@ msgstr ""
 "Wessen Unterstützung benötigt Ihr?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:911
+#: ANLEra/utils/leader_options.cfg:908
 msgid ""
 "Our talks are complete — some Mercenaries will gladly fight by your side. "
 "Which of us do you want to recruit?"
@@ -798,22 +815,22 @@ msgstr ""
 "an. Wessen Fähigkeiten benötigt Ihr?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:914
+#: ANLEra/utils/leader_options.cfg:911
 msgid "Elvish Hero"
 msgstr "Heldenhafter Elf"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:915
+#: ANLEra/utils/leader_options.cfg:912
 msgid "Mage Hero"
 msgstr "Meisterhafter Magier"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:916
+#: ANLEra/utils/leader_options.cfg:913
 msgid "Fallen Hero"
 msgstr "Gefallener Held"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:917
+#: ANLEra/utils/leader_options.cfg:914
 msgid "Berserker Hero"
 msgstr "Bärenstarker Berserker"
 

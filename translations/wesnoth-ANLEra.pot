@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-02-11 04:09 UTC\n"
+"POT-Creation-Date: 2020-02-14 07:34 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -420,8 +420,14 @@ msgstr ""
 
 #. [option]
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/special_macros.cfg:244
+#: ANLEra/utils/special_macros.cfg:223
 msgid "Choose later"
+msgstr ""
+
+#. [option]
+#. Decide later whether to obtain this unit from research
+#: ANLEra/utils/special_macros.cfg:236
+msgid "No, maybe not."
 msgstr ""
 
 #. Part of the scenario objectives
@@ -528,143 +534,154 @@ msgstr ""
 msgid "Earns:"
 msgstr ""
 
+#. [set_menu_item]: id=anl_choose_new_recruit_merfolk
+#: ANLEra/utils/research_options.cfg:395
+msgid "Choose Special Recruit"
+msgstr ""
+
+#. [message]: speaker=unit
+#. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
+#: ANLEra/utils/research_options.cfg:429
+msgid "Would you like to be able to recruit this unit?"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:614
+#: ANLEra/utils/research_options.cfg:680
 msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
 msgstr ""
 
 #. [option]
-#: ANLEra/utils/leader_options.cfg:267
+#: ANLEra/utils/leader_options.cfg:264
 msgid "Negotiation Progress: "
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:540
+#: ANLEra/utils/leader_options.cfg:537
 msgid "Negotiate with the Dwarves"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:540
+#: ANLEra/utils/leader_options.cfg:537
 msgid "Lets you recruit a Dwarvish unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:555
+#: ANLEra/utils/leader_options.cfg:553
 msgid "Negotiate with the Elves"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:555
+#: ANLEra/utils/leader_options.cfg:553
 msgid "Lets you recruit an Elvish unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:571
+#: ANLEra/utils/leader_options.cfg:568
 msgid "Negotiate with the Drakes"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:571
+#: ANLEra/utils/leader_options.cfg:568
 msgid "Lets you recruit a Drake unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:586
+#: ANLEra/utils/leader_options.cfg:583
 msgid "Negotiate with the Undead"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:586
+#: ANLEra/utils/leader_options.cfg:583
 msgid "Lets you recruit an Undead unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:602
+#: ANLEra/utils/leader_options.cfg:599
 msgid "Negotiate with Loyalists"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:602
+#: ANLEra/utils/leader_options.cfg:599
 msgid "Lets you recruit a Loyalist unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:618
+#: ANLEra/utils/leader_options.cfg:615
 msgid "Negotiate with the Outlaws"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:618
+#: ANLEra/utils/leader_options.cfg:615
 msgid "Lets you recruit a Outlaw unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:633
+#: ANLEra/utils/leader_options.cfg:630
 msgid "Negotiate with the Merfolk"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:633
+#: ANLEra/utils/leader_options.cfg:630
 msgid "Lets you recruit an Merman unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:643
+#: ANLEra/utils/leader_options.cfg:640
 msgid "Negotiate with Mercenaries"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:643
+#: ANLEra/utils/leader_options.cfg:640
 msgid "Lets you recruit Mercenary units"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:738
+#: ANLEra/utils/leader_options.cfg:735
 msgid "Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:771
+#: ANLEra/utils/leader_options.cfg:768
 msgid "Our talks are complete — I will summon the dead for you. Which of our them do you want to come?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:806
+#: ANLEra/utils/leader_options.cfg:803
 msgid "Our talks are complete — the Loyalists will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:842
+#: ANLEra/utils/leader_options.cfg:839
 msgid "Our talks are complete — the Outlaws will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:876
+#: ANLEra/utils/leader_options.cfg:873
 msgid "Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:911
+#: ANLEra/utils/leader_options.cfg:908
 msgid "Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:914
+#: ANLEra/utils/leader_options.cfg:911
 msgid "Elvish Hero"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:915
+#: ANLEra/utils/leader_options.cfg:912
 msgid "Mage Hero"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:916
+#: ANLEra/utils/leader_options.cfg:913
 msgid "Fallen Hero"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:917
+#: ANLEra/utils/leader_options.cfg:914
 msgid "Berserker Hero"
 msgstr ""
 
