@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-02-14 07:34 UTC\n"
+"POT-Creation-Date: 2020-02-25 16:55 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,35 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:184
+#: ANLEra/utils/worker_options.cfg:185
 msgid "Convert to Grassland"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:429
+#: ANLEra/utils/worker_options.cfg:476
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:439
+#: ANLEra/utils/worker_options.cfg:486
 msgid "Melt Ice"
+msgstr ""
+
+#. [unit_type]: id=ANLEra Youngster, race=human
+#: ANLEra/units/outlaws/random-recruit.cfg:12
+msgid "Youngster"
+msgstr ""
+
+#. [unit_type]: id=ANLEra Youngster, race=human
+#: ANLEra/units/outlaws/random-recruit.cfg:38
+msgid ""
+"Randomly either a Ruffian or a Woodsman will be recruited. The chance for the Ruffian is higher.\n"
+"\n"
+"Ruffians can build and work on farmland, while Woodsman can hunt in forests.\n"
+"\n"
+"In difference to the stats displayed on this help page, the Woodsman is of neutral alignment, has improved defence values on swamps and forest and performs better a bit better in combat."
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
@@ -76,7 +91,7 @@ msgid "Drake Worker"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Worker, race=drake
-#: ANLEra/units/drakes/Worker.cfg:20
+#: ANLEra/units/drakes/Worker.cfg:23
 msgid "Drake Workers are the working class of the Drakes. They can still fight, but if you’re hurling workers at the enemy, you’re clearly out of superior forces."
 msgstr ""
 
@@ -86,23 +101,23 @@ msgid "Elvish Civilian"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:25
-#: ANLEra/units/elves/Civilian.cfg:27
+#: ANLEra/units/elves/Civilian.cfg:28
+#: ANLEra/units/elves/Civilian.cfg:30
 msgid "Since elves are not warlike by nature, most of their population is composed by civilians who learn, at very early age, basic usage of swords and bows. This allows them to defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you’re clearly out of superior forces."
 msgstr ""
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:25
+#: ANLEra/units/elves/Civilian.cfg:28
 msgid " Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 
 #. [special_note]
-#: ANLEra/units/elves/Civilian.cfg:29
+#: ANLEra/units/elves/Civilian.cfg:32
 msgid "Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:102
+#: ANLEra/units/elves/Civilian.cfg:107
 msgid "female^Elvish Civilian"
 msgstr ""
 
@@ -414,7 +429,7 @@ msgstr ""
 msgid "Plant Mushrooms"
 msgstr ""
 
-#: ANLEra/utils/buildings/buildings_merfolk.cfg:45
+#: ANLEra/utils/buildings/buildings_merfolk.cfg:44
 msgid "Remove Water Lilies"
 msgstr ""
 
@@ -426,7 +441,7 @@ msgstr ""
 
 #. [option]
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/special_macros.cfg:236
+#: ANLEra/utils/special_macros.cfg:238
 msgid "No, maybe not."
 msgstr ""
 
@@ -507,7 +522,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: ANLEra/utils/help.cfg:53
-msgid "Forests can only be planted on grassland. The Loyalist and Outlaw factions can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
+msgid "Forests can only be planted on grassland. The Outlaw faction can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -546,7 +561,7 @@ msgid "Would you like to be able to recruit this unit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:680
+#: ANLEra/utils/research_options.cfg:682
 msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
 msgstr ""
 
@@ -622,7 +637,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:630
-msgid "Lets you recruit an Merman unit"
+msgid "Lets you recruit a Merfolk unit"
 msgstr ""
 
 #. [message]: speaker=unit
@@ -642,7 +657,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: ANLEra/utils/leader_options.cfg:768
-msgid "Our talks are complete — I will summon the dead for you. Which of our them do you want to come?"
+msgid "Our talks are complete — I will summon the dead for you. Which of them do you want to come?"
 msgstr ""
 
 #. [message]: speaker=narrator

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-02-14 07:25 UTC\n"
-"PO-Revision-Date: 2020-02-14 08:34+0100\n"
+"POT-Creation-Date: 2020-02-25 16:13 UTC\n"
+"PO-Revision-Date: 2020-02-25 17:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -19,21 +19,49 @@ msgstr "Geächtete"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:184
+#: ANLEra/utils/worker_options.cfg:185
 msgid "Convert to Grassland"
 msgstr "Zu Grasland umwandeln"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:429
+#: ANLEra/utils/worker_options.cfg:476
 msgid "Remove Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:439
+#: ANLEra/utils/worker_options.cfg:486
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
+
+#. [unit_type]: id=ANLEra Youngster, race=human
+#: ANLEra/units/outlaws/random-recruit.cfg:12
+msgid "Youngster"
+msgstr "Bursche"
+
+#. [unit_type]: id=ANLEra Youngster, race=human
+#: ANLEra/units/outlaws/random-recruit.cfg:38
+msgid ""
+"Randomly either a Ruffian or a Woodsman will be recruited. The chance for "
+"the Ruffian is higher.\n"
+"\n"
+"Ruffians can build and work on farmland, while Woodsman can hunt in "
+"forests.\n"
+"\n"
+"In difference to the stats displayed on this help page, the Woodsman is of "
+"neutral alignment, has improved defence values on swamps and forest and "
+"performs better a bit better in combat."
+msgstr ""
+"Per Zufall wird entweder ein Raufbold oder ein Förster ausgebildet, wobei es "
+"um Chance auf einen Raufbold besser bestellt ist.\n"
+"\n"
+"Raufbolde können Bauten errichten und auf Farmen arbeiten, während Förster "
+"im Wald jagen gehen.\n"
+"\n"
+"Im Vergleich zu den auf dieser Seite angezeigten Werten agieren Förster "
+"unabhängig von der Tageszeit, können sich in Wald- und Sumpfgebieten eine "
+"besser verteidigen und sind etwas stärker im Gefecht."
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
 #: ANLEra/units/drakes/Apprentice.cfg:5
@@ -97,7 +125,7 @@ msgid "Drake Worker"
 msgstr "Drakenarbeiter"
 
 #. [unit_type]: id=ANLEra Drake Worker, race=drake
-#: ANLEra/units/drakes/Worker.cfg:20
+#: ANLEra/units/drakes/Worker.cfg:23
 msgid ""
 "Drake Workers are the working class of the Drakes. They can still fight, but "
 "if you’re hurling workers at the enemy, you’re clearly out of superior "
@@ -113,7 +141,7 @@ msgid "Elvish Civilian"
 msgstr "Elfischer Bürger"
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:25 ANLEra/units/elves/Civilian.cfg:27
+#: ANLEra/units/elves/Civilian.cfg:28 ANLEra/units/elves/Civilian.cfg:30
 msgid ""
 "Since elves are not warlike by nature, most of their population is composed "
 "by civilians who learn, at very early age, basic usage of swords and bows. "
@@ -129,19 +157,19 @@ msgstr ""
 "überlegenen Einheiten."
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:25
+#: ANLEra/units/elves/Civilian.cfg:28
 msgid " Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 " Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
 #. [special_note]
-#: ANLEra/units/elves/Civilian.cfg:29
+#: ANLEra/units/elves/Civilian.cfg:32
 msgid "Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 "Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:102
+#: ANLEra/units/elves/Civilian.cfg:107
 msgid "female^Elvish Civilian"
 msgstr "Elfische Bürgerin"
 
@@ -506,7 +534,7 @@ msgstr "Furt bepflanzen"
 msgid "Plant Mushrooms"
 msgstr "Pilze pflanzen"
 
-#: ANLEra/utils/buildings/buildings_merfolk.cfg:45
+#: ANLEra/utils/buildings/buildings_merfolk.cfg:44
 msgid "Remove Water Lilies"
 msgstr "Seerosen entfernen"
 
@@ -518,7 +546,7 @@ msgstr "Einheitentyp später wählen"
 
 #. [option]
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/special_macros.cfg:236
+#: ANLEra/utils/special_macros.cfg:238
 msgid "No, maybe not."
 msgstr "Nein, vielleicht nicht."
 
@@ -613,14 +641,13 @@ msgstr "Wälder"
 #. [message]: speaker=narrator
 #: ANLEra/utils/help.cfg:53
 msgid ""
-"Forests can only be planted on grassland. The Loyalist and Outlaw factions "
-"can recruit Woodsmen, and the Woodsman and Poacher line will begin to "
-"automatically hunt for game in the forests, producing gold dependent on "
-"their level."
+"Forests can only be planted on grassland. The Outlaw faction can recruit "
+"Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt "
+"for game in the forests, producing gold dependent on their level."
 msgstr ""
-"Wälder können nur auf Wiesen gepflanzt werden. Die Loyalisten und Geächteten "
-"können Förster rekrutieren – sie als auch Einheiten der Wilddieblinie werden "
-"in Wälder jagen und Gold in Abhängigkeit ihrer Stufe einbringen."
+"Wälder können nur auf Wiesen gepflanzt werden. Die Geächteten können Förster "
+"rekrutieren – sie als auch Einheiten der Wilddieblinie werden in Wälder "
+"jagen und Gold in Abhängigkeit ihrer Stufe einbringen."
 
 #. [message]: speaker=narrator
 #. This contains only slight variations compared to the string from mainline.
@@ -666,7 +693,7 @@ msgid "Would you like to be able to recruit this unit?"
 msgstr "Wollt Ihr diesen Einheitentyp rekrutieren können?"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:680
+#: ANLEra/utils/research_options.cfg:682
 msgid ""
 "$player_$side_number|.name|, we have finished researching warfare. Right-"
 "click on a researcher in a university to select a unit to recruit."
@@ -747,8 +774,8 @@ msgstr "Verhandlungen mit dem Meervolk"
 
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:630
-msgid "Lets you recruit an Merman unit"
-msgstr "Dies erlaubt es Euch, eine Einheit des Meervolk zu rekrutieren"
+msgid "Lets you recruit a Merfolk unit"
+msgstr "Dies erlaubt es Euch, eine Einheit des Meervolkes zu rekrutieren"
 
 #. [message]: speaker=unit
 #: ANLEra/utils/leader_options.cfg:640
@@ -772,8 +799,8 @@ msgstr ""
 #. [message]: speaker=narrator
 #: ANLEra/utils/leader_options.cfg:768
 msgid ""
-"Our talks are complete — I will summon the dead for you. Which of our them "
-"do you want to come?"
+"Our talks are complete — I will summon the dead for you. Which of them do "
+"you want to come?"
 msgstr ""
 "Unsere Verhandlungen sind abgeschlossen. Ich werde die Toten für Euch rufen. "
 "Welchen von Ihnen wollt Ihr sehen?"
