@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-10-23 11:11 UTC\n"
+"POT-Creation-Date: 2020-02-25 16:55 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,35 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:184
+#: ANLEra/utils/worker_options.cfg:185
 msgid "Convert to Grassland"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:429
+#: ANLEra/utils/worker_options.cfg:476
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:439
+#: ANLEra/utils/worker_options.cfg:486
 msgid "Melt Ice"
+msgstr ""
+
+#. [unit_type]: id=ANLEra Youngster, race=human
+#: ANLEra/units/outlaws/random-recruit.cfg:12
+msgid "Youngster"
+msgstr ""
+
+#. [unit_type]: id=ANLEra Youngster, race=human
+#: ANLEra/units/outlaws/random-recruit.cfg:38
+msgid ""
+"Randomly either a Ruffian or a Woodsman will be recruited. The chance for the Ruffian is higher.\n"
+"\n"
+"Ruffians can build and work on farmland, while Woodsman can hunt in forests.\n"
+"\n"
+"In difference to the stats displayed on this help page, the Woodsman is of neutral alignment, has improved defence values on swamps and forest and performs better a bit better in combat."
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
@@ -39,14 +54,15 @@ msgid "Drake Apprentice"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
-#: ANLEra/units/drakes/Apprentice.cfg:18
+#: ANLEra/units/drakes/Apprentice.cfg:19
+#: ANLEra/units/drakes/Apprentice.cfg:22
 msgid "The Drake Magi are fresh members of the Obsidian Citadel, who have been bound to the cult. Although they have undergone training harsh enough to kill any human or orc, they are inexperienced, and thus can only safely wield a weaker form of their feared fireball spell. However, they also share the weaknesses of the High Magi."
 msgstr ""
 
 #. [attack]: type=cold
-#: ANLEra/units/drakes/Apprentice.cfg:49
-#: ANLEra/units/drakes/Druid.cfg:50
-#: ANLEra/units/drakes/Shaman.cfg:51
+#: ANLEra/units/drakes/Apprentice.cfg:55
+#: ANLEra/units/drakes/Druid.cfg:56
+#: ANLEra/units/drakes/Shaman.cfg:57
 msgid "ice shot"
 msgstr ""
 
@@ -57,8 +73,10 @@ msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Druid, race=drake
 #. [unit_type]: id=ANLEra Drake Shaman, race=drake
-#: ANLEra/units/drakes/Druid.cfg:19
-#: ANLEra/units/drakes/Shaman.cfg:19
+#: ANLEra/units/drakes/Druid.cfg:20
+#: ANLEra/units/drakes/Druid.cfg:22
+#: ANLEra/units/drakes/Shaman.cfg:20
+#: ANLEra/units/drakes/Shaman.cfg:22
 msgid "The Drake High Magi are elite members of an order of magic-using drakes who spend their days in the Obsidian Citadel, honing their powers for use in times of crisis. They can summon blasts of intense cold with a gesture, and can hurl powerful fireballs across great distances. However, due to the extensive energy that is required of these drakes to harness and use these powers, they are frail and slow."
 msgstr ""
 
@@ -73,7 +91,7 @@ msgid "Drake Worker"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Drake Worker, race=drake
-#: ANLEra/units/drakes/Worker.cfg:20
+#: ANLEra/units/drakes/Worker.cfg:23
 msgid "Drake Workers are the working class of the Drakes. They can still fight, but if you’re hurling workers at the enemy, you’re clearly out of superior forces."
 msgstr ""
 
@@ -83,17 +101,23 @@ msgid "Elvish Civilian"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:24
+#: ANLEra/units/elves/Civilian.cfg:28
+#: ANLEra/units/elves/Civilian.cfg:30
 msgid "Since elves are not warlike by nature, most of their population is composed by civilians who learn, at very early age, basic usage of swords and bows. This allows them to defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you’re clearly out of superior forces."
 msgstr ""
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:24
+#: ANLEra/units/elves/Civilian.cfg:28
 msgid " Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 
+#. [special_note]
+#: ANLEra/units/elves/Civilian.cfg:32
+msgid "Depending on it’s gender this unit has different advancement paths."
+msgstr ""
+
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:95
+#: ANLEra/units/elves/Civilian.cfg:107
 msgid "female^Elvish Civilian"
 msgstr ""
 
@@ -220,32 +244,32 @@ msgid "Same difficulty as 4p variant, but one more player."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:601
+#: ANLEra/scenarios/5p_A_New_Land.cfg:602
 msgid "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:607
+#: ANLEra/scenarios/5p_A_New_Land.cfg:608
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:634
+#: ANLEra/scenarios/5p_A_New_Land.cfg:635
 msgid "Beware of enemy creatures in the mud."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:753
+#: ANLEra/scenarios/5p_A_New_Land.cfg:754
 msgid "Not so fast…"
 msgstr ""
 
 #. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:758
+#: ANLEra/scenarios/5p_A_New_Land.cfg:759
 msgid "Deeaaathh…"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:829
+#: ANLEra/scenarios/5p_A_New_Land.cfg:830
 msgid "They’ll never take me alive!"
 msgstr ""
 
@@ -271,26 +295,26 @@ msgid "You rediscover a forgotten island. You know that humans lived here, possi
 msgstr ""
 
 #. [label]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:26
-#: ANLEra/scenarios/2p_A_New_Island.cfg:41
+#: ANLEra/scenarios/2p_A_New_Island.cfg:27
+#: ANLEra/scenarios/2p_A_New_Island.cfg:42
 msgid "The farm"
 msgstr ""
 
 #. [label]
 #. [terrain_type]: id=ANLEra_university
-#: ANLEra/scenarios/2p_A_New_Island.cfg:31
-#: ANLEra/scenarios/2p_A_New_Island.cfg:36
+#: ANLEra/scenarios/2p_A_New_Island.cfg:32
+#: ANLEra/scenarios/2p_A_New_Island.cfg:37
 #: ANLEra/terrain/terrain.cfg:6
 msgid "University"
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:53
+#: ANLEra/scenarios/2p_A_New_Island.cfg:54
 msgid "You have landed on an unknown island."
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:59
+#: ANLEra/scenarios/2p_A_New_Island.cfg:60
 msgid "Can you settle here?"
 msgstr ""
 
@@ -405,8 +429,20 @@ msgstr ""
 msgid "Plant Mushrooms"
 msgstr ""
 
-#: ANLEra/utils/buildings/buildings_merfolk.cfg:45
+#: ANLEra/utils/buildings/buildings_merfolk.cfg:44
 msgid "Remove Water Lilies"
+msgstr ""
+
+#. [option]
+#. Decide later which unit to obtain from research
+#: ANLEra/utils/special_macros.cfg:223
+msgid "Choose later"
+msgstr ""
+
+#. [option]
+#. Decide later whether to obtain this unit from research
+#: ANLEra/utils/special_macros.cfg:238
+msgid "No, maybe not."
 msgstr ""
 
 #. Part of the scenario objectives
@@ -486,7 +522,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: ANLEra/utils/help.cfg:53
-msgid "Forests can only be planted on grassland. The Loyalist and Outlaw factions can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
+msgid "Forests can only be planted on grassland. The Outlaw faction can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -513,124 +549,155 @@ msgstr ""
 msgid "Earns:"
 msgstr ""
 
+#. [set_menu_item]: id=anl_choose_new_recruit_merfolk
+#: ANLEra/utils/research_options.cfg:395
+msgid "Choose Special Recruit"
+msgstr ""
+
+#. [message]: speaker=unit
+#. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
+#: ANLEra/utils/research_options.cfg:429
+msgid "Would you like to be able to recruit this unit?"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:605
+#: ANLEra/utils/research_options.cfg:682
 msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
 msgstr ""
 
 #. [option]
-#: ANLEra/utils/leader_options.cfg:267
+#: ANLEra/utils/leader_options.cfg:264
 msgid "Negotiation Progress: "
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:540
+#: ANLEra/utils/leader_options.cfg:537
 msgid "Negotiate with the Dwarves"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:540
+#: ANLEra/utils/leader_options.cfg:537
 msgid "Lets you recruit a Dwarvish unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:555
+#: ANLEra/utils/leader_options.cfg:553
 msgid "Negotiate with the Elves"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:555
+#: ANLEra/utils/leader_options.cfg:553
 msgid "Lets you recruit an Elvish unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:571
+#: ANLEra/utils/leader_options.cfg:568
 msgid "Negotiate with the Drakes"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:571
+#: ANLEra/utils/leader_options.cfg:568
 msgid "Lets you recruit a Drake unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:586
+#: ANLEra/utils/leader_options.cfg:583
 msgid "Negotiate with the Undead"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:586
+#: ANLEra/utils/leader_options.cfg:583
 msgid "Lets you recruit an Undead unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:602
+#: ANLEra/utils/leader_options.cfg:599
 msgid "Negotiate with Loyalists"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:602
+#: ANLEra/utils/leader_options.cfg:599
 msgid "Lets you recruit a Loyalist unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:618
+#: ANLEra/utils/leader_options.cfg:615
 msgid "Negotiate with the Outlaws"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:618
+#: ANLEra/utils/leader_options.cfg:615
 msgid "Lets you recruit a Outlaw unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:633
+#: ANLEra/utils/leader_options.cfg:630
 msgid "Negotiate with the Merfolk"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:633
-msgid "Lets you recruit an Merman unit"
+#: ANLEra/utils/leader_options.cfg:630
+msgid "Lets you recruit a Merfolk unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:643
+#: ANLEra/utils/leader_options.cfg:640
 msgid "Negotiate with Mercenaries"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:643
+#: ANLEra/utils/leader_options.cfg:640
 msgid "Lets you recruit Mercenary units"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:738
+#: ANLEra/utils/leader_options.cfg:735
 msgid "Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:771
-msgid "Our talks are complete — I will summon the dead for you. Which of our them do you want to come?"
+#: ANLEra/utils/leader_options.cfg:768
+msgid "Our talks are complete — I will summon the dead for you. Which of them do you want to come?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:806
+#: ANLEra/utils/leader_options.cfg:803
 msgid "Our talks are complete — the Loyalists will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:842
+#: ANLEra/utils/leader_options.cfg:839
 msgid "Our talks are complete — the Outlaws will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:876
+#: ANLEra/utils/leader_options.cfg:873
 msgid "Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:910
+#: ANLEra/utils/leader_options.cfg:908
 msgid "Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:911
+msgid "Elvish Hero"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:912
+msgid "Mage Hero"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:913
+msgid "Fallen Hero"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/leader_options.cfg:914
+msgid "Berserker Hero"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -641,6 +708,11 @@ msgstr ""
 #. [message]: speaker=narrator
 #: ANLEra/utils/extra_ai_units.cfg:98
 msgid "$name_of_side| can now recruit new unit types: $namelist| and $last_one|"
+msgstr ""
+
+#. [modification]: id=Anewlandsp, type=hybrid
+#: ANLEra/_main.cfg:11
+msgid "An experimental Sp/Mp modification, which allows lvl 0s to build (no research)."
 msgstr ""
 
 #. [era]: id=ANLEra
