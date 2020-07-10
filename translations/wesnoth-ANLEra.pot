@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-02-25 16:55 UTC\n"
+"POT-Creation-Date: 2020-07-03 02:00 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:185
+#: ANLEra/utils/worker_options.cfg:225
 msgid "Convert to Grassland"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:476
+#: ANLEra/utils/worker_options.cfg:541
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:486
+#: ANLEra/utils/worker_options.cfg:551
 msgid "Melt Ice"
 msgstr ""
 
@@ -39,7 +39,7 @@ msgid "Youngster"
 msgstr ""
 
 #. [unit_type]: id=ANLEra Youngster, race=human
-#: ANLEra/units/outlaws/random-recruit.cfg:38
+#: ANLEra/units/outlaws/random-recruit.cfg:41
 msgid ""
 "Randomly either a Ruffian or a Woodsman will be recruited. The chance for the Ruffian is higher.\n"
 "\n"
@@ -244,32 +244,32 @@ msgid "Same difficulty as 4p variant, but one more player."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:602
+#: ANLEra/scenarios/5p_A_New_Land.cfg:609
 msgid "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:608
+#: ANLEra/scenarios/5p_A_New_Land.cfg:615
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:635
+#: ANLEra/scenarios/5p_A_New_Land.cfg:644
 msgid "Beware of enemy creatures in the mud."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:754
+#: ANLEra/scenarios/5p_A_New_Land.cfg:765
 msgid "Not so fast…"
 msgstr ""
 
-#. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:759
+#. [message]: type=Death Knight
+#: ANLEra/scenarios/5p_A_New_Land.cfg:773
 msgid "Deeaaathh…"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:830
+#: ANLEra/scenarios/5p_A_New_Land.cfg:846
 msgid "They’ll never take me alive!"
 msgstr ""
 
@@ -295,26 +295,26 @@ msgid "You rediscover a forgotten island. You know that humans lived here, possi
 msgstr ""
 
 #. [label]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:27
-#: ANLEra/scenarios/2p_A_New_Island.cfg:42
+#: ANLEra/scenarios/2p_A_New_Island.cfg:29
+#: ANLEra/scenarios/2p_A_New_Island.cfg:44
 msgid "The farm"
 msgstr ""
 
 #. [label]
 #. [terrain_type]: id=ANLEra_university
-#: ANLEra/scenarios/2p_A_New_Island.cfg:32
-#: ANLEra/scenarios/2p_A_New_Island.cfg:37
+#: ANLEra/scenarios/2p_A_New_Island.cfg:34
+#: ANLEra/scenarios/2p_A_New_Island.cfg:39
 #: ANLEra/terrain/terrain.cfg:6
 msgid "University"
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:54
+#: ANLEra/scenarios/2p_A_New_Island.cfg:56
 msgid "You have landed on an unknown island."
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:60
+#: ANLEra/scenarios/2p_A_New_Island.cfg:62
 msgid "Can you settle here?"
 msgstr ""
 
@@ -387,21 +387,21 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. similar string in mainline
-#: ANLEra/utils/general_purpose/trapped.cfg:64
+#: ANLEra/utils/general_purpose/trapped.cfg:66
 msgid "Let’s cut you free from this web."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:78
+#: ANLEra/utils/general_purpose/trapped.cfg:113
 msgid "male critter^You release the $critter.language_name from the web and it agrees to help you."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:89
+#: ANLEra/utils/general_purpose/trapped.cfg:124
 msgid "female critter^You release the $critter.language_name from the web and it agrees to help you."
 msgstr ""
 
@@ -423,9 +423,12 @@ msgstr ""
 msgid "Corrupt the Ford"
 msgstr ""
 
-#: ANLEra/utils/buildings/buildings_undead.cfg:43
-#: ANLEra/utils/buildings/buildings_undead.cfg:48
-#: ANLEra/utils/buildings/buildings_undead.cfg:53
+#: ANLEra/utils/buildings/buildings_undead.cfg:47
+#: ANLEra/utils/buildings/buildings_undead.cfg:52
+#: ANLEra/utils/buildings/buildings_undead.cfg:57
+#: ANLEra/utils/buildings/buildings_undead.cfg:65
+#: ANLEra/utils/buildings/buildings_undead.cfg:70
+#: ANLEra/utils/buildings/buildings_undead.cfg:75
 msgid "Plant Mushrooms"
 msgstr ""
 
@@ -435,13 +438,13 @@ msgstr ""
 
 #. [option]
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/special_macros.cfg:223
+#: ANLEra/utils/special_macros.cfg:185
 msgid "Choose later"
 msgstr ""
 
 #. [option]
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/special_macros.cfg:238
+#: ANLEra/utils/special_macros.cfg:200
 msgid "No, maybe not."
 msgstr ""
 
@@ -482,7 +485,25 @@ msgstr ""
 
 #. Part of the scenario objectives
 #: ANLEra/utils/objectives.cfg:33
-msgid "Defeat All Enemy Leaders"
+msgid "Defeat all enemy leaders"
+msgstr ""
+
+#: ANLEra/utils/objectives.cfg:46
+#: ANLEra/utils/objectives.cfg:59
+msgid "Warning:"
+msgstr ""
+
+#: ANLEra/utils/objectives.cfg:49
+msgid "The new command »:droid full« is not supported and will cause Out-of-Sync errors when used."
+msgstr ""
+
+#: ANLEra/utils/objectives.cfg:51
+msgid ""
+"In some parts of this add-on AI sides behave differently from the player sides. Using the new command leads to inconsistency among the clients whether a side is AI controlled or not, which in turn leads to Out-of-Sync errors.\n"
+"For example:\n"
+"When an AI unit moves onto a village, it will destroy the village. Not so for player sides.\n"
+"\n"
+"The »normally« droided sides count still as player sides, where behind the scenes an AI plays for a player."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -533,20 +554,35 @@ msgid "Any of the “Town” style villages represent universities. At the start
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:36
+#: ANLEra/utils/worker_options.cfg:76
 msgid "Cost:"
 msgstr ""
 
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
-#: ANLEra/utils/worker_options.cfg:38
-#: ANLEra/utils/worker_options.cfg:80
+#: ANLEra/utils/worker_options.cfg:78
+#: ANLEra/utils/worker_options.cfg:120
 msgid "g"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:80
+#: ANLEra/utils/worker_options.cfg:120
 msgid "Earns:"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:515
+msgid "Remove Fireplace"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:528
+msgid "Light a Fire"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:561
+msgid "Renovate Encampment"
 msgstr ""
 
 #. [set_menu_item]: id=anl_choose_new_recruit_merfolk

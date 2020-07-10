@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-02-25 16:13 UTC\n"
-"PO-Revision-Date: 2020-02-25 17:22+0100\n"
+"POT-Creation-Date: 2020-07-03 02:00 UTC\n"
+"PO-Revision-Date: 2020-07-03 04:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -19,19 +19,19 @@ msgstr "Geächtete"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:185
+#: ANLEra/utils/worker_options.cfg:225
 msgid "Convert to Grassland"
 msgstr "Zu Grasland umwandeln"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:476
+#: ANLEra/utils/worker_options.cfg:541
 msgid "Remove Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:486
+#: ANLEra/utils/worker_options.cfg:551
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
 
@@ -41,7 +41,7 @@ msgid "Youngster"
 msgstr "Bursche"
 
 #. [unit_type]: id=ANLEra Youngster, race=human
-#: ANLEra/units/outlaws/random-recruit.cfg:38
+#: ANLEra/units/outlaws/random-recruit.cfg:41
 msgid ""
 "Randomly either a Ruffian or a Woodsman will be recruited. The chance for "
 "the Ruffian is higher.\n"
@@ -324,7 +324,7 @@ msgstr ""
 "weiteren Mitstreiter hinzuziehen."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:602
+#: ANLEra/scenarios/5p_A_New_Land.cfg:609
 msgid ""
 "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
@@ -332,27 +332,27 @@ msgstr ""
 "gibt."
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:608
+#: ANLEra/scenarios/5p_A_New_Land.cfg:615
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr "Wir sollten vorsichtig sein, es gibt hier eine Menge Gefahren."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:635
+#: ANLEra/scenarios/5p_A_New_Land.cfg:644
 msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:754
+#: ANLEra/scenarios/5p_A_New_Land.cfg:765
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
-#. [message]: speaker=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:759
+#. [message]: type=Death Knight
+#: ANLEra/scenarios/5p_A_New_Land.cfg:773
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:830
+#: ANLEra/scenarios/5p_A_New_Land.cfg:846
 msgid "They’ll never take me alive!"
 msgstr "Sie werden mich nicht lebend bekommen! Niemals!"
 
@@ -388,25 +388,25 @@ msgstr ""
 "Ereignisse ist diese Region in Vergessenheit geraten."
 
 #. [label]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:27
-#: ANLEra/scenarios/2p_A_New_Island.cfg:42
+#: ANLEra/scenarios/2p_A_New_Island.cfg:29
+#: ANLEra/scenarios/2p_A_New_Island.cfg:44
 msgid "The farm"
 msgstr "Die Farm"
 
 #. [label]
 #. [terrain_type]: id=ANLEra_university
-#: ANLEra/scenarios/2p_A_New_Island.cfg:32
-#: ANLEra/scenarios/2p_A_New_Island.cfg:37 ANLEra/terrain/terrain.cfg:6
+#: ANLEra/scenarios/2p_A_New_Island.cfg:34
+#: ANLEra/scenarios/2p_A_New_Island.cfg:39 ANLEra/terrain/terrain.cfg:6
 msgid "University"
 msgstr "Universität"
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:54
+#: ANLEra/scenarios/2p_A_New_Island.cfg:56
 msgid "You have landed on an unknown island."
 msgstr "Ihr seid auf einer unbekannten Insel gelandet."
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:60
+#: ANLEra/scenarios/2p_A_New_Island.cfg:62
 msgid "Can you settle here?"
 msgstr "Könnt Ihr Euch hier niederlassen?"
 
@@ -484,14 +484,14 @@ msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
 
 #. [message]: speaker=unit
 #. similar string in mainline
-#: ANLEra/utils/general_purpose/trapped.cfg:64
+#: ANLEra/utils/general_purpose/trapped.cfg:66
 msgid "Let’s cut you free from this web."
 msgstr "Dann will ich euch mal von den Spinnweben befreien!"
 
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:78
+#: ANLEra/utils/general_purpose/trapped.cfg:113
 msgid ""
 "male critter^You release the $critter.language_name from the web and it "
 "agrees to help you."
@@ -502,7 +502,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:89
+#: ANLEra/utils/general_purpose/trapped.cfg:124
 msgid ""
 "female critter^You release the $critter.language_name from the web and it "
 "agrees to help you."
@@ -528,9 +528,12 @@ msgstr "Land versumpfen"
 msgid "Corrupt the Ford"
 msgstr "Furt bepflanzen"
 
-#: ANLEra/utils/buildings/buildings_undead.cfg:43
-#: ANLEra/utils/buildings/buildings_undead.cfg:48
-#: ANLEra/utils/buildings/buildings_undead.cfg:53
+#: ANLEra/utils/buildings/buildings_undead.cfg:47
+#: ANLEra/utils/buildings/buildings_undead.cfg:52
+#: ANLEra/utils/buildings/buildings_undead.cfg:57
+#: ANLEra/utils/buildings/buildings_undead.cfg:65
+#: ANLEra/utils/buildings/buildings_undead.cfg:70
+#: ANLEra/utils/buildings/buildings_undead.cfg:75
 msgid "Plant Mushrooms"
 msgstr "Pilze pflanzen"
 
@@ -540,13 +543,13 @@ msgstr "Seerosen entfernen"
 
 #. [option]
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/special_macros.cfg:223
+#: ANLEra/utils/special_macros.cfg:185
 msgid "Choose later"
 msgstr "Einheitentyp später wählen"
 
 #. [option]
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/special_macros.cfg:238
+#: ANLEra/utils/special_macros.cfg:200
 msgid "No, maybe not."
 msgstr "Nein, vielleicht nicht."
 
@@ -591,8 +594,44 @@ msgstr "Tipps:"
 
 #. Part of the scenario objectives
 #: ANLEra/utils/objectives.cfg:33
-msgid "Defeat All Enemy Leaders"
+msgid "Defeat all enemy leaders"
 msgstr "Besiegt alle gegnerischen Anführer"
+
+#: ANLEra/utils/objectives.cfg:46 ANLEra/utils/objectives.cfg:59
+msgid "Warning:"
+msgstr "Achtung:"
+
+#: ANLEra/utils/objectives.cfg:49
+msgid ""
+"The new command »:droid full« is not supported and will cause Out-of-Sync "
+"errors when used."
+msgstr ""
+"Das neue Kommando »:droid full« wird nicht unterstützt und führt bei "
+"Anwendung zu Out-of-Sync Fehlern."
+
+#: ANLEra/utils/objectives.cfg:51
+msgid ""
+"In some parts of this add-on AI sides behave differently from the player "
+"sides. Using the new command leads to inconsistency among the clients "
+"whether a side is AI controlled or not, which in turn leads to Out-of-Sync "
+"errors.\n"
+"For example:\n"
+"When an AI unit moves onto a village, it will destroy the village. Not so "
+"for player sides.\n"
+"\n"
+"The »normally« droided sides count still as player sides, where behind the "
+"scenes an AI plays for a player."
+msgstr ""
+"In diesem Add-on macht es an manchen Stellen einen Unterschied, ob eine "
+"Partei von der KI oder einem Spieler gesteuert wird. Das neue Kommando führt "
+"zu Uneinigkeit zwischen den Clients ob eine Seite KI-gesteuert ist oder "
+"nicht, was wiederum zu Out-of-Sync Fehlern führt.\n"
+"Beispiel;\n"
+"Wenn die KI auf ein Dorf zieht, zerstört sie es. Nicht so wenn ein Spieler "
+"das macht.\n"
+"\n"
+"Das »normale« droid Kommando lässt zwar auch Seiten von der KI spielen, aber "
+"dabei spielt sie »heimlich« und stellvertretend für einen Spieler."
 
 #. [message]: speaker=narrator
 #. [option]
@@ -666,20 +705,35 @@ msgstr ""
 "Forschungsgebiet festlegen."
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:36
+#: ANLEra/utils/worker_options.cfg:76
 msgid "Cost:"
 msgstr "Kosten:"
 
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
-#: ANLEra/utils/worker_options.cfg:38 ANLEra/utils/worker_options.cfg:80
+#: ANLEra/utils/worker_options.cfg:78 ANLEra/utils/worker_options.cfg:120
 msgid "g"
 msgstr "G"
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:80
+#: ANLEra/utils/worker_options.cfg:120
 msgid "Earns:"
 msgstr "Einnahmen:"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:515
+msgid "Remove Fireplace"
+msgstr "Feuerstelle beseitigen"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:528
+msgid "Light a Fire"
+msgstr "Feuer entzünden"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:561
+msgid "Renovate Encampment"
+msgstr "Lager renovieren"
 
 #. [set_menu_item]: id=anl_choose_new_recruit_merfolk
 #: ANLEra/utils/research_options.cfg:395
