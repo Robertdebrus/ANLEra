@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2020-07-18 08:23 UTC\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [choice]: id=difficulty
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:14
+msgid "Difficulty"
+msgstr ""
+
+#. [choice]: id=difficulty
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:15
+msgid ""
+"Change the dificulty:\n"
+"\n"
+"On easy one starts with 50 gold more.\n"
+"Hard mode reduces starting gold by 25.\n"
+"\n"
+"Has also influrence on the enemies."
+msgstr ""
+
+#. [item]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:22
+msgid "Easy"
+msgstr ""
+
+#. [item]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:26
+msgid "Normal"
+msgstr ""
+
+#. [item]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:30
+msgid "Hard"
+msgstr ""
+
+#. [entry]: id=empire
+#. Name of an option
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:38
+msgid "Empire’s name"
+msgstr ""
+
+#. [entry]: id=empire
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:39
+msgid "The name of your empire (optional)"
+msgstr ""
+
+#. [multiplayer]: id=ANLEra_ANE
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:43
+msgid "4p — Undead Empire"
+msgstr ""
+
+#. [multiplayer]: id=ANLEra_ANE
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:44
+msgid "Chased by many armies poised with despise of undead, the remnants of a small necromantic cult reach an isolated valley and establish a base in it, preparing to increase their numbers by harvesting the local populace and determined to found an empire of death with an ultimate manifest of destiny to conquer the world!"
+msgstr ""
+
+#. [multiplayer]: id=ANLEra_ANE
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:46
+msgid "Three difficulty settings are available."
+msgstr ""
+
+#. [multiplayer]: id=ANLEra_ANE
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:49
+msgid "The scenario is also playable with less than 4 sides, if one increases the starting gold accordingly."
+msgstr ""
+
+#. [part]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:71
+msgid "Chased by many armies, fueled by despise of the undead, the remnants of a small necromantic cult reach an isolated valley and establish a base in it."
+msgstr ""
+
+#. [part]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:75
+msgid "The cultists are preparing to increase their numbers by harvesting the local populace and they are determined to forge an empire of death with an ultimate manifest destiny to conquer the world!"
+msgstr ""
+
+#. [part]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:79
+msgid "Relentless, implacible, and dreadful, the Undead are bound by the will of the Necromancers. As they march across the land, their ranks swell with the corpses, and sometimes with the spirits, of their slain foes. Few things inspire more fear in the hearts of men, or any sentient living creature, than the sight of such an abominable army..."
+msgstr ""
+
+#. [side]: type=Dark Sorcerer
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:102
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:124
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:146
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:168
+msgid "The Empire"
+msgstr ""
+
+#. [side]: type=Assassin
+#. gender=male
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:185
+msgid "Poisantros"
+msgstr ""
+
+#. [side]: type=Assassin
+#. [side]: type=Dwarvish Runemaster
+#. [side]: type=Elvish Shyde
+#. [side]: type=Fire Dragon
+#. [side]: type=Yeti
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:189
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:221
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:270
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:301
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:334
+msgid "The Opposition"
+msgstr ""
+
+#. [side]: type=Dwarvish Runemaster
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:217
+msgid "Zarack"
+msgstr ""
+
+#. [side]: type=Elvish Shyde
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:266
+msgid "Nimdilla"
+msgstr ""
+
+#. [note]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:373
+msgid "Hard difficulty level choosen"
+msgstr ""
+
+#. [note]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:382
+msgid "Difficulty adjustment: less enemies"
+msgstr ""
+
+#. [objective]: condition=win
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:385
+msgid "Kill all enemy leaders"
+msgstr ""
+
+#. [objective]: condition=lose
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:389
+msgid "Death of all party leaders"
+msgstr ""
+
+#. [objective]: condition=lose
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:393
+msgid "Turns run out"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:402
+msgid "Undead Empire"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:405
+msgid ""
+"In Undead Empire the goal is to build an evil empire strong enough to destroy all enemy leaders. There are five leaders that must be slain, two of which are hidden. The starting fort will be flooded after three turns, be ready to relocate. Thanks to Bob_The_Mighty and all the team that worked on the original A New Land project.\n"
+"\n"
+"<b>Undead Empire was made by:</b>\n"
+"\n"
+"- jb: map design and scenario concept\n"
+"- Mythological: WML and storyline\n"
+"- Mica: Help in reviving the project, and getting it updated.\n"
+"- Shadowmaster: Help in helping with reviving the project, etc.\n"
+"- enclave & shiki: Ported to current version\n"
+""
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:419
+msgid "Warning : your base gets destroyed soon after the start of the game - be ready to build a new base! Also, some of the enemy leaders can be reached only by defeating the Dwarvish and Elvish leaders."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:420
+msgid "Warning: your base gets destroyed soon after the start of the game - be ready to build a new base! Also, some of the enemy leaders can be reached only by defeating the Elvish leader."
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:425
+msgid "Here we are. We have established a base in this valley. Fortunately we found a graveyard nearby so we wont be short of corpses."
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:430
+msgid "No more running away. We must stand our ground here and start fulfilling our mission or perish trying!"
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:437
+msgid "The natives of the valley are hostile towards us. The elves, dwarves and humans living here have united agaist us and are going to try to destroy us."
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:442
+msgid "Why am I not surprised? Well, the more enemies we have, the more undead minions we'll raise when we kill them."
+msgstr ""
+
+#. ['Teamname']
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:535
+msgid "Local Inhibitants"
+msgstr ""
+
+#. ['Teamname (long variant)']
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:548
+msgid "Enemies of the Empire"
+msgstr ""
+
+#. ['Teamname (shorter alternative)']
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:555
+msgid "Enemies"
+msgstr ""
+
+#. ['Teamname (hidden bosses)']
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:563
+msgid "Furious Enemies"
+msgstr ""
+
+#. ['[side]: type=Assassin']
+#. gender=female
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:586
+msgid "May Istra"
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:648
+msgid "The dwarves are getting desperate - they are calling reinforcements from everywhere; we have to put extra effort into killing them!"
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:722
+msgid "The accursed elves have destroyed the dam - we have to relocate our base of operations!"
+msgstr ""
+
+#. [message]: race=naga
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:740
+msgid "The elves have destroyed our home by destroying the dam. We come to aid in your quest."
+msgstr ""
+
+#. [message]: race=naga
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:758
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:776
+msgid "Reinforcements have arrived!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:791
+msgid "After searching the Outlaw leader's keep. you find a map revealing a secret passage in the cave."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:821
+msgid "The elves are calling their forest friends to fight for them. The mighty wose are skilled in fighting us, especially the skeletons. Be very careful!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:834
+msgid "With her final breath, the Shyde calls upon a powerful Yeti to protect the land."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:873
+msgid "Refusing to yield the land to the Undead, the mighty yeti uses calls upon the Red Dragon with his last ounce of power."
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/Undead_Empire.cfg:187
+msgid "Awaken, my undead. We have a mission to fulfil."
+msgstr ""
+

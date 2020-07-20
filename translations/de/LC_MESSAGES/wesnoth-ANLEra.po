@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-07-03 02:00 UTC\n"
-"PO-Revision-Date: 2020-07-03 04:11+0200\n"
+"POT-Creation-Date: 2020-07-20 07:44 UTC\n"
+"PO-Revision-Date: 2020-07-20 09:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. [multiplayer_side]: id=ANLEra_Outlaws, type=Ruffian
 #: ANLEra/factions/outlaws.cfg:4
@@ -19,19 +19,19 @@ msgstr "Geächtete"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:225
+#: ANLEra/utils/worker_options.cfg:230
 msgid "Convert to Grassland"
 msgstr "Zu Grasland umwandeln"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:541
+#: ANLEra/utils/worker_options.cfg:546
 msgid "Remove Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:551
+#: ANLEra/utils/worker_options.cfg:556
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
 
@@ -259,17 +259,17 @@ msgstr "Sie haben uns überrannt!"
 msgid "Explorers"
 msgstr "Erkunder"
 
-#: ANLEra/scenarios/ANI/define_sides.cfg:41
+#: ANLEra/scenarios/ANI/define_sides.cfg:45
 msgid "Inhabitants"
 msgstr "Bewohner"
 
 #. [side]: type=Goblin Rouser
-#: ANLEra/scenarios/ANI/define_sides.cfg:91
+#: ANLEra/scenarios/ANI/define_sides.cfg:94
 msgid "Shivshank"
 msgstr "Shivshank"
 
 #. [side]: type=Goblin Rouser
-#: ANLEra/scenarios/ANI/define_sides.cfg:106
+#: ANLEra/scenarios/ANI/define_sides.cfg:109
 msgid "Gagor"
 msgstr "Gagor"
 
@@ -308,7 +308,7 @@ msgid "5p — A New Land"
 msgstr "5S – Eine neue Heimat"
 
 #. [multiplayer]: id=ANLEra_ANL5p
-#: ANLEra/scenarios/5p_A_New_Land.cfg:8
+#: ANLEra/scenarios/5p_A_New_Land.cfg:12
 msgid ""
 "This 5p survival scenario allows you to construct buildings and terraform "
 "the land."
@@ -317,14 +317,14 @@ msgstr ""
 "wird Gebäude zu bauen und die Landschaft umzuformen."
 
 #. [multiplayer]: id=ANLEra_ANL5p
-#: ANLEra/scenarios/5p_A_New_Land.cfg:8
+#: ANLEra/scenarios/5p_A_New_Land.cfg:12
 msgid "Same difficulty as 4p variant, but one more player."
 msgstr ""
 "Selbe Gegner wie in der Variante für vier Spieler, jedoch könnt Ihr einen "
 "weiteren Mitstreiter hinzuziehen."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:609
+#: ANLEra/scenarios/5p_A_New_Land.cfg:614
 msgid ""
 "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
@@ -332,32 +332,32 @@ msgstr ""
 "gibt."
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:615
+#: ANLEra/scenarios/5p_A_New_Land.cfg:620
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr "Wir sollten vorsichtig sein, es gibt hier eine Menge Gefahren."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:644
+#: ANLEra/scenarios/5p_A_New_Land.cfg:649
 msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:765
+#: ANLEra/scenarios/5p_A_New_Land.cfg:770
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
 #. [message]: type=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:773
+#: ANLEra/scenarios/5p_A_New_Land.cfg:778
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:846
+#: ANLEra/scenarios/5p_A_New_Land.cfg:851
 msgid "They’ll never take me alive!"
 msgstr "Sie werden mich nicht lebend bekommen! Niemals!"
 
 #. [multiplayer]: id=ANLEra_ANL
-#: ANLEra/scenarios/4p_A_New_Land.cfg:8
+#: ANLEra/scenarios/4p_A_New_Land.cfg:12
 msgid ""
 "This 4p survival scenario allows you to construct buildings and terraform "
 "the land."
@@ -366,7 +366,7 @@ msgstr ""
 "wird Gebäude zu bauen und die Landschaft umzuformen."
 
 #. [multiplayer]: id=ANLEra_ANL
-#: ANLEra/scenarios/4p_A_New_Land.cfg:10
+#: ANLEra/scenarios/4p_A_New_Land.cfg:14
 msgid "Edited by Robertdebrus for use with A New Land Era."
 msgstr "Von Robertdebrus für die Benutzung mit der ANL Epoche angepasst."
 
@@ -377,7 +377,7 @@ msgid "2p — A New Island"
 msgstr "2S – Eine wiederentdeckte Insel"
 
 #. [multiplayer]: id=ANLEra_ANI
-#: ANLEra/scenarios/2p_A_New_Island.cfg:11
+#: ANLEra/scenarios/2p_A_New_Island.cfg:15
 msgid ""
 "You rediscover a forgotten island. You know that humans lived here, possibly "
 "also elves. But in the course of bigger political events this region was "
@@ -388,25 +388,25 @@ msgstr ""
 "Ereignisse ist diese Region in Vergessenheit geraten."
 
 #. [label]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:29
-#: ANLEra/scenarios/2p_A_New_Island.cfg:44
+#: ANLEra/scenarios/2p_A_New_Island.cfg:34
+#: ANLEra/scenarios/2p_A_New_Island.cfg:49
 msgid "The farm"
 msgstr "Die Farm"
 
 #. [label]
 #. [terrain_type]: id=ANLEra_university
-#: ANLEra/scenarios/2p_A_New_Island.cfg:34
-#: ANLEra/scenarios/2p_A_New_Island.cfg:39 ANLEra/terrain/terrain.cfg:6
+#: ANLEra/scenarios/2p_A_New_Island.cfg:39
+#: ANLEra/scenarios/2p_A_New_Island.cfg:44 ANLEra/terrain/terrain.cfg:6
 msgid "University"
 msgstr "Universität"
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:56
+#: ANLEra/scenarios/2p_A_New_Island.cfg:61
 msgid "You have landed on an unknown island."
 msgstr "Ihr seid auf einer unbekannten Insel gelandet."
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:62
+#: ANLEra/scenarios/2p_A_New_Island.cfg:67
 msgid "Can you settle here?"
 msgstr "Könnt Ihr Euch hier niederlassen?"
 
@@ -428,52 +428,52 @@ msgstr ""
 "8 zu öffnen beginnt, und mit Runde 14 komplett geöffnet sein wird."
 
 #. [unit]: id=Peasant-1, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:38
+#: ANLEra/scenarios/4p_The_Wall.cfg:41
 msgid "Owan"
 msgstr "Owan"
 
 #. [unit]: id=Peasant-2, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:45
+#: ANLEra/scenarios/4p_The_Wall.cfg:48
 msgid "Aethubry"
 msgstr "Aethubry"
 
 #. [unit]: id=Peasant-3, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:64
+#: ANLEra/scenarios/4p_The_Wall.cfg:67
 msgid "Blygwyn"
 msgstr "Blygwyn"
 
 #. [unit]: id=Peasant-4, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:71
+#: ANLEra/scenarios/4p_The_Wall.cfg:74
 msgid "Midoc"
 msgstr "Midoc"
 
 #. [unit]: id=Peasant-5, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:90
+#: ANLEra/scenarios/4p_The_Wall.cfg:93
 msgid "Rhygwyddryn"
 msgstr "Rhygwyddryn"
 
 #. [unit]: id=Peasant-6, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:97
+#: ANLEra/scenarios/4p_The_Wall.cfg:100
 msgid "Blyn"
 msgstr "Blyn"
 
 #. [unit]: id=Peasant-7, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:116
+#: ANLEra/scenarios/4p_The_Wall.cfg:119
 msgid "Sec"
 msgstr "Sec"
 
 #. [unit]: id=Peasant-8, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:123
+#: ANLEra/scenarios/4p_The_Wall.cfg:126
 msgid "Gwyn"
 msgstr "Gwyn"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:137 ANLEra/scenarios/4p_The_Wall.cfg:153
+#: ANLEra/scenarios/4p_The_Wall.cfg:140 ANLEra/scenarios/4p_The_Wall.cfg:156
 msgid "The Wall crumbles."
 msgstr "Die Mauer bröckelt."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:174
+#: ANLEra/scenarios/4p_The_Wall.cfg:177
 msgid "The Wall falls."
 msgstr "Die Mauer fällt."
 
@@ -484,14 +484,14 @@ msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
 
 #. [message]: speaker=unit
 #. similar string in mainline
-#: ANLEra/utils/general_purpose/trapped.cfg:66
+#: ANLEra/utils/general_purpose/trapped.cfg:65
 msgid "Let’s cut you free from this web."
 msgstr "Dann will ich euch mal von den Spinnweben befreien!"
 
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:113
+#: ANLEra/utils/general_purpose/trapped.cfg:112
 msgid ""
 "male critter^You release the $critter.language_name from the web and it "
 "agrees to help you."
@@ -502,7 +502,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:124
+#: ANLEra/utils/general_purpose/trapped.cfg:123
 msgid ""
 "female critter^You release the $critter.language_name from the web and it "
 "agrees to help you."
@@ -543,13 +543,13 @@ msgstr "Seerosen entfernen"
 
 #. [option]
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/special_macros.cfg:185
+#: ANLEra/utils/special_macros.cfg:141
 msgid "Choose later"
 msgstr "Einheitentyp später wählen"
 
 #. [option]
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/special_macros.cfg:200
+#: ANLEra/utils/special_macros.cfg:156
 msgid "No, maybe not."
 msgstr "Nein, vielleicht nicht."
 
@@ -597,41 +597,9 @@ msgstr "Tipps:"
 msgid "Defeat all enemy leaders"
 msgstr "Besiegt alle gegnerischen Anführer"
 
-#: ANLEra/utils/objectives.cfg:46 ANLEra/utils/objectives.cfg:59
+#: ANLEra/utils/objectives.cfg:46
 msgid "Warning:"
 msgstr "Achtung:"
-
-#: ANLEra/utils/objectives.cfg:49
-msgid ""
-"The new command »:droid full« is not supported and will cause Out-of-Sync "
-"errors when used."
-msgstr ""
-"Das neue Kommando »:droid full« wird nicht unterstützt und führt bei "
-"Anwendung zu Out-of-Sync Fehlern."
-
-#: ANLEra/utils/objectives.cfg:51
-msgid ""
-"In some parts of this add-on AI sides behave differently from the player "
-"sides. Using the new command leads to inconsistency among the clients "
-"whether a side is AI controlled or not, which in turn leads to Out-of-Sync "
-"errors.\n"
-"For example:\n"
-"When an AI unit moves onto a village, it will destroy the village. Not so "
-"for player sides.\n"
-"\n"
-"The »normally« droided sides count still as player sides, where behind the "
-"scenes an AI plays for a player."
-msgstr ""
-"In diesem Add-on macht es an manchen Stellen einen Unterschied, ob eine "
-"Partei von der KI oder einem Spieler gesteuert wird. Das neue Kommando führt "
-"zu Uneinigkeit zwischen den Clients ob eine Seite KI-gesteuert ist oder "
-"nicht, was wiederum zu Out-of-Sync Fehlern führt.\n"
-"Beispiel;\n"
-"Wenn die KI auf ein Dorf zieht, zerstört sie es. Nicht so wenn ein Spieler "
-"das macht.\n"
-"\n"
-"Das »normale« droid Kommando lässt zwar auch Seiten von der KI spielen, aber "
-"dabei spielt sie »heimlich« und stellvertretend für einen Spieler."
 
 #. [message]: speaker=narrator
 #. [option]
@@ -711,29 +679,242 @@ msgstr "Kosten:"
 
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
-#: ANLEra/utils/worker_options.cfg:78 ANLEra/utils/worker_options.cfg:120
+#: ANLEra/utils/worker_options.cfg:78 ANLEra/utils/worker_options.cfg:123
 msgid "g"
 msgstr "G"
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:120
+#: ANLEra/utils/worker_options.cfg:123
 msgid "Earns:"
 msgstr "Einnahmen:"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:515
+#: ANLEra/utils/worker_options.cfg:520
 msgid "Remove Fireplace"
 msgstr "Feuerstelle beseitigen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:528
+#: ANLEra/utils/worker_options.cfg:533
 msgid "Light a Fire"
 msgstr "Feuer entzünden"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:561
+#: ANLEra/utils/worker_options.cfg:566
 msgid "Renovate Encampment"
 msgstr "Lager renovieren"
+
+#. [lua]: anl.send_gold_dialog
+#: ANLEra/utils/diplomacy.lua:60
+msgid "Diplomatic Options"
+msgstr "Diplomatie-Optionen"
+
+#. [lua]: anl.send_gold_dialog
+#: ANLEra/utils/diplomacy.lua:61
+msgid "I don’t have enough gold..."
+msgstr "Ich habe nicht genug Gold …"
+
+#. [lua]: anl.send_gold
+#: ANLEra/utils/diplomacy.lua:78
+msgid "Send gold to $side_name from side $side_no|."
+msgstr "Sendet $side_name von Partei $side_no| Gold."
+
+#. [lua]: anl.send_gold
+#: ANLEra/utils/diplomacy.lua:111
+msgid ""
+"I hereby donate 20 gold to the coffers of $player_name from side $side|."
+msgstr "Hiermit spende ich 20 Gold an $player_name von Partie $side|."
+
+#. [lua]: anl.send_tech
+#: ANLEra/utils/diplomacy.lua:147
+msgid ""
+"<span color='green'>$side_name from side $side_no|</span>\n"
+"Share knowledge of agriculture"
+msgstr ""
+"<span color='green'>$side_name von Partei $side_no|</span>\n"
+"Wissen über Ackerbau teilen"
+
+#. [lua]: anl.send_tech
+#: ANLEra/utils/diplomacy.lua:158
+msgid ""
+"<span color='green'>$side_name from side $side_no|</span>\n"
+"Share knowledge of mining"
+msgstr ""
+"<span color='green'>$side_name von Partei $side_no|</span>\n"
+"Wissen über Bergbau teilen"
+
+#. [lua]: anl.send_tech
+#: ANLEra/utils/diplomacy.lua:170
+msgid ""
+"<span color='green'>$side_name from side $side_no|</span>\n"
+"Share knowledge of warfare"
+msgstr ""
+"<span color='green'>$side_name von Partei $side_no|</span>\n"
+"Wissen über Kriegsführung teilen"
+
+#. [lua]: anl.send_tech
+#: ANLEra/utils/diplomacy.lua:208
+msgid ""
+"$side_name from side $side_no|, since our wisdom exceeds yours I have "
+"instructed my scholars to further your understanding of agriculture."
+msgstr ""
+"Da unsre Forschung weiter vorangeschritten ist als die Eure, $side_name von "
+"Partei $side_no|, habe ich meine Forscher angewiesen, Euch über uns’re "
+"aktuellen Fortschritte im Ackerbau zu unterrichten."
+
+#. [lua]: anl.send_tech
+#: ANLEra/utils/diplomacy.lua:220
+msgid ""
+"$side_name from side $side_no|, since the wisdom of my people exceeds yours "
+"I have instructed my scholars to aid you in your efforts to learn the "
+"science of mining."
+msgstr ""
+"Da unsre Forschung weiter vorangeschritten ist als die Eure, $side_name von "
+"Partei $side_no|, habe ich meine Forschen angewiesen, Euch über uns’re "
+"aktuellen Fortschritte im Bergbau zu unterrichten."
+
+#. [lua]: anl.send_tech
+#: ANLEra/utils/diplomacy.lua:232
+msgid ""
+"$side_name from side $side_no|, you know worryingly little about the arts of "
+"war. I feel an obligation to instruct you in this vital matter."
+msgstr ""
+"$side_name von Partei $side_no|, Ihr wisst nur sehr wenig über die Kunst des "
+"Krieges. Deshalb werde ich Euch über unsere aktuellen Erkenntnisse in diesem "
+"überlebenswichtigen Bereich unterrichten."
+
+#. [lua]: negotiation_option_text
+#: ANLEra/utils/diplomacy.lua:318
+msgid "Negotiation Progress: "
+msgstr "Fortschritt der Verhandlungen: "
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:342
+msgid "Negotiate with the Dwarves"
+msgstr "Verhandlungen mit den Zwergen"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:343
+msgid "Lets you recruit a Dwarvish unit"
+msgstr "Dies erlaubt es Euch, eine zwergische Einheit zu rekrutieren"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:347
+msgid "Negotiate with the Elves"
+msgstr "Verhandlungen mit den Elfen"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:348
+msgid "Lets you recruit an Elvish unit"
+msgstr "Dies erlaubt es Euch, eine elfische Einheit zu rekrutieren"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:352
+msgid "Negotiate with the Drakes"
+msgstr "Verhandlungen mit den Draken"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:353
+msgid "Lets you recruit a Drake unit"
+msgstr "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:357
+msgid "Negotiate with the Undead"
+msgstr "Verhandlungen mit den Untoten"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:358
+msgid "Lets you recruit an Undead unit"
+msgstr "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:362
+msgid "Negotiate with Loyalists"
+msgstr "Verhandlungen mit den Loyalisten"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:363
+msgid "Lets you recruit a Loyalist unit"
+msgstr "Dies erlaubt es Euch, eine Einheit der Loyalisten zu rekrutieren"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:370
+msgid "Negotiate with the Merfolk"
+msgstr "Verhandlungen mit dem Meervolk"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:371
+msgid "Lets you recruit a Merfolk unit"
+msgstr "Dies erlaubt es Euch, eine Einheit des Meervolkes zu rekrutieren"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:375
+msgid "Negotiate with Mercenaries"
+msgstr "Verhandlungen mit Söldnern"
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:376
+msgid "Lets you recruit Mercenary units"
+msgstr "Dies erlaubt es Euch, einen Söldner zu rekrutieren"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:421
+msgid ""
+"Our talks are complete — the Drakes will gladly fight by your side. Which of "
+"our brethren do you want to recruit?"
+msgstr ""
+"Unsere Verhandlungen sind abgeschlossen. Wir Draken werden Euch "
+"unterstützen. Wen wollt Ihr rekrutieren?"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:425
+msgid ""
+"Our talks are complete — I will summon the dead for you. Which of them do "
+"you want to come?"
+msgstr ""
+"Unsere Verhandlungen sind abgeschlossen. Ich werde die Toten für Euch rufen. "
+"Welchen von Ihnen wollt Ihr sehen?"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:429
+msgid ""
+"Our talks are complete — the Loyalists will gladly fight by your side. Which "
+"of our men do you want to recruit?"
+msgstr ""
+"Unsere Verhandlungen sind abgeschlossen. Wir Loyalisten werden an Eurer "
+"Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:433
+msgid ""
+"Our talks are complete — the Outlaws will gladly fight by your side. Which "
+"of our men do you want to recruit?"
+msgstr ""
+"Unsere Verhandlungen sind abgeschlossen. Wir Geächteten werden an Eurer "
+"Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:437
+msgid ""
+"Our talks are complete — the Merfolk will gladly fight by your side. Which "
+"of our people do you want to recruit?"
+msgstr ""
+"Unsere Verhandlungen sind abgeschlossen. Unser Volk nimmt Euer Ersuchen an. "
+"Wessen Unterstützung benötigt Ihr?"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:441
+msgid ""
+"Our talks are complete — some Mercenaries will gladly fight by your side. "
+"Which of us do you want to recruit?"
+msgstr ""
+"Unsere Verhandlungen sind abgeschlossen. Wir Söldner nehmen Euren Auftrag "
+"an. Wessen Fähigkeiten benötigt Ihr?"
+
+#. [lua]: determine_choosable_units
+#: ANLEra/utils/diplomacy.lua:463
+msgid "Negotiation Complete"
+msgstr "Verhandlungen abgeschlossen"
 
 #. [set_menu_item]: id=anl_choose_new_recruit_merfolk
 #: ANLEra/utils/research_options.cfg:395
@@ -746,184 +927,44 @@ msgstr "Speziellen Einheitentyp wählen"
 msgid "Would you like to be able to recruit this unit?"
 msgstr "Wollt Ihr diesen Einheitentyp rekrutieren können?"
 
-#. [message]: speaker=narrator
-#: ANLEra/utils/research_options.cfg:682
+#: ANLEra/utils/research_options.cfg:646 ANLEra/utils/research_options.cfg:674
+#: ANLEra/utils/research_options.cfg:702 ANLEra/utils/research_options.cfg:729
+msgid "Study Complete"
+msgstr "Forschungsprojekt abgeschlossen"
+
+#: ANLEra/utils/research_options.cfg:648
+msgid "$side_name|’s farms produce now $amount gold."
+msgstr "$side_name|s Farmen produzieren nun $amount Gold."
+
+#: ANLEra/utils/research_options.cfg:676
+msgid "$side_name|’s mines produce now $amount gold."
+msgstr "$side_name|s Mines produzieren jetzt $amount gold."
+
+#: ANLEra/utils/research_options.cfg:704
 msgid ""
-"$player_$side_number|.name|, we have finished researching warfare. Right-"
-"click on a researcher in a university to select a unit to recruit."
+"$side_name|, we have finished researching warfare. Right-click on a "
+"researcher in a university to select a unit to recruit."
 msgstr ""
-"Wir haben neue Fortschritte in der Kriegsführung erzielt, $player_"
-"$side_number|.name|. Rechtsklickt auf einen Forscher in einer Universität, "
-"um den neuen Einheitentyp auszuwählen."
+"Wir haben neue Fortschritte in der Kriegsführung erzielt, $side_name|, "
+"Rechtsklickt auf einen Forscher in einer Universität, um den neuen "
+"Einheitentyp auszuwählen."
 
-#. [option]
-#: ANLEra/utils/leader_options.cfg:264
-msgid "Negotiation Progress: "
-msgstr "Fortschritt der Verhandlungen: "
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:537
-msgid "Negotiate with the Dwarves"
-msgstr "Verhandlungen mit den Zwergen"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:537
-msgid "Lets you recruit a Dwarvish unit"
-msgstr "Dies erlaubt es Euch, eine zwergische Einheit zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:553
-msgid "Negotiate with the Elves"
-msgstr "Verhandlungen mit den Elfen"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:553
-msgid "Lets you recruit an Elvish unit"
-msgstr "Dies erlaubt es Euch, eine elfische Einheit zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:568
-msgid "Negotiate with the Drakes"
-msgstr "Verhandlungen mit den Draken"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:568
-msgid "Lets you recruit a Drake unit"
-msgstr "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:583
-msgid "Negotiate with the Undead"
-msgstr "Verhandlungen mit den Untoten"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:583
-msgid "Lets you recruit an Undead unit"
-msgstr "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:599
-msgid "Negotiate with Loyalists"
-msgstr "Verhandlungen mit den Loyalisten"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:599
-msgid "Lets you recruit a Loyalist unit"
-msgstr "Dies erlaubt es Euch, eine Einheit der Loyalisten zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:615
-msgid "Negotiate with the Outlaws"
-msgstr "Verhandlungen mit den Geächteten"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:615
-msgid "Lets you recruit a Outlaw unit"
-msgstr "Dies erlaubt es Euch, eine Einheit der Geächteten zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:630
-msgid "Negotiate with the Merfolk"
-msgstr "Verhandlungen mit dem Meervolk"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:630
-msgid "Lets you recruit a Merfolk unit"
-msgstr "Dies erlaubt es Euch, eine Einheit des Meervolkes zu rekrutieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:640
-msgid "Negotiate with Mercenaries"
-msgstr "Verhandlungen mit Söldnern"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/leader_options.cfg:640
-msgid "Lets you recruit Mercenary units"
-msgstr "Dies erlaubt es Euch, einen Söldner zu rekrutieren"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:735
-msgid ""
-"Our talks are complete — the Drakes will gladly fight by your side. Which of "
-"our brethren do you want to recruit?"
+#. For level 1's it's e.g. 100% more, but in fact it's +1 more.
+#: ANLEra/utils/research_options.cfg:732
+msgid "$side_name|’s scholars produce now $amount|00% more research."
 msgstr ""
-"Unsere Verhandlungen sind abgeschlossen. Wir Draken werden Euch "
-"unterstützen. Wen wollt Ihr rekrutieren?"
+"Die Forschungsergebnisse von $side_name|s Magiers liegen mittlerweile bei "
+"$amount|00%."
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:768
-msgid ""
-"Our talks are complete — I will summon the dead for you. Which of them do "
-"you want to come?"
-msgstr ""
-"Unsere Verhandlungen sind abgeschlossen. Ich werde die Toten für Euch rufen. "
-"Welchen von Ihnen wollt Ihr sehen?"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:803
-msgid ""
-"Our talks are complete — the Loyalists will gladly fight by your side. Which "
-"of our men do you want to recruit?"
-msgstr ""
-"Unsere Verhandlungen sind abgeschlossen. Wir Loyalisten werden an Eurer "
-"Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:839
-msgid ""
-"Our talks are complete — the Outlaws will gladly fight by your side. Which "
-"of our men do you want to recruit?"
-msgstr ""
-"Unsere Verhandlungen sind abgeschlossen. Wir Geächteten werden an Eurer "
-"Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:873
-msgid ""
-"Our talks are complete — the Merfolk will gladly fight by your side. Which "
-"of our people do you want to recruit?"
-msgstr ""
-"Unsere Verhandlungen sind abgeschlossen. Unser Volk nimmt Euer Ersuchen an. "
-"Wessen Unterstützung benötigt Ihr?"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:908
-msgid ""
-"Our talks are complete — some Mercenaries will gladly fight by your side. "
-"Which of us do you want to recruit?"
-msgstr ""
-"Unsere Verhandlungen sind abgeschlossen. Wir Söldner nehmen Euren Auftrag "
-"an. Wessen Fähigkeiten benötigt Ihr?"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:911
-msgid "Elvish Hero"
-msgstr "Heldenhafter Elf"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:912
-msgid "Mage Hero"
-msgstr "Meisterhafter Magier"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:913
-msgid "Fallen Hero"
-msgstr "Gefallener Held"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/leader_options.cfg:914
-msgid "Berserker Hero"
-msgstr "Bärenstarker Berserker"
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/extra_ai_units.cfg:64
+#: ANLEra/utils/extra_ai_units.cfg:82
 msgid "$name_of_side| can now recruit a new unit type: $unit_type.name|"
 msgstr ""
 "$name_of_side| kann nun einen neuen Einheitentypen ausbilden: $unit_type."
 "name|"
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/extra_ai_units.cfg:98
+#: ANLEra/utils/extra_ai_units.cfg:116
 msgid ""
 "$name_of_side| can now recruit new unit types: $namelist| and $last_one|"
 msgstr ""
@@ -951,6 +992,54 @@ msgstr ""
 "Eine Epoche, welche die Mechanismen des Szenarios »Eine neue Heimat« aus dem "
 "Hauptspiel benutzt und weitere Fraktionen bereitstellt. Funktioniert am "
 "besten mit unter 10 Spielern."
+
+#~ msgid ""
+#~ "The new command »:droid full« is not supported and will cause Out-of-Sync "
+#~ "errors when used."
+#~ msgstr ""
+#~ "Das neue Kommando »:droid full« wird nicht unterstützt und führt bei "
+#~ "Anwendung zu Out-of-Sync Fehlern."
+
+#~ msgid ""
+#~ "In some parts of this add-on AI sides behave differently from the player "
+#~ "sides. Using the new command leads to inconsistency among the clients "
+#~ "whether a side is AI controlled or not, which in turn leads to Out-of-"
+#~ "Sync errors.\n"
+#~ "For example:\n"
+#~ "When an AI unit moves onto a village, it will destroy the village. Not so "
+#~ "for player sides.\n"
+#~ "\n"
+#~ "The »normally« droided sides count still as player sides, where behind "
+#~ "the scenes an AI plays for a player."
+#~ msgstr ""
+#~ "In diesem Add-on macht es an manchen Stellen einen Unterschied, ob eine "
+#~ "Partei von der KI oder einem Spieler gesteuert wird. Das neue Kommando "
+#~ "führt zu Uneinigkeit zwischen den Clients ob eine Seite KI-gesteuert ist "
+#~ "oder nicht, was wiederum zu Out-of-Sync Fehlern führt.\n"
+#~ "Beispiel;\n"
+#~ "Wenn die KI auf ein Dorf zieht, zerstört sie es. Nicht so wenn ein "
+#~ "Spieler das macht.\n"
+#~ "\n"
+#~ "Das »normale« droid Kommando lässt zwar auch Seiten von der KI spielen, "
+#~ "aber dabei spielt sie »heimlich« und stellvertretend für einen Spieler."
+
+#~ msgid "Negotiate with the Outlaws"
+#~ msgstr "Verhandlungen mit den Geächteten"
+
+#~ msgid "Lets you recruit a Outlaw unit"
+#~ msgstr "Dies erlaubt es Euch, eine Einheit der Geächteten zu rekrutieren"
+
+#~ msgid "Elvish Hero"
+#~ msgstr "Heldenhafter Elf"
+
+#~ msgid "Mage Hero"
+#~ msgstr "Meisterhafter Magier"
+
+#~ msgid "Fallen Hero"
+#~ msgstr "Gefallener Held"
+
+#~ msgid "Berserker Hero"
+#~ msgstr "Bärenstarker Berserker"
 
 #~ msgid "Right-click on your leader for help"
 #~ msgstr ""
