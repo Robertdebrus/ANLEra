@@ -200,7 +200,7 @@ function anl.send_tech()
 
         if tech_option == 1 then
             wml.variables['player_' .. side.side .. '.farming.progress'] = progress +1 +
-            wml.variables['player_' .. wml.variables[side_number] .. '.philosophy.bonus']
+            wml.variables['player_' .. wml.variables['side_number'] .. '.philosophy.bonus']
 
             wesnoth.wml_actions.message{
                 side = wml.variables['side_number'],
@@ -212,7 +212,7 @@ function anl.send_tech()
 
         elseif tech_option == 2 then
             wml.variables['player_' .. side.side .. '.mining.progress'] = progress +1 +
-            wml.variables['player_' .. wml.variables[side_number] .. '.philosophy.bonus']
+            wml.variables['player_' .. wml.variables['side_number'] .. '.philosophy.bonus']
 
             wesnoth.wml_actions.message{
                 side = wml.variables['side_number'],
@@ -224,7 +224,7 @@ function anl.send_tech()
 
         elseif tech_option == 3 then
             wml.variables['player_' .. side.side .. '.warfare.progress'] = progress +1 +
-            wml.variables['player_' .. wml.variables[side_number] .. '.philosophy.bonus']
+            wml.variables['player_' .. wml.variables['side_number'] .. '.philosophy.bonus']
 
             wesnoth.wml_actions.message{
                 side = wml.variables['side_number'],
