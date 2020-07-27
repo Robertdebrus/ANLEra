@@ -410,37 +410,37 @@ function anl.choose_new_unit (v)
     -- TODO: make this a fuction, so umc can overwrite it without overwriting the rest of this function
     if v == 1 then
          _ = wesnoth.textdomain 'wesnoth-anl'
-        choosable = anl.determine_choosable_units(dwarvish_units)
+        choosable = anl.determine_choosable_recruits(dwarvish_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — the Dwarves will gladly fight by your side. Which of our brethren do you want to recruit?'
     elseif v == 2 then
          _ = wesnoth.textdomain 'wesnoth-anl'
-        choosable = anl.determine_choosable_units(elvish_units)
+        choosable = anl.determine_choosable_recruits(elvish_units)
         speaker = 'portraits/elves/high-lord.png'
         message = _ 'Our talks are complete — the Elves shall aid you in this battle. Which our of kin do you wish to recruit?'
     elseif v == 3 then
          _ = wesnoth.textdomain 'wesnoth-ANLEra' -- this is here only for wmlxgettext (Lua is already in this domain)
-        choosable = anl.determine_choosable_units(drakish_units)
+        choosable = anl.determine_choosable_recruits(drakish_units)
         speaker = 'portraits/drakes/flameheart.png'
         message = _ 'Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?'
     elseif v == 4 then
-        choosable = anl.determine_choosable_units(undead_units)
+        choosable = anl.determine_choosable_recruits(undead_units)
         speaker = 'portraits/undead/ancient-lich.png'
         message = _ 'Our talks are complete — I will summon the dead for you. Which of them do you want to come?'
     elseif v == 5 then
-        choosable = anl.determine_choosable_units(human_units)
+        choosable = anl.determine_choosable_recruits(human_units)
         speaker = 'portraits/humans/marshal-2.png'
         message = _ 'Our talks are complete — the Loyalists will gladly fight by your side. Which of our men do you want to recruit?'
     elseif v == 6 then
-        choosable = anl.determine_choosable_units(outlaw_units)
+        choosable = anl.determine_choosable_recruits(outlaw_units)
         speaker = 'portraits/humans/huntsman.png'
         message = _ 'Our talks are complete — the Outlaws will gladly fight by your side. Which of our men do you want to recruit?'
     elseif v == 7 then
-        choosable = anl.determine_choosable_units(merfolk_units)
+        choosable = anl.determine_choosable_recruits(merfolk_units)
         speaker = 'portraits/merfolk/hoplite.png'
         message = _ 'Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?'
     elseif v == 8 then
-        choosable = anl.determine_choosable_units(hero_units)
+        choosable = anl.determine_choosable_recruits(hero_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?'
     end
@@ -451,7 +451,7 @@ function anl.choose_new_unit (v)
         -- We have the unit type's id, but want to display image and name.
         table.insert(options, {
             label = wesnoth.unit_types[v].name,
-            image = wesnoth.unit_types[v].name.image .. '~TC(' .. wesnoth.current.side .. ', magenta)',
+            image = wesnoth.unit_types[v].image .. '~TC(' .. wesnoth.current.side .. ', magenta)',
         })
     end
 

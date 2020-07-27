@@ -49,7 +49,7 @@ Temporary Items
 Wesnoth 
 
 *.pbl
-info.cfg
+_info.cfg
 
 # autmatic backup files (e.g. created by msgmerge, unless disabled)
 *~
