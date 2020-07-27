@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-07-20 07:47 UTC\n"
+"POT-Creation-Date: 2020-07-27 23:22 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:230
+#: ANLEra/utils/worker_options.cfg:233
 msgid "Convert to Grassland"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:546
+#: ANLEra/utils/worker_options.cfg:549
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:556
+#: ANLEra/utils/worker_options.cfg:559
 msgid "Melt Ice"
 msgstr ""
 
@@ -187,6 +187,18 @@ msgstr ""
 msgid "They overran us!"
 msgstr ""
 
+#. [message]: type=Merman Fighter
+#. Message shown if the player plays this 2 player scenario alone.
+#: ANLEra/scenarios/ANI/1-player.cfg:54
+msgid "Fighting this battle alone?"
+msgstr ""
+
+#. [message]: type=Merman Fighter
+#. Message shown if the player plays this 2 player scenario alone.
+#: ANLEra/scenarios/ANI/1-player.cfg:59
+msgid "Let me help out."
+msgstr ""
+
 #: ANLEra/scenarios/ANI/define_sides.cfg:16
 msgid "Explorers"
 msgstr ""
@@ -206,25 +218,25 @@ msgid "Gagor"
 msgstr ""
 
 #. [message]
-#: ANLEra/scenarios/ANI/messages.cfg:9
+#: ANLEra/scenarios/ANI/messages.cfg:10
 msgid "I hear goblin war drums."
 msgstr ""
 
 #. [message]
-#: ANLEra/scenarios/ANI/messages.cfg:20
+#: ANLEra/scenarios/ANI/messages.cfg:21
 msgid "It will soon be night. I sense an undead horde coming."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. similar string in mainline anl
-#: ANLEra/scenarios/ANI/messages.cfg:31
+#: ANLEra/scenarios/ANI/messages.cfg:32
 msgid "Your men report strange sounds coming from some caves to the west."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. Similar string in mainline.
 #. TODO: actually the players have no vision over this shrouded place…
-#: ANLEra/scenarios/ANI/messages.cfg:50
+#: ANLEra/scenarios/ANI/messages.cfg:51
 msgid "Move any unit onto these villages to destroy the mine."
 msgstr ""
 
@@ -385,24 +397,41 @@ msgstr ""
 msgid "Due to their dedication to research, the Universities heal less."
 msgstr ""
 
-#. [message]: speaker=unit
 #. similar string in mainline
-#: ANLEra/utils/general_purpose/trapped.cfg:65
+#: ANLEra/utils/general_purpose/trapped.cfg:173
+#: ANLEra/utils/general_purpose/trapped.cfg:211
 msgid "Let’s cut you free from this web."
 msgstr ""
 
-#. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:112
-msgid "male critter^You release the $critter.language_name from the web and it agrees to help you."
+#: ANLEra/utils/general_purpose/trapped.cfg:176
+msgid "male critter^You release the $|critter.language_name from the web and it agrees to help you."
 msgstr ""
 
-#. [message]: speaker=narrator
 #. similar string in mainline
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:123
-msgid "female critter^You release the $critter.language_name from the web and it agrees to help you."
+#: ANLEra/utils/general_purpose/trapped.cfg:179
+msgid "female critter^You release the $|critter.language_name from the web and it agrees to help you."
+msgstr ""
+
+#: ANLEra/utils/general_purpose/trapped.cfg:191
+msgid "Let’s free you from this cage."
+msgstr ""
+
+#. the released unit is male
+#: ANLEra/utils/general_purpose/trapped.cfg:193
+msgid "male critter^You release the $|critter.language_name from the cage and it agrees to help you."
+msgstr ""
+
+#. the released unit is female
+#: ANLEra/utils/general_purpose/trapped.cfg:195
+msgid "female critter^You release the $|critter.language_name from the cage and it agrees to help you."
+msgstr ""
+
+#: ANLEra/utils/general_purpose/trapped.cfg:212
+#: ANLEra/utils/general_purpose/trapped.cfg:213
+msgid "You release the wose from the web and it agrees to help you."
 msgstr ""
 
 #: ANLEra/utils/buildings/buildings_outlaw.cfg:16
@@ -436,16 +465,235 @@ msgstr ""
 msgid "Remove Water Lilies"
 msgstr ""
 
-#. [option]
-#. Decide later which unit to obtain from research
-#: ANLEra/utils/special_macros.cfg:141
-msgid "Choose later"
+#: ANLEra/utils/buildings/buildings_merfolk.cfg:75
+msgid "Build University"
 msgstr ""
 
-#. [option]
-#. Decide later whether to obtain this unit from research
-#: ANLEra/utils/special_macros.cfg:156
-msgid "No, maybe not."
+#. [lua]: anl.research_field
+#: ANLEra/utils/research.lua:16
+msgid "Study Progress: "
+msgstr ""
+
+#. [lua]: anl.offer_agriculture
+#. standalone text, can be longer, should start with a capital letter
+#: ANLEra/utils/research.lua:34
+msgid "Agriculture"
+msgstr ""
+
+#. [lua]: anl.offer_agriculture
+#: ANLEra/utils/research.lua:35
+msgid "Farmers produce +1 gold"
+msgstr ""
+
+#. [lua]: anl.offer_mining
+#. standalone text, can be longer, should start with a capital letter
+#: ANLEra/utils/research.lua:45
+msgid "Mining"
+msgstr ""
+
+#. [lua]: anl.offer_mining
+#: ANLEra/utils/research.lua:46
+msgid "Miners produce +1 gold"
+msgstr ""
+
+#. [lua]: anl.offer_philosophy
+#: ANLEra/utils/research.lua:52
+msgid "Philosophy"
+msgstr ""
+
+#. [lua]: anl.offer_philosophy
+#: ANLEra/utils/research.lua:52
+msgid "philosophy"
+msgstr ""
+
+#. [lua]: anl.offer_philosophy
+#: ANLEra/utils/research.lua:52
+msgid "Scholars produce +1 research"
+msgstr ""
+
+#. [lua]: anl.offer_warfare
+#. specific to undead
+#: ANLEra/utils/research.lua:60
+msgid "The Art of Necromancy"
+msgstr ""
+
+#. [lua]: anl.offer_warfare
+#: ANLEra/utils/research.lua:60
+msgid "necromancy"
+msgstr ""
+
+#. [lua]: anl.offer_warfare
+#: ANLEra/utils/research.lua:60
+msgid "Allows you to summon a new type of unit"
+msgstr ""
+
+#. [lua]: anl.offer_warfare
+#. standalone text, can be longer, should start with a capital letter
+#: ANLEra/utils/research.lua:67
+msgid "Warfare"
+msgstr ""
+
+#. [lua]: anl.offer_warfare
+#: ANLEra/utils/research.lua:68
+msgid "Allows you to recruit a new type of unit"
+msgstr ""
+
+#. [lua]: anl.research_menu
+#: ANLEra/utils/research.lua:113
+msgid "Research"
+msgstr ""
+
+#. [lua]: anl.research_menu
+#. "g" denotes the unit for gold
+#: ANLEra/utils/research.lua:115
+msgid "We are currently studying $project_name|. To which end would you have our scholars devote their minds?\n\nOur farms produce $farming_level|g\nOur mines produce $mining_level|g\n"
+msgstr ""
+
+#. [lua]: anl.determine_faction
+#: ANLEra/utils/research.lua:237
+msgid "Researching is not fully supported for this unit."
+msgstr ""
+
+#. [lua]: anl.determine_faction
+#: ANLEra/utils/research.lua:238
+msgid "This is likely a bug. Researcher’s type is "
+msgstr ""
+
+#. [lua]: anl.determine_faction
+#: ANLEra/utils/research.lua:238
+msgid "NOT GIVEN"
+msgstr ""
+
+#. [lua]: anl.choose_new_recruit
+#: ANLEra/utils/research.lua:267
+msgid "No units left to be researched. It’s a bug that this option was offered to you."
+msgstr ""
+
+#. [lua]: text
+#. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
+#: ANLEra/utils/research.lua:279
+msgid "Would you like to be able to recruit this unit?"
+msgstr ""
+
+#. [lua]: text
+#. [lua]: anl.research_complete
+#. [lua]: book
+#: ANLEra/utils/research.lua:308
+#: ANLEra/utils/research.lua:352
+#: ANLEra/utils/research.lua:380
+#: ANLEra/utils/research.lua:408
+#: ANLEra/utils/research.lua:443
+msgid "Study Complete"
+msgstr ""
+
+#. [lua]: text
+#: ANLEra/utils/research.lua:309
+msgid "We researched all units. It would be wise to change the research target now."
+msgstr ""
+
+#. [lua]: anl.research_complete
+#: ANLEra/utils/research.lua:354
+msgid "$side_name|’s farms produce now $amount gold."
+msgstr ""
+
+#. [lua]: anl.research_complete
+#: ANLEra/utils/research.lua:382
+msgid "$side_name|’s mines produce now $amount gold."
+msgstr ""
+
+#. [lua]: anl.research_complete
+#: ANLEra/utils/research.lua:410
+msgid "$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
+msgstr ""
+
+#. [lua]: book
+#: ANLEra/utils/research.lua:447
+msgid "$side_name|’s scholars produce now $amount|00% more research."
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:45
+msgid "many^Drakes from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:47
+msgid "one^Drakes from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:50
+msgid "many^Dwarves from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:52
+msgid "one^Dwarves from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:55
+msgid "many^Elves from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:57
+msgid "one^Elves from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:60
+msgid "many^Humans from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:62
+msgid "one^Humans from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:65
+msgid "many^Orcs from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:67
+msgid "one^Orcs from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:70
+msgid "many^Outlaws from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:72
+msgid "one^Outlaws from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:75
+msgid "many^Undead from sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:77
+msgid "one^Undead from side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:89
+msgid "many^Sides $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:91
+msgid "one^Side $sides can now recruit: $new_recruits"
+msgstr ""
+
+#. [lua]: faction_message
+#: ANLEra/utils/extra_ai_units.lua:169
+msgid "New recruits for AI-controlled sides:"
 msgstr ""
 
 #. Part of the scenario objectives
@@ -488,7 +736,7 @@ msgstr ""
 msgid "Defeat all enemy leaders"
 msgstr ""
 
-#: ANLEra/utils/objectives.cfg:46
+#: ANLEra/utils/objectives.cfg:41
 msgid "Warning:"
 msgstr ""
 
@@ -540,64 +788,64 @@ msgid "Any of the “Town” style villages represent universities. At the start
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:76
+#: ANLEra/utils/worker_options.cfg:79
 msgid "Cost:"
 msgstr ""
 
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
-#: ANLEra/utils/worker_options.cfg:78
-#: ANLEra/utils/worker_options.cfg:123
+#: ANLEra/utils/worker_options.cfg:81
+#: ANLEra/utils/worker_options.cfg:126
 msgid "g"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:123
+#: ANLEra/utils/worker_options.cfg:126
 msgid "Earns:"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:520
+#: ANLEra/utils/worker_options.cfg:523
 msgid "Remove Fireplace"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:533
+#: ANLEra/utils/worker_options.cfg:536
 msgid "Light a Fire"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:566
+#: ANLEra/utils/worker_options.cfg:569
 msgid "Renovate Encampment"
 msgstr ""
 
 #. [lua]: anl.send_gold_dialog
-#: ANLEra/utils/diplomacy.lua:60
+#: ANLEra/utils/diplomacy.lua:58
 msgid "Diplomatic Options"
 msgstr ""
 
 #. [lua]: anl.send_gold_dialog
-#: ANLEra/utils/diplomacy.lua:61
+#: ANLEra/utils/diplomacy.lua:59
 msgid "I don’t have enough gold..."
 msgstr ""
 
 #. [lua]: anl.send_gold
-#: ANLEra/utils/diplomacy.lua:78
+#: ANLEra/utils/diplomacy.lua:76
 msgid "Send gold to $side_name from side $side_no|."
 msgstr ""
 
 #. [lua]: anl.send_gold
-#: ANLEra/utils/diplomacy.lua:111
+#: ANLEra/utils/diplomacy.lua:109
 msgid "I hereby donate 20 gold to the coffers of $player_name from side $side|."
 msgstr ""
 
 #. [lua]: anl.send_tech
-#: ANLEra/utils/diplomacy.lua:147
+#: ANLEra/utils/diplomacy.lua:145
 msgid "<span color='green'>$side_name from side $side_no|</span>\nShare knowledge of agriculture"
 msgstr ""
 
 #. [lua]: anl.send_tech
-#: ANLEra/utils/diplomacy.lua:158
+#: ANLEra/utils/diplomacy.lua:156
 msgid "<span color='green'>$side_name from side $side_no|</span>\nShare knowledge of mining"
 msgstr ""
 
@@ -677,103 +925,68 @@ msgid "Lets you recruit a Loyalist unit"
 msgstr ""
 
 #. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:369
+msgid "Negotiate with the Outlaws"
+msgstr ""
+
+#. [lua]: anl.diplomacy_options
 #: ANLEra/utils/diplomacy.lua:370
+msgid "Lets you recruit a Outlaw unit"
+msgstr ""
+
+#. [lua]: anl.diplomacy_options
+#: ANLEra/utils/diplomacy.lua:373
 msgid "Negotiate with the Merfolk"
 msgstr ""
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:371
+#: ANLEra/utils/diplomacy.lua:374
 msgid "Lets you recruit a Merfolk unit"
 msgstr ""
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:375
+#: ANLEra/utils/diplomacy.lua:378
 msgid "Negotiate with Mercenaries"
 msgstr ""
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:376
+#: ANLEra/utils/diplomacy.lua:379
 msgid "Lets you recruit Mercenary units"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:421
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:425
 msgid "Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:425
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:429
 msgid "Our talks are complete — I will summon the dead for you. Which of them do you want to come?"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:429
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:433
 msgid "Our talks are complete — the Loyalists will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:433
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:437
 msgid "Our talks are complete — the Outlaws will gladly fight by your side. Which of our men do you want to recruit?"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:437
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:441
 msgid "Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:441
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:445
 msgid "Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?"
 msgstr ""
 
-#. [lua]: determine_choosable_units
-#: ANLEra/utils/diplomacy.lua:463
+#. [lua]: anl.choose_new_unit
+#: ANLEra/utils/diplomacy.lua:460
 msgid "Negotiation Complete"
-msgstr ""
-
-#. [set_menu_item]: id=anl_choose_new_recruit_merfolk
-#: ANLEra/utils/research_options.cfg:395
-msgid "Choose Special Recruit"
-msgstr ""
-
-#. [message]: speaker=unit
-#. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
-#: ANLEra/utils/research_options.cfg:429
-msgid "Would you like to be able to recruit this unit?"
-msgstr ""
-
-#: ANLEra/utils/research_options.cfg:646
-#: ANLEra/utils/research_options.cfg:674
-#: ANLEra/utils/research_options.cfg:702
-#: ANLEra/utils/research_options.cfg:729
-msgid "Study Complete"
-msgstr ""
-
-#: ANLEra/utils/research_options.cfg:648
-msgid "$side_name|’s farms produce now $amount gold."
-msgstr ""
-
-#: ANLEra/utils/research_options.cfg:676
-msgid "$side_name|’s mines produce now $amount gold."
-msgstr ""
-
-#: ANLEra/utils/research_options.cfg:704
-msgid "$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
-msgstr ""
-
-#. For level 1's it's e.g. 100% more, but in fact it's +1 more.
-#: ANLEra/utils/research_options.cfg:732
-msgid "$side_name|’s scholars produce now $amount|00% more research."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/extra_ai_units.cfg:82
-msgid "$name_of_side| can now recruit a new unit type: $unit_type.name|"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ANLEra/utils/extra_ai_units.cfg:116
-msgid "$name_of_side| can now recruit new unit types: $namelist| and $last_one|"
 msgstr ""
 
 #. [modification]: id=Anewlandsp, type=hybrid
@@ -781,8 +994,13 @@ msgstr ""
 msgid "An experimental Sp/Mp modification, which allows lvl 0s to build (no research)."
 msgstr ""
 
+#. [set_menu_item]: id=anl_choose_special_recruit
+#: ANLEra/ANLmechanism.cfg:141
+msgid "Choose Special Recruit"
+msgstr ""
+
 #. [era]: id=ANLEra
 #: ANLEra/ANLEra.cfg:5
-msgid "An Era that uses the macros for the mainline scenario A New Land, with more factions. Works best with less than 10 players."
+msgid "An Era that uses the macros for the mainline scenario A New Land, with more factions."
 msgstr ""
 
