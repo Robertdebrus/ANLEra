@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-07-27 22:29 UTC\n"
-"PO-Revision-Date: 2020-07-27 18:12+0200\n"
+"POT-Creation-Date: 2020-07-28 06:43 UTC\n"
+"PO-Revision-Date: 2020-07-28 08:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -623,8 +623,8 @@ msgstr "Philosophie"
 
 #. [lua]: anl.offer_philosophy
 #: ANLEra/utils/research.lua:52
-msgid "Scholars produce +1 research"
-msgstr "Gelehrte generieren +1 Forschung"
+msgid "Scholars improve their research methods"
+msgstr "Forscher verbessern ihre Methodik"
 
 #. [lua]: anl.offer_warfare
 #. specific to undead
@@ -709,14 +709,15 @@ msgstr "Wollt Ihr diesen Einheitentyp rekrutieren können?"
 #. [lua]: text
 #. [lua]: anl.research_complete
 #. [lua]: book
-#: ANLEra/utils/research.lua:308 ANLEra/utils/research.lua:352
-#: ANLEra/utils/research.lua:380 ANLEra/utils/research.lua:408
-#: ANLEra/utils/research.lua:443
+#: ANLEra/utils/research.lua:309 ANLEra/utils/research.lua:354
+#: ANLEra/utils/research.lua:382 ANLEra/utils/research.lua:411
+#: ANLEra/utils/research.lua:421 ANLEra/utils/research.lua:463
+#: ANLEra/utils/research.lua:475
 msgid "Study Complete"
 msgstr "Forschungsprojekt abgeschlossen"
 
 #. [lua]: text
-#: ANLEra/utils/research.lua:309
+#: ANLEra/utils/research.lua:311
 msgid ""
 "We researched all units. It would be wise to change the research target now."
 msgstr ""
@@ -724,17 +725,18 @@ msgstr ""
 "Forschungsrichtung zu ändern."
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:354
+#: ANLEra/utils/research.lua:356
 msgid "$side_name|’s farms produce now $amount gold."
 msgstr "$side_name|s Farmen produzieren nun $amount Gold."
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:382
+#: ANLEra/utils/research.lua:384
 msgid "$side_name|’s mines produce now $amount gold."
-msgstr "$side_name|s Mines produzieren jetzt $amount gold."
+msgstr "$side_name|s Bergwerke produzieren jetzt $amount gold."
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:410
+#. one new unit available
+#: ANLEra/utils/research.lua:414
 msgid ""
 "$side_name|, we have finished researching warfare. Right-click on a "
 "researcher in a university to select a unit to recruit."
@@ -743,11 +745,34 @@ msgstr ""
 "Rechtsklickt auf einen Forscher in einer Universität, um den neuen "
 "Einheitentyp auszuwählen."
 
-#. [lua]: book
-#: ANLEra/utils/research.lua:447
-msgid "$side_name|’s scholars produce now $amount|00% more research."
+#. [lua]: anl.research_complete
+#. multiple new units available
+#: ANLEra/utils/research.lua:424
+msgid ""
+"$side_name|, we have finished researching warfare. Right-click on a "
+"researcher in a university to select new units to recruit."
 msgstr ""
-"Die Forschungsergebnisse von $side_name|s Magiers liegen mittlerweile bei "
+"Wir haben neue Fortschritte in der Kriegsführung erzielt, $side_name|, "
+"Rechtsklickt auf einen Forscher in einer Universität, um neue Einheitentypen "
+"auszuwählen."
+
+#. [lua]: book
+#. shown after accomplishing the research project the first time
+#: ANLEra/utils/research.lua:467
+msgid ""
+"By coordinating research efforts and creating dedicated teams $side_name|’s "
+"scholars managed to double their research results."
+msgstr ""
+"Durch die Aufstellung von dedizierten Forschungsgruppen ist es $side_name|s "
+"Gelehrten gelungen, ihre Forschungsergebnisse zu verdoppeln."
+
+#. [lua]: book
+#. shown the 2nd and later times after completing philisophy research
+#: ANLEra/utils/research.lua:478
+msgid ""
+"The scienific progress of $side_name|’s scholars is by now at $amount|00%."
+msgstr ""
+"Die Forschungsergebnisse von $side_name|s Magiern liegen mittlerweile bei "
 "$amount|00%."
 
 #. [lua]: faction_message
@@ -1209,7 +1234,7 @@ msgid "Negotiation Complete"
 msgstr "Verhandlungen abgeschlossen"
 
 #. [modification]: id=Anewlandsp, type=hybrid
-#: ANLEra/_main.cfg:11
+#: ANLEra/_main.cfg:16
 msgid ""
 "An experimental Sp/Mp modification, which allows lvl 0s to build (no "
 "research)."
@@ -1233,6 +1258,11 @@ msgid ""
 msgstr ""
 "Eine Epoche, welche die Mechanismen des Szenarios »Eine neue Heimat« aus dem "
 "Hauptspiel benutzt und weitere Fraktionen bereitstellt."
+
+#~ msgid "$side_name|’s scholars produce now $amount|00% more research."
+#~ msgstr ""
+#~ "Die Forschungsergebnisse von $side_name|s Magiers liegen nun bei $amount|"
+#~ "00%."
 
 #~ msgid "Choose later"
 #~ msgstr "Einheitentyp später wählen"

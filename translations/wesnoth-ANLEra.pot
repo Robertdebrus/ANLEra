@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-07-27 23:22 UTC\n"
+"POT-Creation-Date: 2020-07-28 06:43 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -508,7 +508,7 @@ msgstr ""
 
 #. [lua]: anl.offer_philosophy
 #: ANLEra/utils/research.lua:52
-msgid "Scholars produce +1 research"
+msgid "Scholars improve their research methods"
 msgstr ""
 
 #. [lua]: anl.offer_warfare
@@ -578,37 +578,53 @@ msgstr ""
 #. [lua]: text
 #. [lua]: anl.research_complete
 #. [lua]: book
-#: ANLEra/utils/research.lua:308
-#: ANLEra/utils/research.lua:352
-#: ANLEra/utils/research.lua:380
-#: ANLEra/utils/research.lua:408
-#: ANLEra/utils/research.lua:443
+#: ANLEra/utils/research.lua:309
+#: ANLEra/utils/research.lua:354
+#: ANLEra/utils/research.lua:382
+#: ANLEra/utils/research.lua:411
+#: ANLEra/utils/research.lua:421
+#: ANLEra/utils/research.lua:463
+#: ANLEra/utils/research.lua:475
 msgid "Study Complete"
 msgstr ""
 
 #. [lua]: text
-#: ANLEra/utils/research.lua:309
+#: ANLEra/utils/research.lua:311
 msgid "We researched all units. It would be wise to change the research target now."
 msgstr ""
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:354
+#: ANLEra/utils/research.lua:356
 msgid "$side_name|’s farms produce now $amount gold."
 msgstr ""
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:382
+#: ANLEra/utils/research.lua:384
 msgid "$side_name|’s mines produce now $amount gold."
 msgstr ""
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:410
+#. one new unit available
+#: ANLEra/utils/research.lua:414
 msgid "$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
 msgstr ""
 
+#. [lua]: anl.research_complete
+#. multiple new units available
+#: ANLEra/utils/research.lua:424
+msgid "$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select new units to recruit."
+msgstr ""
+
 #. [lua]: book
-#: ANLEra/utils/research.lua:447
-msgid "$side_name|’s scholars produce now $amount|00% more research."
+#. shown after accomplishing the research project the first time
+#: ANLEra/utils/research.lua:467
+msgid "By coordinating research efforts and creating dedicated teams $side_name|’s scholars managed to double their research results."
+msgstr ""
+
+#. [lua]: book
+#. shown the 2nd and later times after completing philisophy research
+#: ANLEra/utils/research.lua:478
+msgid "The scienific progress of $side_name|’s scholars is by now at $amount|00%."
 msgstr ""
 
 #. [lua]: faction_message
@@ -990,7 +1006,7 @@ msgid "Negotiation Complete"
 msgstr ""
 
 #. [modification]: id=Anewlandsp, type=hybrid
-#: ANLEra/_main.cfg:11
+#: ANLEra/_main.cfg:16
 msgid "An experimental Sp/Mp modification, which allows lvl 0s to build (no research)."
 msgstr ""
 

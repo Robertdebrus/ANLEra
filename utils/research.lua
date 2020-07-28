@@ -49,7 +49,7 @@ end
 
 function anl.offer_philosophy()
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
-    return anl.research_field(_'Philosophy', _'philosophy', _'Scholars produce +1 research', 'philosophy', 'items/book3.png')
+    return anl.research_field(_'Philosophy', _'philosophy', _'Scholars improve their research methods', 'philosophy', 'items/book3.png')
 end
 
 
@@ -74,7 +74,7 @@ function anl.update_research_target(project, name, undo_forbidden)
     if  wml.variables['player_' .. wesnoth.current.side .. '.research.current_target'] ~= project then
         wml.variables['player_' .. wesnoth.current.side .. '.research.current_target']  = project
         wml.variables['player_' .. wesnoth.current.side .. '.research.target_language_name'] = name
-    else    
+    else
         -- Allowing undo if the new research project is the old one.
         -- Except if undoing is not allowed due to other reasons.
         if not undo_forbidden then
@@ -304,11 +304,13 @@ function anl.choose_new_recruit()
 
         if (choosable[2] == nil) and (wml.variables['player_' .. wesnoth.current.side .. '.research.current_target'] == 'warfare') then
             _ = wesnoth.textdomain 'wesnoth-ANLEra'
-            wesnoth.unsynced( wesnoth.show_message_dialog( {
+            wesnoth.unsynced( function ()
+                wesnoth.show_message_dialog( {
                 title = _ 'Study Complete',
-                message = _ 'We researched all units. It would be wise to change the research target now.', -- fixme: Could reformulate the string: research all units is clear to the player, but is weird from story perspective.
+                -- fixme: Could reformulate the string: research all units is clear to the player, but is weird from story perspective.
+                message = _ 'We researched all units. It would be wise to change the research target now.',
                 portrait = wml.variables['unit'].profile,
-                })
+                }) end
             )
             anl.research_menu(true)
         end
@@ -320,7 +322,7 @@ end
 
 -- Research Complete Messages.
 -- These are shown at the start of a player's turn.
--- This fucntion is called from an [event] written in WML.
+-- This function is called from an [event] written in WML.
 function anl.research_complete()
 
     if wml.variables['player_' .. wesnoth.current.side] == nil then
@@ -403,14 +405,27 @@ function anl.research_complete()
     end
 
     if increased then
-        wesnoth.wml_actions.message{
-            speaker = 'narrator',
-            caption = _ 'Study Complete',
-            image = 'wesnoth-icon.png',
-            message = wesnoth.format(_ '$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit.',
-                                    { side_name = side.side_name,
-                                      side_no = side.side })
-        }
+        if wml.variables['player_' .. side.side .. '.warfare.troop_available'] == 1 then
+            wesnoth.wml_actions.message{
+                speaker = 'narrator',
+                caption = _ 'Study Complete',
+                image = 'wesnoth-icon.png',
+                -- po: one new unit available
+                message = wesnoth.format(_ '$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit.',
+                                        { side_name = side.side_name,
+                                          side_no = side.side })
+            }
+        else
+            wesnoth.wml_actions.message{
+                speaker = 'narrator',
+                caption = _ 'Study Complete',
+                image = 'wesnoth-icon.png',
+                -- po: multiple new units available
+                message = wesnoth.format(_ '$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select new units to recruit.',
+                                        { side_name = side.side_name,
+                                          side_no = side.side })
+            }
+        end
         increased = false
     end
 
@@ -438,17 +453,34 @@ function anl.research_complete()
             end
         end
 
-        wesnoth.wml_actions.message{
-            speaker = 'narrator',
-            caption = _ 'Study Complete',
-            image = book(side.faction),
-            -- For level 1's it's 100% more, but in fact it's +1 more.
-            -- FIXME: reformulate string, avoiding the word 'produce'.
-            message = wesnoth.format(_ '$side_name|’s scholars produce now $amount|00% more research.',
-                                    { side_name = side.side_name,
-                                      side_no = side.side,
-                                      amount = wml.variables['player_' .. side.side .. '.philosophy.bonus'] })
-        }
+        -- It's a bit hard to explain research points, as that does not exist in the real world.
+        -- Having a 2nd message leaves more room.
+        -- Anybody working on a PhD and having a better explanation?
+
+        if wml.variables['player_' .. side.side .. '.philosophy.bonus'] == 1 then
+            wesnoth.wml_actions.message{
+                speaker = 'narrator',
+                caption = _ 'Study Complete',
+                image = book(side.faction),
+                -- It's +1 more, which for level 1 units is 100% more.
+                -- po: shown after accomplishing the research project the first time
+                message = wesnoth.format(_ 'By coordinating research efforts and creating dedicated teams $side_name|’s scholars managed to double their research results.',
+                                        { side_name = side.side_name,
+                                          side_no = side.side,
+                                          amount = wml.variables['player_' .. side.side .. '.philosophy.bonus'] })
+            }
+        else
+            wesnoth.wml_actions.message{
+                speaker = 'narrator',
+                caption = _ 'Study Complete',
+                image = book(side.faction),
+                -- po: shown the 2nd and later times after completing philisophy research
+                message = wesnoth.format(_ 'The scienific progress of $side_name|’s scholars is by now at $amount|00%.',
+                                        { side_name = side.side_name,
+                                          side_no = side.side,
+                                          amount = wml.variables['player_' .. side.side .. '.philosophy.bonus'] +1 })
+            }
+        end
         increased = false
     end
 end
