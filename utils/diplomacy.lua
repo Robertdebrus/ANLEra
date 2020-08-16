@@ -274,6 +274,13 @@ function anl.can_negotiate_with(other_faction)
         partner = merfolk_units
     elseif other_faction == 'Heroes' then
         partner = hero_units
+    else
+        -- Extension point:
+        -- If this function is added by another add-on,
+        -- then strings for more factions can be added.
+        if anl.can_negotiate_with_even_more ~= nil then
+            partner = anl.can_negotiate_with_even_more(other_faction)
+        end
     end
 
     -- Check if there are still recruits up for negotiation.
@@ -402,9 +409,9 @@ end
 
 function anl.choose_new_unit (v)
 
-    local speaker
-    local message
-    local choosable
+    local speaker = ''
+    local message = ''
+    local choosable = {}
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
     -- TODO: make this a fuction, so umc can overwrite it without overwriting the rest of this function
@@ -443,6 +450,13 @@ function anl.choose_new_unit (v)
         choosable = anl.determine_choosable_recruits(hero_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?'
+    end
+
+    -- Extension point:
+    -- If this function is added by another add-on,
+    -- then strings for more factions can be added.
+    if anl.choose_new_recruit ~= nil then
+        choosable, speaker, message = anl.choose_new_recruit(v, choosable, speaker, message)
     end
 
     -- Build list of options.
