@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-07-28 06:43 UTC\n"
-"PO-Revision-Date: 2020-07-28 08:40+0200\n"
+"POT-Creation-Date: 2020-08-16 18:19 UTC\n"
+"PO-Revision-Date: 2020-08-16 20:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -59,8 +59,8 @@ msgstr ""
 "Raufbolde können Bauten errichten und auf Farmen arbeiten, während Förster "
 "im Wald jagen gehen.\n"
 "\n"
-"Im Vergleich zu den auf dieser Seite angezeigten Werten agieren Förster "
-"unabhängig von der Tageszeit, können sich in Wald- und Sumpfgebieten eine "
+"Abweichend von den auf dieser Seite angezeigten Werten agieren Förster "
+"unabhängig von der Tageszeit, können sich in Wald- und Sumpfgebieten etwas "
 "besser verteidigen und sind etwas stärker im Gefecht."
 
 #. [unit_type]: id=ANLEra Drake Apprentice, race=drake
@@ -136,12 +136,12 @@ msgstr ""
 "stärkeren Einheiten."
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:8
-msgid "Elvish Civilian"
+#: ANLEra/units/elves/Citizen.cfg:8
+msgid "Elvish Citizen"
 msgstr "Elfischer Bürger"
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:28 ANLEra/units/elves/Civilian.cfg:30
+#: ANLEra/units/elves/Citizen.cfg:28 ANLEra/units/elves/Citizen.cfg:30
 msgid ""
 "Since elves are not warlike by nature, most of their population is composed "
 "by civilians who learn, at very early age, basic usage of swords and bows. "
@@ -157,20 +157,20 @@ msgstr ""
 "überlegenen Einheiten."
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
-#: ANLEra/units/elves/Civilian.cfg:28
+#: ANLEra/units/elves/Citizen.cfg:28
 msgid " Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 " Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
 #. [special_note]
-#: ANLEra/units/elves/Civilian.cfg:32
+#: ANLEra/units/elves/Citizen.cfg:32
 msgid "Depending on it’s gender this unit has different advancement paths."
 msgstr ""
 "Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
 #. [female]
-#: ANLEra/units/elves/Civilian.cfg:107
-msgid "female^Elvish Civilian"
+#: ANLEra/units/elves/Citizen.cfg:107
+msgid "female^Elvish Citizen"
 msgstr "Elfische Bürgerin"
 
 #. [message]: speaker=narrator
@@ -354,17 +354,17 @@ msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:770
+#: ANLEra/scenarios/5p_A_New_Land.cfg:772
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
 #. [message]: type=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:778
+#: ANLEra/scenarios/5p_A_New_Land.cfg:780
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:851
+#: ANLEra/scenarios/5p_A_New_Land.cfg:853
 msgid "They’ll never take me alive!"
 msgstr "Sie werden mich nicht lebend bekommen! Niemals!"
 
@@ -1090,92 +1090,92 @@ msgstr ""
 "überlebenswichtigen Bereich unterrichten."
 
 #. [lua]: negotiation_option_text
-#: ANLEra/utils/diplomacy.lua:318
+#: ANLEra/utils/diplomacy.lua:325
 msgid "Negotiation Progress: "
 msgstr "Fortschritt der Verhandlungen: "
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:342
+#: ANLEra/utils/diplomacy.lua:349
 msgid "Negotiate with the Dwarves"
 msgstr "Verhandlungen mit den Zwergen"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:343
+#: ANLEra/utils/diplomacy.lua:350
 msgid "Lets you recruit a Dwarvish unit"
 msgstr "Dies erlaubt es Euch, eine zwergische Einheit zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:347
+#: ANLEra/utils/diplomacy.lua:354
 msgid "Negotiate with the Elves"
 msgstr "Verhandlungen mit den Elfen"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:348
+#: ANLEra/utils/diplomacy.lua:355
 msgid "Lets you recruit an Elvish unit"
 msgstr "Dies erlaubt es Euch, eine elfische Einheit zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:352
+#: ANLEra/utils/diplomacy.lua:359
 msgid "Negotiate with the Drakes"
 msgstr "Verhandlungen mit den Draken"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:353
+#: ANLEra/utils/diplomacy.lua:360
 msgid "Lets you recruit a Drake unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Draken zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:357
+#: ANLEra/utils/diplomacy.lua:364
 msgid "Negotiate with the Undead"
 msgstr "Verhandlungen mit den Untoten"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:358
+#: ANLEra/utils/diplomacy.lua:365
 msgid "Lets you recruit an Undead unit"
 msgstr "Dies erlaubt es Euch, eine untote Einheit zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:362
+#: ANLEra/utils/diplomacy.lua:369
 msgid "Negotiate with Loyalists"
 msgstr "Verhandlungen mit den Loyalisten"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:363
+#: ANLEra/utils/diplomacy.lua:370
 msgid "Lets you recruit a Loyalist unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Loyalisten zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:369
+#: ANLEra/utils/diplomacy.lua:376
 msgid "Negotiate with the Outlaws"
 msgstr "Verhandlungen mit den Geächteten"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:370
+#: ANLEra/utils/diplomacy.lua:377
 msgid "Lets you recruit a Outlaw unit"
 msgstr "Dies erlaubt es Euch, eine Einheit der Geächteten zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:373
+#: ANLEra/utils/diplomacy.lua:380
 msgid "Negotiate with the Merfolk"
 msgstr "Verhandlungen mit dem Meervolk"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:374
+#: ANLEra/utils/diplomacy.lua:381
 msgid "Lets you recruit a Merfolk unit"
 msgstr "Dies erlaubt es Euch, eine Einheit des Meervolkes zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:378
+#: ANLEra/utils/diplomacy.lua:385
 msgid "Negotiate with Mercenaries"
 msgstr "Verhandlungen mit Söldnern"
 
 #. [lua]: anl.diplomacy_options
-#: ANLEra/utils/diplomacy.lua:379
+#: ANLEra/utils/diplomacy.lua:386
 msgid "Lets you recruit Mercenary units"
 msgstr "Dies erlaubt es Euch, einen Söldner zu rekrutieren"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:425
+#: ANLEra/utils/diplomacy.lua:432
 msgid ""
 "Our talks are complete — the Drakes will gladly fight by your side. Which of "
 "our brethren do you want to recruit?"
@@ -1184,7 +1184,7 @@ msgstr ""
 "unterstützen. Wen wollt Ihr rekrutieren?"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:429
+#: ANLEra/utils/diplomacy.lua:436
 msgid ""
 "Our talks are complete — I will summon the dead for you. Which of them do "
 "you want to come?"
@@ -1193,7 +1193,7 @@ msgstr ""
 "Welchen von Ihnen wollt Ihr sehen?"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:433
+#: ANLEra/utils/diplomacy.lua:440
 msgid ""
 "Our talks are complete — the Loyalists will gladly fight by your side. Which "
 "of our men do you want to recruit?"
@@ -1202,7 +1202,7 @@ msgstr ""
 "Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:437
+#: ANLEra/utils/diplomacy.lua:444
 msgid ""
 "Our talks are complete — the Outlaws will gladly fight by your side. Which "
 "of our men do you want to recruit?"
@@ -1211,7 +1211,7 @@ msgstr ""
 "Seite kämpfen. Wen von uns wollt Ihr in Euren Reihen sehen?"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:441
+#: ANLEra/utils/diplomacy.lua:448
 msgid ""
 "Our talks are complete — the Merfolk will gladly fight by your side. Which "
 "of our people do you want to recruit?"
@@ -1220,7 +1220,7 @@ msgstr ""
 "Wessen Unterstützung benötigt Ihr?"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:445
+#: ANLEra/utils/diplomacy.lua:452
 msgid ""
 "Our talks are complete — some Mercenaries will gladly fight by your side. "
 "Which of us do you want to recruit?"
@@ -1229,7 +1229,7 @@ msgstr ""
 "an. Wessen Fähigkeiten benötigt Ihr?"
 
 #. [lua]: anl.choose_new_unit
-#: ANLEra/utils/diplomacy.lua:460
+#: ANLEra/utils/diplomacy.lua:474
 msgid "Negotiation Complete"
 msgstr "Verhandlungen abgeschlossen"
 
@@ -1246,7 +1246,7 @@ msgstr ""
 "Mehrspielermodus verfügbar."
 
 #. [set_menu_item]: id=anl_choose_special_recruit
-#: ANLEra/ANLmechanism.cfg:141
+#: ANLEra/ANLmechanism.cfg:147
 msgid "Choose Special Recruit"
 msgstr "Speziellen Einheitentyp wählen"
 
