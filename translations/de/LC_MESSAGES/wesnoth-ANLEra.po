@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-08-16 18:19 UTC\n"
-"PO-Revision-Date: 2020-08-16 20:19+0200\n"
+"POT-Creation-Date: 2020-08-18 16:33 UTC\n"
+"PO-Revision-Date: 2020-08-18 18:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -548,6 +548,55 @@ msgid "You release the wose from the web and it agrees to help you."
 msgstr ""
 "Ihr schafft es, die Kreatur aus dem Netz zu befreien und sie erklärt sich "
 "bereit, sich Euch anzuschließen."
+
+#. [modification]: id=ai_destroyers, type=hybrid
+#. https://en.wikipedia.org/wiki/Scorched_earth
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:105
+msgid "Scorched Earth"
+msgstr "Verbrannte Erde"
+
+#. [modification]: id=ai_destroyers, type=hybrid
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:105
+msgid " (AI-bonus)"
+msgstr " (KI-Bonus)"
+
+#. [modification]: id=ai_destroyers, type=hybrid
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:107
+msgid ""
+"AI controlled units destroy villages and castles and farmland upon moving "
+"onto it."
+msgstr ""
+"Wenn KI Einheiten auf Dörfer, Burgen oder Ackerland ziehen, zerstören sie es."
+
+#. [checkbox]: id=allied_destroyers
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:114
+msgid "AI destroyers for allies"
+msgstr ""
+
+#. [checkbox]: id=allied_destroyers
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:115
+msgid ""
+"Whether allied AI sides should also destroy buildings, like enemy AI sides "
+"do."
+msgstr ""
+
+#. [slider]: id=safe_range
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:123
+msgid "Safe Range"
+msgstr ""
+
+#. [slider]: id=safe_range
+#: ANLEra/utils/general_purpose/ai_destroyers.cfg:124
+msgid ""
+"A range around the starting position,\n"
+"in which allied AIs won't destroy castles or farmland.\n"
+"\n"
+"Having it too close might destroy your own buildings,\n"
+"having it too far would effectively disable it.\n"
+"\n"
+"For A New Land style games, 12-18 is a good value.\n"
+"For normal games, 3 is a good value."
+msgstr ""
 
 #: ANLEra/utils/buildings/buildings_outlaw.cfg:16
 #: ANLEra/utils/buildings/buildings_outlaw.cfg:21
@@ -1258,6 +1307,9 @@ msgid ""
 msgstr ""
 "Eine Epoche, welche die Mechanismen des Szenarios »Eine neue Heimat« aus dem "
 "Hauptspiel benutzt und weitere Fraktionen bereitstellt."
+
+#~ msgid "AI Destroyers"
+#~ msgstr "KI Zerstörer"
 
 #~ msgid "$side_name|’s scholars produce now $amount|00% more research."
 #~ msgstr ""
