@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-08-16 20:15 UTC\n"
+"POT-Creation-Date: 2020-08-31 20:52 UTC\n"
 "PO-Revision-Date: 2020-08-18 18:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,12 +18,12 @@ msgid "Awaken, my undead. We have a mission to fulfil."
 msgstr "Erwachtet, meine Untoten. Wir haben ein Tal zu erobern!"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/Empire/specific_macros.cfg:550
+#: ANLEra/scenarios/Empire/specific_macros.cfg:555
 msgid "Undead Empire has three difficulty levels"
 msgstr "Undead Empire gibt es in 3 Schwierigkeitsstufen"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/Empire/specific_macros.cfg:551
+#: ANLEra/scenarios/Empire/specific_macros.cfg:556
 msgid ""
 "When creating the game, visit the tab »<b>Custom Options</b>«.\n"
 "\n"
@@ -192,7 +192,7 @@ msgstr ""
 "Parteien gespielt werden."
 
 #. [part]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:86
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:85
 msgid ""
 "Chased by many armies, fueled by despise of the undead, the remnants of a "
 "small necromantic cult reach an isolated valley and establish a base in it."
@@ -201,7 +201,7 @@ msgstr ""
 "nekromantischen Zirkels in ein abgelegenes Tal und errichten dort eine Basis."
 
 #. [part]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:90
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:89
 msgid ""
 "The cultists are preparing to increase their numbers by harvesting the local "
 "populace and they are determined to forge an empire of death with an "
@@ -211,7 +211,7 @@ msgstr ""
 "Zielsetzung, ein Imperium aufzubauen um schlussendlich die Welt zu erobern."
 
 #. [part]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:94
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:93
 msgid ""
 "Relentless, implacible, and dreadful, the Undead are bound by the will of "
 "the Necromancers. As they march across the land, their ranks swell with the "
@@ -225,16 +225,16 @@ msgstr ""
 "Kampf gegenüberstanden."
 
 #. [side]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:116
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:137
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:158
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:179
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:115
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:139
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:163
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:187
 msgid "The Empire"
 msgstr "Das Imperium"
 
 #. [side]: type=Assassin
 #. gender=male
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:196
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:207
 msgid "Poisantros"
 msgstr "Poisantros"
 
@@ -242,31 +242,31 @@ msgstr "Poisantros"
 #. [side]: type=Dwarvish Runemaster
 #. [side]: type=Elvish Shyde
 #. [side]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:200
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:236
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:285
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:318
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:356
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:211
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:247
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:296
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:329
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:367
 msgid "The Opposition"
 msgstr "Die Opposition"
 
 #. [side]: type=Dwarvish Runemaster
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:232
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:243
 msgid "Zarack"
 msgstr "Zarack"
 
 #. [side]: type=Elvish Shyde
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:281
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:292
 msgid "Nimdilla"
 msgstr "Nimdilla"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:385
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:396
 msgid "Undead Empire"
 msgstr "Untotenimperium"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:388
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:399
 msgid ""
 "In Undead Empire the goal is to build an evil empire strong enough to "
 "destroy all enemy leaders. There are five main enemies that must be slain, "
@@ -297,7 +297,7 @@ msgstr ""
 "- enclave & shiki: Portierung zur aktuellen Version\n"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:402
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:413
 msgid ""
 "Warning: your base gets destroyed soon after the start of the game - be "
 "ready to build a new base! Also, some of the enemy leaders can be reached "
@@ -308,7 +308,7 @@ msgstr ""
 "nur nach dem Besiegen der Elfen erreicht werden."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:403
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:414
 msgid ""
 "Warning : your base gets destroyed soon after the start of the game - be "
 "ready to build a new base! Also, some of the enemy leaders can be reached "
@@ -319,7 +319,7 @@ msgstr ""
 "nur nach dem Besiegen der Elfen oder Zwerge erreicht werden."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:404
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:415
 msgid ""
 "Warning : your base gets destroyed soon after the start of the game - be "
 "ready to build a new base! Also, some of the enemy leaders can be reached "
@@ -330,7 +330,7 @@ msgstr ""
 "nur nach dem Besiegen der Elfen erreicht werden."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:405
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:416
 msgid ""
 "Warning : your base gets destroyed soon after the start of the game - be "
 "ready to build a new base! Also, some of the enemies can be reached only by "
@@ -341,7 +341,7 @@ msgstr ""
 "nur nach dem Besiegen der Elfen oder Zwerge erreicht werden."
 
 #. [message]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:410
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:421
 msgid ""
 "Here we are. We have established a base in this valley. Fortunately we found "
 "a graveyard nearby so we wont be short of corpses."
@@ -351,7 +351,7 @@ msgstr ""
 "wird es uns hie nicht mangeln."
 
 #. [message]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:415
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:426
 msgid ""
 "No more running away. We must stand our ground here and start fulfilling our "
 "mission or perish trying!"
@@ -360,7 +360,7 @@ msgstr ""
 "schlagen zu können."
 
 #. [message]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:422
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:433
 msgid ""
 "The natives of the valley are hostile towards us. The elves, dwarves and "
 "humans living here have united agaist us and are going to try to destroy us."
@@ -369,7 +369,7 @@ msgstr ""
 "Menschen, die hier leben, haben sich gegen uns verbündet."
 
 #. [message]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:427
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:438
 msgid ""
 "Why am I not surprised? Well, the more enemies we have, the more undead "
 "minions we’ll raise when we kill them."
@@ -377,59 +377,59 @@ msgstr ""
 "Warum wundert mich das nicht? Naja, je mehr Feinde, desto mehr Zombies."
 
 #. [objective]: condition=win
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:497
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:508
 msgid "Kill all enemy leaders"
 msgstr "Besiegt alle gegnerischen Anführer"
 
 #. [objective]: condition=win
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:507
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:518
 msgid "Kill all bosses"
 msgstr "Besiegt die Bossmonster"
 
 #. [objective]: condition=lose
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:516
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:527
 msgid "Death of all party leaders"
 msgstr "Tod Eurer Anführer"
 
 #. [objective]: condition=lose
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:520
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:531
 msgid "Turns run out"
 msgstr "Rundenlimit überschritten"
 
 #. [modify_unit]: type=Dwarvish Arcanister
 #. https://en.wikipedia.org/wiki/Wayland_the_Smith
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:692
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:703
 msgid "Wayland"
 msgstr "Wiolant"
 
 #. ['Teamname on easy difficulty']
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:732
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:743
 msgid "Local Inhibitants"
 msgstr "Einheimische"
 
 #. ['Teamname on hard difficulty (long variant)']
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:748
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:759
 msgid "Enemies of the Empire"
 msgstr "Feinde des Imperiums"
 
 #. ['Teamname on hard difficulty (shorter alternative)']
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:755
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:766
 msgid "Enemies"
 msgstr "Feinde"
 
 #. ['Teamname on hard difficulty (hidden bosses)']
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:763
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:774
 msgid "Furious Enemies"
 msgstr "Fürchterliche Feinde"
 
 #. ['[side]: type=Assassin']
 #. gender=female
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:785
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:796
 msgid "May Istra"
 msgstr "May Istra"
 
 #. [message]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:897
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:908
 msgid ""
 "The dwarves are getting desperate - they are calling reinforcements from "
 "everywhere; we have to put extra effort into killing them!"
@@ -438,7 +438,7 @@ msgstr ""
 "einen draufsetzen."
 
 #. [message]
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:971
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:982
 msgid ""
 "The accursed elves have destroyed the dam - we have to relocate our base of "
 "operations!"
@@ -447,7 +447,7 @@ msgstr ""
 "Lager errichten."
 
 #. [message]: race=naga
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:998
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1009
 msgid ""
 "The elves have destroyed our home by destroying the dam. We come to aid in "
 "your quest."
@@ -456,13 +456,13 @@ msgstr ""
 "zur Hilfe."
 
 #. [message]: race=naga
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1016
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1034
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1027
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1045
 msgid "Reinforcements have arrived!"
 msgstr "Verstärkungen sind eingetroffen!"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1061
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1072
 msgid ""
 "After searching the Outlaw leader’s keep. you find a map revealing a secret "
 "passage in the cave."
@@ -471,7 +471,7 @@ msgstr ""
 "versteckte Passage in der Höhle."
 
 #. [message]: speaker=second_unit
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1097
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1108
 msgid ""
 "The elves are calling their forest friends to fight for them. The mighty "
 "woses are skilled in fighting us, especially the skeletons. Be very careful!"
@@ -481,28 +481,28 @@ msgstr ""
 "Vorsicht ist geboten."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1123
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1134
 msgid ""
 "With her final breath, the Shyde calls upon a powerful Yeti to protect the "
 "land."
 msgstr "Mit ihrem letzten Atemzug ruft die Fee einen mächtigen Yeti herbei."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1130
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1141
 msgid ""
 "With her final breath, the Shyde calls upon two powerful Yetis to protect "
 "the land."
 msgstr "Mit ihrem letzten Atemzug ruft die Fee zwei mächtige Yetis herbei."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1174
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1185
 msgid "As the dragon vanished, a worrisome explosion was heard."
 msgstr ""
 "Als der Drache besiegt war, verkündete in der Ferne eine Explosion weiteres "
 "Unheil."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1209
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1220
 msgid ""
 "Refusing to yield the land to the Undead, the mighty yeti uses calls upon "
 "the Red Dragon with his last ounce of power."
@@ -511,13 +511,13 @@ msgstr ""
 "Kraft einen Feuerdrachen zu Hilfe."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1218
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1229
 msgid "Heavily wounded, Zarack calls the Red Dragon for help."
 msgstr "Schwer verwundet, rief Zarack einen Feuerdrachen zur Hilfe."
 
 #. [message]: speaker=narrator
 #. This dwarf is not called "Zarack"
-#: ANLEra/scenarios/4p_Undead_Empire.cfg:1229
+#: ANLEra/scenarios/4p_Undead_Empire.cfg:1240
 msgid "Deadly wounded, the dwarf calls the Red Dragon for help."
 msgstr "Tödlich verwundet, rief der Zwerg einen Feuerdrachen zur Hilfe."
 

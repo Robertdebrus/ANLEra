@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-08-18 16:33 UTC\n"
-"PO-Revision-Date: 2020-08-18 18:34+0200\n"
+"POT-Creation-Date: 2020-08-31 21:00 UTC\n"
+"PO-Revision-Date: 2020-08-31 23:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #. [multiplayer_side]: id=ANLEra_Outlaws, type=Ruffian
 #: ANLEra/factions/outlaws.cfg:4
@@ -19,19 +19,19 @@ msgstr "Geächtete"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:85
-#: ANLEra/utils/worker_options.cfg:233
+#: ANLEra/utils/worker_options.cfg:287
 msgid "Convert to Grassland"
 msgstr "Zu Grasland umwandeln"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:329
-#: ANLEra/utils/worker_options.cfg:549
+#: ANLEra/utils/worker_options.cfg:600
 msgid "Remove Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:339
-#: ANLEra/utils/worker_options.cfg:559
+#: ANLEra/utils/worker_options.cfg:610
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
 
@@ -271,17 +271,17 @@ msgstr "Lasst mich Euch aushelfen."
 msgid "Explorers"
 msgstr "Erkunder"
 
-#: ANLEra/scenarios/ANI/define_sides.cfg:45
+#: ANLEra/scenarios/ANI/define_sides.cfg:48
 msgid "Inhabitants"
 msgstr "Bewohner"
 
 #. [side]: type=Goblin Rouser
-#: ANLEra/scenarios/ANI/define_sides.cfg:94
+#: ANLEra/scenarios/ANI/define_sides.cfg:100
 msgid "Shivshank"
 msgstr "Shivshank"
 
 #. [side]: type=Goblin Rouser
-#: ANLEra/scenarios/ANI/define_sides.cfg:109
+#: ANLEra/scenarios/ANI/define_sides.cfg:115
 msgid "Gagor"
 msgstr "Gagor"
 
@@ -336,7 +336,7 @@ msgstr ""
 "weiteren Mitstreiter hinzuziehen."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:614
+#: ANLEra/scenarios/5p_A_New_Land.cfg:629
 msgid ""
 "You recieved word about something dangerous in the nearby shallow water."
 msgstr ""
@@ -344,27 +344,27 @@ msgstr ""
 "gibt."
 
 #. [message]: type=ANLEra Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:620
+#: ANLEra/scenarios/5p_A_New_Land.cfg:635
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr "Wir sollten vorsichtig sein, es gibt hier eine Menge Gefahren."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:649
+#: ANLEra/scenarios/5p_A_New_Land.cfg:664
 msgid "Beware of enemy creatures in the mud."
 msgstr "Obacht vor feindlichen Kreaturen aus Schlamm."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:772
+#: ANLEra/scenarios/5p_A_New_Land.cfg:787
 msgid "Not so fast…"
 msgstr "Nicht so schnell…"
 
 #. [message]: type=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:780
+#: ANLEra/scenarios/5p_A_New_Land.cfg:795
 msgid "Deeaaathh…"
 msgstr "Steeerbt!"
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:853
+#: ANLEra/scenarios/5p_A_New_Land.cfg:868
 msgid "They’ll never take me alive!"
 msgstr "Sie werden mich nicht lebend bekommen! Niemals!"
 
@@ -1029,35 +1029,55 @@ msgstr ""
 "Forschungsgebiet festlegen."
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:79
+#: ANLEra/utils/worker_options.cfg:96
 msgid "Cost:"
 msgstr "Kosten:"
 
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
-#: ANLEra/utils/worker_options.cfg:81 ANLEra/utils/worker_options.cfg:126
+#: ANLEra/utils/worker_options.cfg:98 ANLEra/utils/worker_options.cfg:192
 msgid "g"
 msgstr "G"
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:126
+#: ANLEra/utils/worker_options.cfg:151
+msgid "No costs"
+msgstr "Keine Kosten"
+
+#. [option]: description=<span size='small'>
+#: ANLEra/utils/worker_options.cfg:192
 msgid "Earns:"
 msgstr "Einnahmen:"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:523
+#: ANLEra/utils/worker_options.cfg:574
 msgid "Remove Fireplace"
 msgstr "Feuerstelle beseitigen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:536
+#: ANLEra/utils/worker_options.cfg:587
 msgid "Light a Fire"
 msgstr "Feuer entzünden"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:569
+#: ANLEra/utils/worker_options.cfg:620
 msgid "Renovate Encampment"
 msgstr "Lager renovieren"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:630
+msgid "Demolish Village"
+msgstr "Dorf abreißen"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:639
+msgid "Demolish Castle"
+msgstr "Burg einreißen"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:647
+msgid "Demolish Keep"
+msgstr "Burgfried einreißen"
 
 #. [lua]: anl.send_gold_dialog
 #: ANLEra/utils/diplomacy.lua:58
