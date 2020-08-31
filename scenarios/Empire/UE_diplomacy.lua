@@ -66,7 +66,7 @@ function anl.choose_new_recruit(v, choosable, speaker, message)
         -- po: Orcs
         message = _'Our talks are complete — Which of our kin do you wish to recruit?'
     elseif v == 10 then
-        choosable = anl.determine_choosable_recruits(naga_units)units
+        choosable = anl.determine_choosable_recruits(naga_units)
         speaker = 'portraits/nagas/naga-hunter.png'
         -- po: Nagas
         message = _'An agreement has been reached — we will supply you with recruits!'
