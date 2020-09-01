@@ -1,3 +1,4 @@
+-- <<
 
 -- First part of this file describes the dialog to oversee research.
 -- Second part contains functions for the dialog to choose the researched unit.
@@ -20,7 +21,7 @@ function anl.research_field(name_standalone, name_embedded, description, saveslo
              image = image,
              -- More values, not for the [message][option], but for us!
              -- With that, we  can later check what the choosen option means.
-             saveslot = saveslot, 
+             saveslot = saveslot,
              language_name = name_embedded }
 end
 
@@ -171,6 +172,10 @@ end
 -- An equivalent to WML's type_adv_tree.
 -- Allows to not only compare against a unit,
 -- but whether the unit can advance to this unit in any way.
+-- WARNING: This is not necessarily Out-of-Sync safe:
+-- wesnoth.unit_types[ … … …] might on another client be nil.
+-- That by itself does not cause OoS, but take care.
+--
 function anl.type_adv_tree(search_type, current_type, exclude_set)
     if search_type == current_type then
         return true
@@ -181,12 +186,21 @@ function anl.type_adv_tree(search_type, current_type, exclude_set)
     if exclude_set == nil then exclude_set = {} end
     exclude_set[current_type] = true
 
-    for i, v in ipairs(wesnoth.unit_types[current_type].advances_to) do
-        if not exclude_set[v] then
-            if anl.type_adv_tree(search_type, v, exclude_set) then
-                return true
+    if wesnoth.unit_types[current_type] then
+        for i, v in ipairs(wesnoth.unit_types[current_type].advances_to) do
+            if not exclude_set[v] then
+                if anl.type_adv_tree(search_type, v, exclude_set) then
+                    return true
+                end
             end
         end
+    else
+        -- Candidate for OoS: The type might not exist on all machines.
+        -- Handling as false in that case, as it's more likely.
+        -- (i.e. it's assumed the non-existent type is one which soes not advance to the on-map unit)
+        -- Note: There's another unrelated canidate for issues here:
+        -- The effects of the WML tag [modify_unit_type] are not seen by wesnoth.unit_types[… … …].
+        return false
     end
 end
 
@@ -498,3 +512,5 @@ anl.researchable_units.undead_units = undead_units
 anl.researchable_units.special_units = special_units
 
 return anl
+
+-- >>

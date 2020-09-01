@@ -1,5 +1,6 @@
-local _ = wesnoth.textdomain 'wesnoth-ANLEra'
+-- <<
 
+local _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
 function anl.extra_units(recruits, gold)
     gold = gold or 15
@@ -259,3 +260,5 @@ anl.ai_units.turn21=turn21
 anl.ai_units.turn23=turn23
 
 return anl
+
+-- >>

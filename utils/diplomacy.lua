@@ -1,5 +1,4 @@
-
-
+-- <<
 
 -- Used for sending gold or tech.
 -- This lists only the allied sides, excluding the own and leaderless or defeated ones.
@@ -551,3 +550,5 @@ anl.negotiable_units.merfolk_units = merfolk_units
 anl.negotiable_units.hero_units = hero_units
 
 return anl
+
+-- >>
