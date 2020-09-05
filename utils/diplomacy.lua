@@ -454,8 +454,8 @@ function anl.choose_new_unit (v)
     -- Extension point:
     -- If this function is added by another add-on,
     -- then strings for more factions can be added.
-    if anl.choose_new_recruit ~= nil then
-        choosable, speaker, message = anl.choose_new_recruit(v, choosable, speaker, message)
+    if anl.choose_other_new_unit ~= nil then
+        choosable, speaker, message = anl.choose_other_new_unit(v, choosable, speaker, message)
     end
 
     -- Build list of options.

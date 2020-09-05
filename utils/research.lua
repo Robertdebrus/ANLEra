@@ -220,7 +220,7 @@ function anl.determine_faction(mage_type)
     if anl.type_adv_tree(mage_type, 'ANLEra Drake Apprentice') then
         not_yet_researched_units = anl.determine_choosable_recruits(drakish_units)
 
-    elseif anl.type_adv_tree(mage_type, 'ANLEra Dwarvish Annalist') then
+    elseif anl.type_adv_tree(mage_type, 'ANLEra Dwarvish Witness') then
         not_yet_researched_units = anl.determine_choosable_recruits(dwarvish_units)
 
     elseif anl.type_adv_tree(mage_type, 'Elvish Shaman') then
