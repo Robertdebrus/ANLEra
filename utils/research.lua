@@ -1,13 +1,20 @@
--- <<
+-- << magic marker. For Lua it's a comment, for the WML preprocessor an opening quotation sign.
 
+--
 -- First part of this file describes the dialog to oversee research.
--- Second part contains functions for the dialog to choose the researched unit.
--- The last part contains the informational Research Complete Messages.
+--
+-- Second part contains the functions for the dialog to choose the researched unit,
+-- and others which are used to determine which units are still be researchable (and if there are some left)
+--
+-- The last part contains the informational Research Complete Messages,
+-- which are displayed a turn start.
+--
 
 -- This function returns for a [message] one [option] entry.
+-- This is purely a helper function for the ones defined after it.
 -- In the English language,
 -- name_standalone should start with a capital letter,
--- name_embedded should be in lower-case.
+-- name_embedded should be in lower-case (it will be part of a sentence).
 -- It's also a possibility is to use a long and a short name.
 function anl.research_field(name_standalone, name_embedded, description, saveslot, image)
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
@@ -26,6 +33,7 @@ function anl.research_field(name_standalone, name_embedded, description, saveslo
 end
 
 
+-- Text for farming option:
 function anl.offer_agriculture()
     local _ = wesnoth.textdomain 'wesnoth-anl'
     -- po: short version, will be part of a sentence
@@ -37,6 +45,7 @@ function anl.offer_agriculture()
 end
 
 
+-- Text for mining option.
 function anl.offer_mining()
     local _ = wesnoth.textdomain 'wesnoth-anl'
     -- po: short version, will be part of a sentence
@@ -48,13 +57,16 @@ function anl.offer_mining()
 end
 
 
+-- Experimental option, taken over from Undead Empire add-on.
 function anl.offer_philosophy()
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
     return anl.research_field(_'Philosophy', _'philosophy', _'Scholars improve their research methods', 'philosophy', 'items/book3.png')
 end
 
 
+-- Text for unit research option:
 function anl.offer_warfare()
+    -- Special case – adding some flavor by naming it differently:
     if wesnoth.sides[wesnoth.current.side].faction == 'ANLEra_Undead' then
         local _ = wesnoth.textdomain 'wesnoth-ANLEra'
         -- po: specific to undead
@@ -71,6 +83,7 @@ function anl.offer_warfare()
 end
 
 
+-- Helper function setting the variables after the dialogue was answered:
 function anl.update_research_target(project, name, undo_forbidden)
     if  wml.variables['player_' .. wesnoth.current.side .. '.research.current_target'] ~= project then
         wml.variables['player_' .. wesnoth.current.side .. '.research.current_target']  = project
@@ -85,30 +98,34 @@ function anl.update_research_target(project, name, undo_forbidden)
 end
 
 
--- Message dialog to oversee research.
+-- The main message dialog for the overseeing research.
+-- This is the one function in this file which is called from the WML [set_menu_item].
+-- It's the entry point where everything else is set up, by calling other functions etc.
 function anl.research_menu(undo_forbidden)
     local _ = wesnoth.textdomain 'wesnoth-anl'
     local rc
-    local options = { _ 'Continue as before'}
 
-    table.insert(options, anl.offer_agriculture())
-    table.insert(options, anl.offer_mining())
-    table.insert(options, anl.offer_philosophy())
+    -- Set up the message dialog:
+    local options = { _ 'Continue as before'}
+    table.insert(options, anl.offer_agriculture() )
+    table.insert(options, anl.offer_mining() )
+    table.insert(options, anl.offer_philosophy() )
 
     -- Checking if there are more units researchable than currently choosable.
     -- Reusing the function anl.determine_faction for this.
     -- Only offer then to research more units.
-    local x, researchable, ready
-    x, researchable = anl.determine_faction(wml.variables['unit'].type)
-    available = wml.variables['player_' .. wesnoth.current.side .. '.warfare.troop_available']
-    available = available +1
+    local unused, researchable, available
+    unused, researchable = anl.determine_faction(wml.variables['unit'].type)
+    -- Test if there are still units left to be researched, if »troop_available« units are choosen.
+    -- »troop_available« = researched-but-not-yet-choosen-units (player didn't use the right-click menu)
+    available = wml.variables['player_' .. wesnoth.current.side .. '.warfare.troop_available'] +1
     if researchable[available] ~= nil then
         table.insert(options, anl.offer_warfare())
     end
 
     _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
-    -- Show the actual message diaglog.
+    -- Show the actual message diaglog:
     rc = wesnoth.synchronize_choice( function()
         return { value = wesnoth.show_message_dialog( {
                             title = _ 'Research',
@@ -121,6 +138,7 @@ function anl.research_menu(undo_forbidden)
                             }, options) } end
         ).value
 
+    -- Handle the choice from the message dialog:
     if rc > 1 then
         anl.update_research_target(options[rc].saveslot, options[rc].language_name, undo_forbidden)
     else
@@ -131,6 +149,35 @@ function anl.research_menu(undo_forbidden)
 end
 
 
+--
+-- Part 2: Functions for the choosing a unit.
+--
+-- How does this work? Several functions are chained together.
+-- 1)  anl.choose_new_recruit    is called from WML
+-- 2)  anl.determine_faction     is called from there. Based on the researching unit it determines the faction.
+-- 3b) anl.type_adv_tree         is used inside that function as helper function.
+-- 4)  anl.determine_choosable_recruits returns the complement of the side's recruits and the researchable units.
+-- 5)  anl.build_recruit_options builds from that informtion a table which conatins the data for wesnoth.show_message_dialog
+
+--        The name of the functions 2,3,4,5 are reflecting what they do, but not why they are called.
+--       (anl.determine_faction is called because we want either to craft a table for the message_dialog,
+--        or to know if the list has entries, but we don't care about the faction directly.)
+--        but that task is in the end done by on of the functions.
+--        Maybe a better solution is to have a dummy function 1b.
+--
+-- These functions (except number 1) are also used at other places:
+--  B) By WML [set_menu_item][show_if]: The right click menu is not shown if all has been researched.
+--  C) By above anl.research_menu. Warfare option is not offered if all has been researched.
+
+
+-- Side note on unimportant design decisions:
+-- · The recruits are not dependent on the faction, but the faction of the researching unit.
+--   If one in any way gets a researcher from another faction one can research these factions units.
+-- · If a unit would be obtainable through both research and negotiation it would cause no problems.
+
+-- List of researchable units.
+-- Unlike the old WML way, it is not saved which units have been researched,
+-- but the sides current recruits are compared against these ones:
 local drakish_units = {'Drake Fighter', 'Drake Clasher', 'Drake Burner', 'Drake Glider', 'Saurian Skirmisher', 'Saurian Augur' }
 local dwarvish_units = {'Dwarvish Fighter', 'Dwarvish Guardsman', 'Dwarvish Scout', 'Dwarvish Thunderer', 'Dwarvish Ulfserker', 'Gryphon Rider'}
 local elvish_units = {'Elvish Archer', 'Elvish Fighter', 'Elvish Scout', 'Wose'}
@@ -145,6 +192,7 @@ local special_units = {'Giant Mudcrawler'} -- fixme: it isn't useful
 -- In difference to the function at the begining of the file, it does not keep additional
 -- information in this table, but returns a second table to determine later
 -- what each [message][option] is supposed to do.
+-- Fixme: use the same approach with just one table.
 function anl.build_recruit_options(choosable)
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
     local options
@@ -285,7 +333,7 @@ function anl.choose_new_recruit()
 
     local _ = wesnoth.textdomain 'wesnoth-anl'
 
-    -- Show a different text if only one unit is left.
+    -- For flavor: show a different text if only one unit is left.
     local function text()
         if choosable[2] == nil then
             local _ = wesnoth.textdomain 'wesnoth-ANLEra'
@@ -297,6 +345,7 @@ function anl.choose_new_recruit()
         end
     end
 
+    -- Show the dialog:
     rc = wesnoth.synchronize_choice( function()
             return { value = wesnoth.show_message_dialog( {
                                  title = _ 'Study Complete',
@@ -305,33 +354,48 @@ function anl.choose_new_recruit()
                                  }, options )} end
         ).value
 
+    -- Handle the result:
     if rc > 1 then
         wesnoth.wml_actions.allow_recruit({
             side = wesnoth.current.side,
             type = choosable[rc-1] })
 
-        wml.variables['player_' .. wesnoth.current.side .. '.warfare.troop_available'] = 
+        wml.variables['player_' .. wesnoth.current.side .. '.warfare.troop_available'] =
         wml.variables['player_' .. wesnoth.current.side .. '.warfare.troop_available'] - 1
-        -- fixme: this is only needed for one other place in the code.
+        -- Fixme: this is old ugly code and only needed for one other place in the code.
+        -- Namely it's checked with the give_tech diplomacy option,
+        -- trying to not offer the options for factions which might not anymore be able
+        -- to research units. It's checking this value.
         wml.variables['player_' .. wesnoth.current.side .. '.troops'] =
         wml.variables['player_' .. wesnoth.current.side .. '.troops'] + 1
 
+        -- If there's was only unit left to be researched (which has just been researched now),
+        -- then it makes most  likely no more sense to continue researching new units.
+        -- An exception would be if the faction has other researchers who can still research units belonging to other factions.
         if (choosable[2] == nil) and (wml.variables['player_' .. wesnoth.current.side .. '.research.current_target'] == 'warfare') then
             _ = wesnoth.textdomain 'wesnoth-ANLEra'
             wesnoth.unsynced( function ()
                 wesnoth.show_message_dialog( {
+                -- Fixme: current title is not giving any meaningful information.
                 title = _ 'Study Complete',
-                -- fixme: Could reformulate the string: research all units is clear to the player, but is weird from story perspective.
+                -- Fixme: Could reformulate the string: research all units is clear to the player, but is weird from story perspective.
                 message = _ 'We researched all units. It would be wise to change the research target now.',
                 portrait = wml.variables['unit'].profile,
                 }) end
             )
+            -- Prompt the player to choose a new research target. Disallow undoing.
             anl.research_menu(true)
         end
     else
+        -- Option 1 is always the option to abort:
         wesnoth.wml_actions.allow_undo{}
     end
 end
+
+
+--
+-- Part 3: Messages at turn start.
+--
 
 
 -- Research Complete Messages.
@@ -339,6 +403,7 @@ end
 -- This function is called from an [event] written in WML.
 function anl.research_complete()
 
+    -- Safety check: If the WML variable does not exist, skip this all.
     if wml.variables['player_' .. wesnoth.current.side] == nil then
         return
     end
@@ -459,6 +524,7 @@ function anl.research_complete()
     end
 
     if increased then
+        -- For flavor, change the message image for undead.
         local function book(faction)
             if faction == 'ANLEra_Undead' then
                 return 'items/book5.png'
@@ -476,8 +542,8 @@ function anl.research_complete()
                 speaker = 'narrator',
                 caption = _ 'Study Complete',
                 image = book(side.faction),
-                -- It's +1 more, which for level 1 units is 100% more.
-                -- po: shown after accomplishing the research project the first time
+                -- It's +1 more, which for level 1 units is 100% more. Ignoring that for L2 it's not 100%.
+                -- po: shown after accomplishing the philisophy research project the first time
                 message = wesnoth.format(_ 'By coordinating research efforts and creating dedicated teams $side_name|’s scholars managed to double their research results.',
                                         { side_name = side.side_name,
                                           side_no = side.side,
@@ -513,4 +579,4 @@ anl.researchable_units.special_units = special_units
 
 return anl
 
--- >>
+-- Magic marker. For Lua it's a comment, for the WML preprocessor a closing quotation sign. >>
