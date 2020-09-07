@@ -151,10 +151,10 @@ function anl.build_recruit_options(choosable)
 
     if choosable[2] ~= nil then
         -- po: Text for the option to cancel. Decide later which unit to choose.
-        options = {_ 'Choose later'}
+        options = { _'Choose later.'}
     else
         -- po: Text for the option to cancel. Just one unit is left to be chosen.
-        options = {_ 'No, maybe not.'}
+        options = { _'No, maybe not.'}
     end
 
     for i, v in ipairs(choosable) do

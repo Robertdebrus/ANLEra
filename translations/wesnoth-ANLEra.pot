@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-09-01 22:55 UTC\n"
+"POT-Creation-Date: 2020-09-07 18:10 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -246,13 +246,6 @@ msgid "5p — A New Land"
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANL5p
-#. [multiplayer]: id=ANLEra_ANI
-#: ANLEra/scenarios/5p_A_New_Land.cfg:6
-#: ANLEra/scenarios/2p_A_New_Island.cfg:9
-msgid "(Survival)"
-msgstr ""
-
-#. [multiplayer]: id=ANLEra_ANL5p
 #: ANLEra/scenarios/5p_A_New_Land.cfg:12
 msgid "This 5p survival scenario allows you to construct buildings and terraform the land."
 msgstr ""
@@ -353,54 +346,54 @@ msgstr ""
 msgid "On this map, you will have to build your own keep, while you start with two peasants. In the middle of this map is a wall that will start opening on turn 8, and fully open by turn 14."
 msgstr ""
 
-#. [unit]: id=Peasant-1, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:44
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:42
 msgid "Owan"
 msgstr ""
 
-#. [unit]: id=Peasant-2, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:51
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:43
 msgid "Aethubry"
 msgstr ""
 
-#. [unit]: id=Peasant-3, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:70
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:61
 msgid "Blygwyn"
 msgstr ""
 
-#. [unit]: id=Peasant-4, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:77
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:62
 msgid "Midoc"
 msgstr ""
 
-#. [unit]: id=Peasant-5, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:96
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:80
 msgid "Rhygwyddryn"
 msgstr ""
 
-#. [unit]: id=Peasant-6, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:103
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:81
 msgid "Blyn"
 msgstr ""
 
-#. [unit]: id=Peasant-7, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:122
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:99
 msgid "Sec"
 msgstr ""
 
-#. [unit]: id=Peasant-8, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:129
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:100
 msgid "Gwyn"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:143
-#: ANLEra/scenarios/4p_The_Wall.cfg:159
+#: ANLEra/scenarios/4p_The_Wall.cfg:264
+#: ANLEra/scenarios/4p_The_Wall.cfg:280
 msgid "The Wall crumbles."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:180
+#: ANLEra/scenarios/4p_The_Wall.cfg:301
 msgid "The Wall falls."
 msgstr ""
 
@@ -821,6 +814,10 @@ msgstr ""
 msgid "Recommended to be played with A New Land Era."
 msgstr ""
 
+#: ANLEra/utils/objectives.cfg:69
+msgid "(Survival)"
+msgstr ""
+
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/help.cfg:15
@@ -903,11 +900,6 @@ msgstr ""
 #. [message]: speaker=unit
 #: ANLEra/utils/worker_options.cfg:635
 msgid "Renovate Encampment"
-msgstr ""
-
-#. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:645
-msgid "Demolish Village"
 msgstr ""
 
 #. [message]: speaker=unit
@@ -1091,7 +1083,7 @@ msgid "Negotiation Complete"
 msgstr ""
 
 #. [modification]: id=Anewlandsp, type=hybrid
-#: ANLEra/_main.cfg:16
+#: ANLEra/_main.cfg:11
 msgid "An experimental Sp/Mp modification, which allows lvl 0s to build (no research)."
 msgstr ""
 
@@ -1103,5 +1095,18 @@ msgstr ""
 #. [era]: id=ANLEra
 #: ANLEra/ANLEra.cfg:6
 msgid "An Era that uses the macros for the mainline scenario A New Land, with more factions."
+msgstr ""
+
+
+#. [lua]: anl.build_recruit_options
+#. Text for the option to cancel. Decide later which unit to choose.
+#: ANLEra/utils/research.lua:202
+msgid "Choose later."
+msgstr ""
+
+#. [lua]: anl.build_recruit_options
+#. Text for the option to cancel. Just one unit is left to be chosen.
+#: ANLEra/utils/research.lua:205
+msgid "No, maybe not."
 msgstr ""
 

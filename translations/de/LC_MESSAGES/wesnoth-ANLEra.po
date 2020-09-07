@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-09-01 22:54 UTC\n"
-"PO-Revision-Date: 2020-09-02 00:54+0200\n"
+"POT-Creation-Date: 2020-09-07 18:10 UTC\n"
+"PO-Revision-Date: 2020-09-06 22:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -320,12 +320,6 @@ msgid "5p — A New Land"
 msgstr "5S – Eine neue Heimat"
 
 #. [multiplayer]: id=ANLEra_ANL5p
-#. [multiplayer]: id=ANLEra_ANI
-#: ANLEra/scenarios/5p_A_New_Land.cfg:6 ANLEra/scenarios/2p_A_New_Island.cfg:9
-msgid "(Survival)"
-msgstr "(Überleben)"
-
-#. [multiplayer]: id=ANLEra_ANL5p
 #: ANLEra/scenarios/5p_A_New_Land.cfg:12
 msgid ""
 "This 5p survival scenario allows you to construct buildings and terraform "
@@ -450,53 +444,53 @@ msgstr ""
 "zwei Bauern. In der Mitte der Karte gibt es eine Mauer, welche sich ab Runde "
 "8 zu öffnen beginnt, und mit Runde 14 komplett geöffnet sein wird."
 
-#. [unit]: id=Peasant-1, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:44
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:42
 msgid "Owan"
 msgstr "Owan"
 
-#. [unit]: id=Peasant-2, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:51
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:43
 msgid "Aethubry"
 msgstr "Aethubry"
 
-#. [unit]: id=Peasant-3, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:70
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:61
 msgid "Blygwyn"
 msgstr "Blygwyn"
 
-#. [unit]: id=Peasant-4, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:77
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:62
 msgid "Midoc"
 msgstr "Midoc"
 
-#. [unit]: id=Peasant-5, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:96
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:80
 msgid "Rhygwyddryn"
 msgstr "Rhygwyddryn"
 
-#. [unit]: id=Peasant-6, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:103
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:81
 msgid "Blyn"
 msgstr "Blyn"
 
-#. [unit]: id=Peasant-7, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:122
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:99
 msgid "Sec"
 msgstr "Sec"
 
-#. [unit]: id=Peasant-8, type=Peasant
-#: ANLEra/scenarios/4p_The_Wall.cfg:129
+#. [side]
+#: ANLEra/scenarios/4p_The_Wall.cfg:100
 msgid "Gwyn"
 msgstr "Gwyn"
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:143 ANLEra/scenarios/4p_The_Wall.cfg:159
+#: ANLEra/scenarios/4p_The_Wall.cfg:264 ANLEra/scenarios/4p_The_Wall.cfg:280
 msgid "The Wall crumbles."
 msgstr "Die Mauer bröckelt."
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/4p_The_Wall.cfg:180
+#: ANLEra/scenarios/4p_The_Wall.cfg:301
 msgid "The Wall falls."
 msgstr "Die Mauer fällt."
 
@@ -981,6 +975,10 @@ msgid "Recommended to be played with A New Land Era."
 msgstr ""
 "Wird als Epoche »A New Land Era« gewählt sind weitere Fraktionen spielbar."
 
+#: ANLEra/utils/objectives.cfg:69
+msgid "(Survival)"
+msgstr "(Überleben)"
+
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/help.cfg:15 ANLEra/utils/help.cfg:140
@@ -1087,11 +1085,6 @@ msgstr "Feuer entzünden"
 #: ANLEra/utils/worker_options.cfg:635
 msgid "Renovate Encampment"
 msgstr "Lager renovieren"
-
-#. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:645
-msgid "Demolish Village"
-msgstr "Dorf abreißen"
 
 #. [message]: speaker=unit
 #: ANLEra/utils/worker_options.cfg:654
@@ -1327,7 +1320,7 @@ msgid "Negotiation Complete"
 msgstr "Verhandlungen abgeschlossen"
 
 #. [modification]: id=Anewlandsp, type=hybrid
-#: ANLEra/_main.cfg:16
+#: ANLEra/_main.cfg:11
 msgid ""
 "An experimental Sp/Mp modification, which allows lvl 0s to build (no "
 "research)."
@@ -1352,6 +1345,21 @@ msgstr ""
 "Eine Epoche, welche die Mechanismen des Szenarios »Eine neue Heimat« aus dem "
 "Hauptspiel benutzt und weitere Fraktionen bereitstellt."
 
+#. [lua]: anl.build_recruit_options
+#. Text for the option to cancel. Decide later which unit to choose.
+#: ANLEra/utils/research.lua:202
+msgid "Choose later."
+msgstr "Einheitentyp später wählen."
+
+#. [lua]: anl.build_recruit_options
+#. Text for the option to cancel. Just one unit is left to be chosen.
+#: ANLEra/utils/research.lua:205
+msgid "No, maybe not."
+msgstr "Nein, vielleicht nicht."
+
+#~ msgid "Demolish Village"
+#~ msgstr "Dorf abreißen"
+
 #~ msgid "AI Destroyers"
 #~ msgstr "KI Zerstörer"
 
@@ -1359,12 +1367,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Die Forschungsergebnisse von $side_name|s Magiers liegen nun bei $amount|"
 #~ "00%."
-
-#~ msgid "Choose later"
-#~ msgstr "Einheitentyp später wählen"
-
-#~ msgid "No, maybe not."
-#~ msgstr "Nein, vielleicht nicht."
 
 #~ msgid "$name_of_side| can now recruit a new unit type: $unit_type.name|"
 #~ msgstr ""
