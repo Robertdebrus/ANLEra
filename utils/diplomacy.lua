@@ -249,13 +249,15 @@ local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bow
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
 local merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
 local hero_units = {'Elvish Hero', 'White Mage', 'Revenant', 'Dwarvish Berserker'}
-local options_offered = {}
+local options_offered
 
 
 function anl.can_negotiate_with(other_faction)
     if wesnoth.sides[wesnoth.current.side].faction == other_faction then return false end
 
+    -- This faction's already available recruits
     local recruits = wesnoth.sides[wesnoth.current.side].recruit
+    -- This faction's possible new ones
     local partner = {}
     if other_faction == 'ANLEra_Dwarves' then
         partner = dwarvish_units
@@ -390,14 +392,24 @@ function anl.diplomacy_options()
 end
 
 
-function anl.determine_choosable_recruits(partner)
+function anl.determine_choosable_recruits(faction_units)
     local recruits = wesnoth.sides[wesnoth.current.side].recruit
+    local partner = {}
+
+    -- Making a deep copy of the table.
+    -- Otherwise removing items from the table would remove them
+    -- from the same table which is used somewhere else
+    for k, v in pairs(faction_units) do
+        partner[k]=v
+    end
 
     -- Clear the partner's list from the ones already recruitable.
-    for k,v in ipairs(recruits) do
-        for i,w in ipairs(partner) do
-            if w == v then
+    for k, available_one in ipairs(recruits) do
+        for i, new_one in ipairs(partner) do
+            if available_one == new_one then
                 table.remove(partner, i)
+                -- ignoring possisble duplicates, should not happen
+                break
             end
         end
     end
@@ -497,6 +509,9 @@ end
 
 
 function anl.diplomacy_menu()
+
+    -- Reset helper variable
+    options_offered = {}
 
     local negotiation_options = anl.diplomacy_options()
 
