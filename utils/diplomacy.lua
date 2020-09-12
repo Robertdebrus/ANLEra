@@ -1,4 +1,59 @@
--- <<
+-- << magic marker. For Lua it's a comment, for the WML preprocessor an opening quotation sign.
+
+--[[
+This file contains:
+* the diplomacy menu and submenus
+* code to determine who/what is listed in the submenus
+* code to determine offered negotiation options
+* code to choose a new recruit
+
+Structure of the menu:
+ -> (1) Aborting  [always displayed]
+ -> (2) Send Gold [always displayed] -> Submenu
+ -> (3) Send Tech [always displayed] -> Submenu
+ -> (…) Varying number of negotiation options [not all displayed]
+    (…) Dwarves
+    (…) Elves
+    (…) Drakes
+    (…) Undead
+    (…) Humans
+    (…) -- removed --
+    (…) Meervolk
+    (…) Helden
+
+
+Functions in this file:
+
+* Not related to negotation:
+anl.get_allies()                          -> Helper function for submenus
+anl.post_diplomacy()                      -> Exit-function
+anl.send_gold_dialog(diplomacy_gold_text) -> Text for submenu
+anl.send_gold()                           -> Submenu
+anl.send_tech_dialog(options)             -> Text for submenu
+anl.send_tech()                           -> Submenu
+
+* Related to negotiation:
+anl.can_negotiate_with(other_faction)     -> Helper function, disable negotiation
+                                             * based on faction id
+                                             * if all units of a faction are obtained
+anl.negotiation_option(who, desc, id, leader_option, image) -> Helper function, returns one table entry
+anl.diplomacy_options()                   -> Creates table with all options to choose from
+
+* Additionally triggered if negotiation is complete:
+anl.determine_choosable_recruits(partner) -> Filter out already recruitable units before choose_new_unit
+anl.choose_new_unit (v)                   -> Menu to choose new unit
+
+* This is the one place which loads all the code
+anl.diplomacy_dialog(options)             -> Text for main dialog
+anl.diplomacy_menu()                      -> Main dialog, called from WML
+
+
+These two functions do partially fullfil the same purpose:
+anl.can_negotiate_with
+anl.determine_choosable_recruits
+--]]
+
+
 
 -- Used for sending gold or tech.
 -- This lists only the allied sides, excluding the own and leaderless or defeated ones.
@@ -284,6 +339,12 @@ function anl.can_negotiate_with(other_faction)
         end
     end
 
+    -- Not needed, only to catch potential coding mistake
+    if partner[1] == nil then
+        wesnoth.message( 'ANL', other_faction .. ' has no units for negotiation')
+        return false
+    end
+
     -- Check if there are still recruits up for negotiation.
     local v_found = false
     for k,v in ipairs(partner) do
@@ -291,6 +352,7 @@ function anl.can_negotiate_with(other_faction)
         for k,w in ipairs(recruits) do
             if v == w then
                 v_found = true
+                break
             end
         end
 
@@ -566,4 +628,4 @@ anl.negotiable_units.hero_units = hero_units
 
 return anl
 
--- >>
+-- Magic marker. For Lua it's a comment, for the WML preprocessor a closing quotation sign. >>
