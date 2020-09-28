@@ -50,7 +50,7 @@ anl.diplomacy_menu()                      -> Main dialog, called from WML
 
 These two functions do partially fullfil the same purpose:
 anl.can_negotiate_with
-anl.determine_choosable_recruits
+anl.determine_choosable_recruits (also used by research.lua)
 --]]
 
 
@@ -523,13 +523,15 @@ function anl.choose_new_unit (v)
         choosable = anl.determine_choosable_recruits(hero_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?'
-    end
+
 
     -- Extension point:
     -- If this function is added by another add-on,
     -- then strings for more factions can be added.
-    if anl.choose_other_new_unit ~= nil then
+    elseif anl.choose_other_new_unit ~= nil then
         choosable, speaker, message = anl.choose_other_new_unit(v, choosable, speaker, message)
+    else
+        wesnoth.message('ANL', _'Function anl.choose_new_unit has no information about the faction.')
     end
 
     -- Build list of options.

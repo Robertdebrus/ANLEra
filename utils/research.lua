@@ -378,7 +378,7 @@ function anl.choose_new_recruit()
                 wesnoth.show_message_dialog( {
                 -- Fixme: current title is not giving any meaningful information.
                 title = _ 'Study Complete',
-                -- Fixme: Could reformulate the string: research all units is clear to the player, but is weird from story perspective.
+                -- Fixme: Could reformulate the string: researched all units is clear to the player, but is weird from story perspective.
                 message = _ 'We researched all units. It would be wise to change the research target now.',
                 portrait = wml.variables['unit'].profile,
                 }) end
