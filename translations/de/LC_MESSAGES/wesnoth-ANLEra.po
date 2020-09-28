@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2020-09-07 18:10 UTC\n"
-"PO-Revision-Date: 2020-09-06 22:30+0200\n"
+"PO-Revision-Date: 2020-09-28 07:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -786,7 +786,7 @@ msgstr "$side_name|s Farmen produzieren nun $amount Gold."
 #. [lua]: anl.research_complete
 #: ANLEra/utils/research.lua:398
 msgid "$side_name|’s mines produce now $amount gold."
-msgstr "$side_name|s Bergwerke produzieren jetzt $amount gold."
+msgstr "$side_name|s Bergwerke produzieren jetzt $amount Gold."
 
 #. [lua]: anl.research_complete
 #. one new unit available
