@@ -2,6 +2,11 @@ translation: ANL
 
 ANL:
 	wmlxgettext --recursive --directory=.. --domain=wesnoth-ANLEra -o wesnoth-ANLEra.pot
+	msgmerge -U de/LC_MESSAGES/wesnoth-ANLEra.po wesnoth-ANLEra.pot
+	msgfmt -o de/LC_MESSAGES/wesnoth-ANLEra.mo de/LC_MESSAGES/wesnoth-ANLEra.po
+
+ANL-with-workaround:
+	wmlxgettext --recursive --directory=.. --domain=wesnoth-ANLEra -o wesnoth-ANLEra.pot
 	# WORKAROUND, wmlxgettext does not detect these two:
 	echo '' >> wesnoth-ANLEra.pot
 	echo '#. [lua]: anl.build_recruit_options' >> wesnoth-ANLEra.pot
