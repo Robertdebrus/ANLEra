@@ -169,7 +169,8 @@ function anl.send_gold()
                                     { player_name = anl.get_allies()[ rc-1 ].side_name ,
                                       side = anl.get_allies()[ rc-1 ].side })
         }
-        anl.post_diplomacy()
+
+        if anl.post_diplomacy then anl.post_diplomacy() end
     end
 end
 
@@ -302,7 +303,8 @@ function anl.send_tech()
                                           side_no = side.side })
             }
         end
-        anl.post_diplomacy()
+
+        if anl.post_diplomacy then anl.post_diplomacy() end
     end
 end
 
@@ -627,6 +629,8 @@ function anl.diplomacy_menu()
         end
     ).value 
 
+    if rc == nil then wesnoth.message('ANL', "Lua does strange things.") end
+
     -- Handle the choice.
     if rc ~= 1 then
         if rc == 2 then
@@ -651,7 +655,7 @@ function anl.diplomacy_menu()
                 value +1
             end
 
-            anl.post_diplomacy()
+            if anl.post_diplomacy then anl.post_diplomacy() end
         end
     end
 end
