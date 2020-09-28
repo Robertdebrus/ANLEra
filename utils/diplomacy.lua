@@ -94,6 +94,7 @@ function anl.post_diplomacy()
 end
 
 
+-- The displayed dialogue:
 function anl.send_gold_dialog(diplomacy_gold_text)
     if wesnoth.sides[wesnoth.current.side].gold >= 20 then
         local _ = wesnoth.textdomain 'wesnoth-anl'
@@ -106,6 +107,7 @@ function anl.send_gold_dialog(diplomacy_gold_text)
             diplomacy_gold_text
          )
     else
+        -- Friendly returning.
         local _ = wesnoth.textdomain 'wesnoth-ANLEra'
         wesnoth.show_message_dialog(
             {
@@ -113,15 +115,17 @@ function anl.send_gold_dialog(diplomacy_gold_text)
              message = _ 'I don’t have enough gold...', -- this not yet
              portrait = wml.variables['unit'].profile
             })
+        -- Same effect as the cancel button, option number 1.
         return 1
     end
 
 end
 
 
+-- Option to send 20 gold to an ally (if any)
 function anl.send_gold()
 
-    -- calculating the options
+    -- Calculating the options - whom can we send gold? (Only to alive allies).
     local _ = wesnoth.textdomain 'wesnoth-anl'
     local diplomacy_gold_text = { _'Back' }
 
@@ -133,7 +137,7 @@ function anl.send_gold()
         )
     end
 
-    -- sync
+    -- Decide about sending gold and sync your decision to the other clients.
     local rc = wesnoth.synchronize_choice(
         function()
             return { value = anl.send_gold_dialog(diplomacy_gold_text) }
@@ -144,10 +148,11 @@ function anl.send_gold()
     -- The number returned is not the number of the side,
     -- but the number of the selected option!
     if rc == 1 then
+        -- Aborting, due to no money or due to cancel-button.
         anl.diplomacy_menu()
     else
 
-        -- send money
+        -- Send money.
         wesnoth.wml_actions.gold{
             side = anl.get_allies()[ rc-1 ].side,
             amount = 20,
@@ -169,7 +174,7 @@ function anl.send_gold()
 end
 
 
--- GUI for sending tech
+-- The displayed dialogue for sending tech.
 function anl.send_tech_dialog(options)
     local _ = wesnoth.textdomain 'wesnoth-anl'
     return wesnoth.show_message_dialog(
@@ -181,6 +186,9 @@ function anl.send_tech_dialog(options)
 end
 
 
+-- Option to increase an allies research by 1 point.
+-- (As if the leader unit would be an researcher unit of the ally.)
+-- If philosophy was researched, the bonus will be higher,
 function anl.send_tech()
     local _ = wesnoth.textdomain 'wesnoth-anl'
     local options = { _'Back'}
@@ -191,6 +199,8 @@ function anl.send_tech()
     local own_warfare = wml.variables['player_' .. wesnoth.current.side][3][2].target
     _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
+    -- Check who qualifies to receive tech (only allive allies, who are behind us in technology).
+    -- Check for all techs.
     for k,v in ipairs( anl.get_allies() ) do
 
         -- Compare own with allied tech, only offer option if one is more advanced.
@@ -234,7 +244,7 @@ function anl.send_tech()
         -- Explicitely skipping philosophy. Doesn't make sense from the gameplay point of view.
     end
 
-    -- sync
+    -- Decide about sending thech and sync your decision to the other clients.
     local rc = wesnoth.synchronize_choice(
         function()
             return { value = anl.send_tech_dialog(options) }
@@ -242,9 +252,10 @@ function anl.send_tech()
     ).value
 
     if rc == 1 then
+        -- Canceled.
         anl.diplomacy_menu()
     else
-        -- send tech
+        -- Send tech.
 
         -- Field no. (rc-1) contains the chosen values.
         local side = list1[rc-1]
@@ -252,6 +263,7 @@ function anl.send_tech()
         local progress = wml.variables['player_' .. side.side][tech_option][2].progress
         _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
+        -- Gold:
         if tech_option == 1 then
             wml.variables['player_' .. side.side .. '.farming.progress'] = progress +1 +
             wml.variables['player_' .. wesnoth.current.side .. '.philosophy.bonus']
@@ -264,6 +276,7 @@ function anl.send_tech()
                                            side_no = side.side })
             }
 
+        -- Mining:
         elseif tech_option == 2 then
             wml.variables['player_' .. side.side .. '.mining.progress'] = progress +1 +
             wml.variables['player_' .. wesnoth.current.side .. '.philosophy.bonus']
@@ -276,6 +289,7 @@ function anl.send_tech()
                                           side_no = side.side })
             }
 
+        -- Warfare:
         elseif tech_option == 3 then
             wml.variables['player_' .. side.side .. '.warfare.progress'] = progress +1 +
             wml.variables['player_' .. wesnoth.current.side .. '.philosophy.bonus']
@@ -296,6 +310,7 @@ end
 -- Functions for the main GUI, letting you choose between:
 -- sending gold, sending tech or negotiation options.
 
+-- Units up for negotiation
 local dwarvish_units = {'Dwarvish Fighter', 'Dwarvish Guardsman', 'Dwarvish Scout', 'Dwarvish Thunderer', 'Dwarvish Ulfserker'}
 local elvish_units = {'Elvish Archer', 'Elvish Fighter', 'Elvish Scout'}
 local drakish_units = {'Drake Fighter', 'Drake Clasher', 'Drake Burner', 'Drake Glider'}
@@ -304,9 +319,12 @@ local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bow
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
 local merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
 local hero_units = {'Elvish Hero', 'White Mage', 'Revenant', 'Dwarvish Berserker'}
-local options_offered
 
 
+-- Checks whether the player can negotiate with that faction
+-- Reasons to not:
+-- -> Player has the same faction (checked via faction ID)
+-- -> Player can recruit already all the units of the faction
 function anl.can_negotiate_with(other_faction)
     if wesnoth.sides[wesnoth.current.side].faction == other_faction then return false end
 
@@ -314,6 +332,7 @@ function anl.can_negotiate_with(other_faction)
     local recruits = wesnoth.sides[wesnoth.current.side].recruit
     -- This faction's possible new ones
     local partner = {}
+    -- Find the units which can be negotiated
     if other_faction == 'ANLEra_Dwarves' then
         partner = dwarvish_units
     elseif other_faction == 'ANLEra_Elves' then
@@ -366,14 +385,17 @@ function anl.can_negotiate_with(other_faction)
 end
 
 
+-- Why are the variables so long/strange?
+-- It's using the same variables like the WML code.
+--
 -- Data is currently stored in a wml variable of the form:
 -- player_3.leader_option_1.progress
 --
 -- Which is in Lua:
 -- wml.variables['player_3'][6][2].progress
--- (6 because the 6.th tag), while 2 is hardcoded
+-- (6 because the 6.th tag, while 2 is hardcoded by the Wesnoth engine.)
 --
--- Dynamically:
+-- Dynamically, if using an index as part of the tag name:
 -- wml.variables['player_' .. wesnoth.current.side][6 + leader_option][2].progress
 --
 -- Without hardcoding the position of the leader_option_1 tag in the lua table:
@@ -381,24 +403,32 @@ end
 --
 -- Need to build a string with 3 lines and 2 such variables
 function anl.negotiation_option(who, desc, id, leader_option, image)
+
+    -- Check if we want this first
     if not anl.can_negotiate_with(id) then return nil end
 
+    -- Helper function for formatting the text
     local function negotiation_option_text(who, desc, leader_option)
         local _ = wesnoth.textdomain 'wesnoth-ANLEra'
         return "<span color='green'>" .. who .. "</span>" .. '\n' .. desc .. '\n' .. _'Negotiation Progress: ' ..
-        wml.variables['player_' .. wesnoth.current.side .. '.leader_option_' .. leader_option .. '.progress']
+        wml.variables['player_' .. wesnoth.current.side .. '.' .. leader_option .. '.progress']
         .. '/' ..
-        wml.variables['player_' .. wesnoth.current.side .. '.leader_option_' .. leader_option .. '.target']
+        wml.variables['player_' .. wesnoth.current.side .. '.' .. leader_option .. '.target']
     end
 
-    -- For knowing afterwards which options were displayed in the GUI.
-    table.insert(options_offered, leader_option)
 
+    -- Return a Lua table describing the option with information for displaying.
     return { label = negotiation_option_text(who, desc, leader_option),
-             image = image }
+             image = image,
+             -- Technical information to save for later,
+             -- for knowing afterwards which options were displayed in the GUI.
+             -- i.e. leader_option_1 are the dwarves.
+             ally = leader_option }
 end
 
 
+-- This function contains all the text and images for the diplomacy menu.
+-- Previous functions decide if the options will be active to chose from.
 function anl.diplomacy_options()
     local _ = wesnoth.textdomain 'wesnoth-anl'
     local x = { _ 'Back',
@@ -411,56 +441,61 @@ function anl.diplomacy_options()
 
     table.insert(x, anl.negotiation_option(_'Negotiate with the Dwarves',
                                            _'Lets you recruit a Dwarvish unit',
-                                            'ANLEra_Dwarves', 1,
+                                            'ANLEra_Dwarves', 'leader_option_1',
                                             'units/dwarves/lord.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
     table.insert(x, anl.negotiation_option(_'Negotiate with the Elves',
                                            _'Lets you recruit an Elvish unit',
-                                            'ANLEra_Elves', 2,
+                                            'ANLEra_Elves', 'leader_option_2',
                                             'units/elves-wood/marshal.png~TC(' .. wesnoth.current.side ..', magenta)'))
     
     table.insert(x, anl.negotiation_option(_'Negotiate with the Drakes',
                                            _'Lets you recruit a Drake unit',
-                                            'ANLEra_Drakes', 3,
+                                            'ANLEra_Drakes', 'leader_option_3',
                                             'units/drakes/flameheart.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
     table.insert(x, anl.negotiation_option(_'Negotiate with the Undead',
                                            _'Lets you recruit an Undead unit',
-                                            'ANLEra_Undead', 4,
+                                            'ANLEra_Undead', 'leader_option_4',
                                             'units/undead-necromancers/ancient-lich.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
     table.insert(x, anl.negotiation_option(_'Negotiate with Loyalists',
                                            _'Lets you recruit a Loyalist unit',
-                                            'ANLEra_Humans', 5,
+                                            'ANLEra_Humans', 'leader_option_5',
                                             'units/human-loyalists/marshal.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
     -- Planning to remove them from negotiation:
     if false then
     table.insert(x, anl.negotiation_option(_'Negotiate with the Outlaws',
                                            _'Lets you recruit a Outlaw unit',
-                                            'ANLEra_Outlaws', 6, 'units/human-outlaws/highwayman.png~TC(1,magenta)')) end
+                                            'ANLEra_Outlaws', 'leader_option_6',
+                                            'units/human-outlaws/highwayman.png~TC(' .. wesnoth.current.side ..' ,magenta)')) end
 
     table.insert(x, anl.negotiation_option(_'Negotiate with the Merfolk',
                                            _'Lets you recruit a Merfolk unit',
-                                            'Merfolk', 7,
+                                            'Merfolk', 'leader_option_7',
                                             'units/merfolk/hoplite.png~TC(' .. wesnoth.current.side ..',magenta)'))
 
     table.insert(x, anl.negotiation_option(_'Negotiate with Mercenaries',
                                            _'Lets you recruit Mercenary units',
-                                            'Heroes', 8,
+                                            'Heroes', 'leader_option_8',
                                             'units/elves-wood/champion.png~TC(' .. wesnoth.current.side ..',magenta)'))
 
     return x
 end
 
 
+-- Filter already recruitable units out,
+-- to not offer them for negotiation.
+-- (BTW, we know that there will be at least 1 left, as the option was avaiable to choose)
+-- (BTW, could also have saved this information in the function which determined if there are choosable units)
 function anl.determine_choosable_recruits(faction_units)
     local recruits = wesnoth.sides[wesnoth.current.side].recruit
     local partner = {}
 
     -- Making a deep copy of the table.
     -- Otherwise removing items from the table would remove them
-    -- from the same table which is used somewhere else
+    -- from the same table which is used somewhere else.
     for k, v in pairs(faction_units) do
         partner[k]=v
     end
@@ -470,7 +505,7 @@ function anl.determine_choosable_recruits(faction_units)
         for i, new_one in ipairs(partner) do
             if available_one == new_one then
                 table.remove(partner, i)
-                -- ignoring possisble duplicates, should not happen
+                -- Ignoring possisble duplicates, should not happen.
                 break
             end
         end
@@ -480,6 +515,8 @@ function anl.determine_choosable_recruits(faction_units)
 end
 
 
+-- The dialogue to choose the new unit.
+-- Contains all the faction-specific text with portraits.
 function anl.choose_new_unit (v)
 
     local speaker = ''
@@ -487,39 +524,39 @@ function anl.choose_new_unit (v)
     local choosable = {}
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
-    -- TODO: make this a fuction, so umc can overwrite it without overwriting the rest of this function
-    if v == 1 then
+    -- TODO: make this a fuction, so UMC can overwrite it without overwriting the rest of this function.
+    if v == 'leader_option_1' then
          _ = wesnoth.textdomain 'wesnoth-anl'
         choosable = anl.determine_choosable_recruits(dwarvish_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — the Dwarves will gladly fight by your side. Which of our brethren do you want to recruit?'
-    elseif v == 2 then
+    elseif v == 'leader_option_2' then
          _ = wesnoth.textdomain 'wesnoth-anl'
         choosable = anl.determine_choosable_recruits(elvish_units)
         speaker = 'portraits/elves/high-lord.png'
         message = _ 'Our talks are complete — the Elves shall aid you in this battle. Which our of kin do you wish to recruit?'
-    elseif v == 3 then
+    elseif v == 'leader_option_3' then
          _ = wesnoth.textdomain 'wesnoth-ANLEra' -- this is here only for wmlxgettext (Lua is already in this domain)
         choosable = anl.determine_choosable_recruits(drakish_units)
         speaker = 'portraits/drakes/flameheart.png'
         message = _ 'Our talks are complete — the Drakes will gladly fight by your side. Which of our brethren do you want to recruit?'
-    elseif v == 4 then
+    elseif v == 'leader_option_4' then
         choosable = anl.determine_choosable_recruits(undead_units)
         speaker = 'portraits/undead/ancient-lich.png'
         message = _ 'Our talks are complete — I will summon the dead for you. Which of them do you want to come?'
-    elseif v == 5 then
+    elseif v == 'leader_option_5' then
         choosable = anl.determine_choosable_recruits(human_units)
         speaker = 'portraits/humans/marshal-2.png'
         message = _ 'Our talks are complete — the Loyalists will gladly fight by your side. Which of our men do you want to recruit?'
-    elseif v == 6 then
+    elseif v == 'leader_option_6' then
         choosable = anl.determine_choosable_recruits(outlaw_units)
         speaker = 'portraits/humans/huntsman.png'
         message = _ 'Our talks are complete — the Outlaws will gladly fight by your side. Which of our men do you want to recruit?'
-    elseif v == 7 then
+    elseif v == 'leader_option_7' then
         choosable = anl.determine_choosable_recruits(merfolk_units)
         speaker = 'portraits/merfolk/hoplite.png'
         message = _ 'Our talks are complete — the Merfolk will gladly fight by your side. Which of our people do you want to recruit?'
-    elseif v == 8 then
+    elseif v == 'leader_option_8' then
         choosable = anl.determine_choosable_recruits(hero_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?'
@@ -544,6 +581,7 @@ function anl.choose_new_unit (v)
         })
     end
 
+    -- Choose and sync decision about choosen unit to the other clients.
     local rc = wesnoth.synchronize_choice( function()
             local rc = wesnoth.show_message_dialog( {
                     title = _ 'Negotiation Complete',
@@ -552,6 +590,9 @@ function anl.choose_new_unit (v)
                     }, options)
             return { value = rc } end
         ).value
+
+    -- This time, there is no canel option.
+    -- Can be added.
 
     wesnoth.wml_actions.allow_recruit({
         side = wesnoth.current.side,
@@ -572,20 +613,21 @@ function anl.diplomacy_dialog(options)
 end
 
 
+-- The true and only diplomancy GUI, the only Lua function from this file,
+-- which is called by WML's [set_menu_item].
 function anl.diplomacy_menu()
 
-    -- Reset helper variable
-    options_offered = {}
+    -- Get all the data.
+    local choices = anl.diplomacy_options()
 
-    local negotiation_options = anl.diplomacy_options()
-
+    -- Make a choice and sync it to the other clients.
     local rc = wesnoth.synchronize_choice(
         function()
-            return { value = anl.diplomacy_dialog(negotiation_options) }
+            return { value = anl.diplomacy_dialog(choices) }
         end
     ).value 
 
-
+    -- Handle the choice.
     if rc ~= 1 then
         if rc == 2 then
             anl.send_gold()
@@ -594,21 +636,19 @@ function anl.diplomacy_menu()
         else
             -- Negotiate, but with whom?
             -- Reconstruct what the rc from the GUI means.
-            -- rc:   Number of selected option.
-            -- rc-3: Number of selected negotiation option (1-3 are are always listed).
-            -- options_offered[rc-3]: The real number of the leader option.
-            --                        It may be higher, as rc-3 does not count the not displayed ones.
 
-            local value  = wml.variables['player_' .. wesnoth.current.side .. '.leader_option_' .. options_offered[ rc -3 ] .. '.progress']
-            local target = wml.variables['player_' .. wesnoth.current.side .. '.leader_option_' .. options_offered[ rc -3 ] .. '.target']
+            local value  = wml.variables['player_' .. wesnoth.current.side .. '.' .. choices[rc].ally .. '.progress']
+            local target = wml.variables['player_' .. wesnoth.current.side .. '.' .. choices[rc].ally .. '.target']
             if ( target <= value +1) then
                 -- you have a new recruit !
-                anl.choose_new_unit(options_offered[rc -3])
+                anl.choose_new_unit(choices[rc].ally)
                 -- and reset
-                wml.variables['player_' .. wesnoth.current.side .. '.leader_option_' .. options_offered[ rc -3 ] .. '.progress'] = value +1 - target
+                wml.variables['player_' .. wesnoth.current.side .. '.' .. choices[rc].ally .. '.progress'] =
+                value +1 -target
             else
                 -- increase
-                wml.variables[ 'player_' .. wesnoth.current.side .. '.leader_option_' .. options_offered[ rc -3 ] .. '.progress'] = value +1
+                wml.variables['player_' .. wesnoth.current.side .. '.' .. choices[rc].ally .. '.progress'] =
+                value +1
             end
 
             anl.post_diplomacy()
@@ -617,7 +657,7 @@ function anl.diplomacy_menu()
 end
 
 
--- Make them available in case other add-on want to use them.
+-- Make them available in case other add-ons want to use or modify them.
 anl.negotiable_units = {}
 anl.negotiable_units.drakish_units = drakish_units
 anl.negotiable_units.dwarvish_units = dwarvish_units
