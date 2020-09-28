@@ -217,7 +217,7 @@ function anl.send_tech()
         end
 
         if wml.variables['player_' .. v.side] ~= nil and own_warfare > wml.variables['player_' .. v.side][3][2].target then
-            if wml.variables['player_' .. v.side][3][2].troops <= 5 then
+            if wml.variables['player_' .. v.side].troops <= 5 then
                 -- FIXME: not a precise messurement whether the other player has still researchable units, but workable.
                 -- Every side can at least get 5.
                 table.insert(options, {
