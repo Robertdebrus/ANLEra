@@ -19,7 +19,7 @@ Structure of the menu:
     (…) Humans
     (…) -- removed --
     (…) Meervolk
-    (…) Helden
+    (…) Heroes (Lvl2)
 
 
 Functions in this file:
