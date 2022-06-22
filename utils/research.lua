@@ -177,7 +177,7 @@ end
 
 -- List of researchable units.
 -- Unlike the old WML way, it is not saved which units have been researched,
--- but the sides current recruits are compared against these ones:
+-- instead the sides current recruits are compared against these ones:
 local drakish_units = {'Drake Fighter', 'Drake Clasher', 'Drake Burner', 'Drake Glider', 'Saurian Skirmisher', 'Saurian Augur' }
 local dwarvish_units = {'Dwarvish Fighter', 'Dwarvish Guardsman', 'Dwarvish Scout', 'Dwarvish Thunderer', 'Dwarvish Ulfserker', 'Gryphon Rider'}
 local elvish_units = {'Elvish Archer', 'Elvish Fighter', 'Elvish Scout', 'Wose'}
@@ -185,7 +185,8 @@ local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bow
 local orcish_units = {'Orcish Grunt', 'Orcish Archer', 'Orcish Assassin', 'Troll Whelp', 'Wolf Rider'}
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
 local undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
-local special_units = {'Giant Mudcrawler'} -- fixme: it isn't useful
+local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Skirmisher', 'Dune Rover', 'Dune Rider'}
+local special_units = {'Giant Mudcrawler'} -- fixme: it is not a useful unit
 
 
 -- This functions returns a table containing an entry for each [message][option]
@@ -276,6 +277,7 @@ function anl.determine_faction(mage_type)
 
     elseif anl.type_adv_tree(mage_type, 'Mage') then
         not_yet_researched_units = anl.determine_choosable_recruits(human_units)
+
     elseif anl.type_adv_tree(mage_type, 'ANLEra Novice Orcish Shaman') then
         not_yet_researched_units = anl.determine_choosable_recruits(orcish_units)
 
@@ -284,6 +286,9 @@ function anl.determine_faction(mage_type)
 
     elseif anl.type_adv_tree(mage_type, 'Dark Adept') then
         not_yet_researched_units = anl.determine_choosable_recruits(undead_units)
+
+    elseif anl.type_adv_tree(mage_type, 'Dune Herbalist') then
+        not_yet_researched_units = anl.determine_choosable_recruits(dunefolk_units)
 
     elseif anl.type_adv_tree(mage_type, 'Mermaid Initiate') then
         not_yet_researched_units = anl.determine_choosable_recruits(special_units)
@@ -575,6 +580,7 @@ anl.researchable_units.human_units = human_units
 anl.researchable_units.orcish_units = orcish_units
 anl.researchable_units.outlaw_units = outlaw_units
 anl.researchable_units.undead_units = undead_units
+anl.researchable_units.dunefolk_units = dunefolk_units
 anl.researchable_units.special_units = special_units
 
 return anl

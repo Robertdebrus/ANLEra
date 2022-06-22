@@ -319,6 +319,7 @@ local drakish_units = {'Drake Fighter', 'Drake Clasher', 'Drake Burner', 'Drake 
 local undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
 local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bowman', 'Horseman'}
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
+local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Skirmisher', 'Dune Rover', 'Dune Rider'}
 local merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
 local hero_units = {'Elvish Hero', 'White Mage', 'Revenant', 'Dwarvish Berserker'}
 
@@ -347,6 +348,8 @@ function anl.can_negotiate_with(other_faction)
         partner = human_units
     elseif other_faction == 'ANLEra_Outlaws' then
         partner = outlaw_units
+    elseif other_faction == 'ANLEra_Dunefolk' then
+        partner = dunefolk_units
     elseif other_faction == 'Merfolk' then
         partner = merfolk_units
     elseif other_faction == 'Heroes' then
@@ -450,7 +453,12 @@ function anl.diplomacy_options()
                                            _'Lets you recruit an Elvish unit',
                                             'ANLEra_Elves', 'leader_option_2',
                                             'units/elves-wood/marshal.png~TC(' .. wesnoth.current.side ..', magenta)'))
-    
+
+    table.insert(x, anl.negotiation_option(_'Negotiate with the Dunefolk',
+                                           _'Lets you recruit a Dunefolk unit',
+                                            'ANLEra_Dunefolk', 'leader_option_9',
+                                            'units/dunefolk/herbalist/alchemist.png~TC(' .. wesnoth.current.side ..' ,magenta)'))
+
     table.insert(x, anl.negotiation_option(_'Negotiate with the Drakes',
                                            _'Lets you recruit a Drake unit',
                                             'ANLEra_Drakes', 'leader_option_3',
@@ -471,7 +479,8 @@ function anl.diplomacy_options()
     table.insert(x, anl.negotiation_option(_'Negotiate with the Outlaws',
                                            _'Lets you recruit a Outlaw unit',
                                             'ANLEra_Outlaws', 'leader_option_6',
-                                            'units/human-outlaws/highwayman.png~TC(' .. wesnoth.current.side ..' ,magenta)')) end
+                                            'units/human-outlaws/highwayman.png~TC(' .. wesnoth.current.side ..' ,magenta)'))
+    end
 
     table.insert(x, anl.negotiation_option(_'Negotiate with the Merfolk',
                                            _'Lets you recruit a Merfolk unit',
@@ -526,7 +535,7 @@ function anl.choose_new_unit (v)
     local choosable = {}
     local _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
-    -- TODO: make this a fuction, so UMC can overwrite it without overwriting the rest of this function.
+    -- TODO: make this a function, so UMC can overwrite it without overwriting the rest of this function.
     if v == 'leader_option_1' then
          _ = wesnoth.textdomain 'wesnoth-anl'
         choosable = anl.determine_choosable_recruits(dwarvish_units)
@@ -562,6 +571,10 @@ function anl.choose_new_unit (v)
         choosable = anl.determine_choosable_recruits(hero_units)
         speaker = 'portraits/dwarves/lord.png'
         message = _ 'Our talks are complete — some Mercenaries will gladly fight by your side. Which of us do you want to recruit?'
+    elseif v == 'leader_option_9' then
+        choosable = anl.determine_choosable_recruits(dunefolk_units)
+        speaker = 'portraits/dunefolk/herbalist.png'
+        message = _ 'Our talks are complete — the Dunefolk will support you. Who could help you the best?'
 
 
     -- Extension point:
@@ -669,6 +682,7 @@ anl.negotiable_units.elvish_units = elvish_units
 anl.negotiable_units.human_units = human_units
 anl.negotiable_units.outlaw_units = outlaw_units
 anl.negotiable_units.undead_units = undead_units
+anl.negotiable_units.dunefolk_units = dunefolk_units
 anl.negotiable_units.merfolk_units = merfolk_units
 anl.negotiable_units.hero_units = hero_units
 
