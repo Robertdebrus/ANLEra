@@ -186,7 +186,7 @@ local orcish_units = {'Orcish Grunt', 'Orcish Archer', 'Orcish Assassin', 'Troll
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
 local undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
 local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Skirmisher', 'Dune Rover', 'Dune Rider'}
-local special_units = {'Giant Mudcrawler'} -- fixme: it is not a useful unit
+local special_units = {'Giant Mudcrawler', 'Great Icemonax'}
 
 
 -- This functions returns a table containing an entry for each [message][option]
@@ -267,6 +267,8 @@ function anl.determine_faction(mage_type)
     local not_yet_researched_units = {}
 
     if anl.type_adv_tree(mage_type, 'ANLEra Drake Apprentice') then
+        not_yet_researched_units = anl.determine_choosable_recruits(drakish_units)
+    elseif anl.type_adv_tree(mage_type, 'Saurian Augur') then
         not_yet_researched_units = anl.determine_choosable_recruits(drakish_units)
 
     elseif anl.type_adv_tree(mage_type, 'ANLEra Dwarvish Witness') then
