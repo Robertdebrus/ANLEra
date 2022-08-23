@@ -17,6 +17,11 @@ jobs:
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
         spellcheck: true
+    - name: Verify resources scope
+      uses: czyzby/wesnoth-wml-scope@v1
+      with:
+        wesnoth-version: ${{ env.WESNOTH_VERSION }}
+        flags: ""
     - name: Verify images
       uses: czyzby/wesnoth-png-optimizer@v1
       with:

@@ -51,5 +51,8 @@ Wesnoth
 *.pbl
 _info.cfg
 
+# woptipng.py leftover files if aborted
+*.tmp*
+
 # autmatic backup files (e.g. created by msgmerge, unless disabled)
 *~
