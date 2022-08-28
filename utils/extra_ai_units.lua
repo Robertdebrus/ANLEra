@@ -2,13 +2,25 @@
 
 local _ = wesnoth.textdomain 'wesnoth-ANLEra'
 
+-- This is a standalone extension for ANLEra.
+-- About every 2 turns, AI sides will receive new recruits.
+
+-- The main purpose of this file is to show ONE SINGLE message,
+-- which covers the new recruits of all AI sides.
+-- It will also unlock said recruits and add a bit of gold.
+
+-- This single function and (sub-functions) contains all the logic.
+-- It is called from a WML event, and the new recruits are given as first argument.
 function anl.extra_units(recruits, gold)
     gold = gold or 15
 
-    -- The map »recruits« has one entry for each faction,
+    -- The Lua map »recruits« (= is a 2-column table)
+    -- has one entry for each faction,
     -- in which the new recruits (one or multiple) are listed.
+    -- See the end of the file to see how it looks.
 
-    -- Proof-checks if the new recruits are really new.
+    -- Function to proof-checks if the new recruits are really new.
+    -- Sometimes a unit is already recruitable.
     local function recruits_are_new(side)
         for i, new_one in ipairs(recruits[side.faction]) do
             local is_new = true
@@ -37,8 +49,8 @@ function anl.extra_units(recruits, gold)
 
 
     -- Not using the faction name provided by the game, because
-    -- a) it's often, but not always in plural, might gramatically not be correct.
-    -- b) It would be translated in difference to the rest of the string.
+    -- a) It is often (but not always) in plural, might gramatically not be correct.
+    -- b) It would be translated, in difference to the rest of the string.
     -- So, custom strings for each faction.
     -- $new_recruits however will be a translated string.
     local function faction_message(faction, plural)
@@ -75,9 +87,14 @@ function anl.extra_units(recruits, gold)
         elseif faction == 'ANLEra_Undead' and plural then
             return _ 'many^Undead from sides $sides can now recruit: $new_recruits'
         elseif faction == 'ANLEra_Undead' then
-            return  _ 'one^Undead from side $sides can now recruit: $new_recruits'
-        else
+            return _ 'one^Undead from side $sides can now recruit: $new_recruits'
 
+        elseif faction == 'ANLEra_Dunefolk' and plural then
+            return _ 'many^The Dunefolk from sides $sides can now recruit: $new_recruits'
+        elseif faction == 'ANLEra_Dunefolk' then
+            return _ 'one^The Dunefolk from side $sides can now recruit: $new_recruits'
+
+        else
             -- Extension point:
             -- If this function is added by another add-on,
             -- then strings for more factions can be added.
@@ -94,9 +111,9 @@ function anl.extra_units(recruits, gold)
         end
     end
 
+    -- End of helper funtion definitions. From here on is code.
 
     -- Adding the new recruits for all AI-sides which are still alive.
-
     local got_units = {}
     local alive_sides = wesnoth.get_sides({ {'has_unit', { canrecruit = true }} })
 
@@ -149,10 +166,11 @@ function anl.extra_units(recruits, gold)
 
 
     -- Creating the message.
-    -- One line for each faction, mentioning the faction, side number(s) and recruit(s).
+    -- One line for each faction, which mentions the faction, side number(s) and recruit(s).
     local message = ''
-    -- Using pairs is not OOS safe, but that's okay, worst thing to happen
-    -- is that the lines in the message are sorted differently on clients.
+
+    -- Using the Lua function pairs is not OOS safe, but that's okay, worst thing to happen
+    -- is, that the lines in the message are sorted differently on clients.
     for faction, s in pairs(got_units) do
         if message ~= '' then
             message = message .. '\n'
@@ -247,6 +265,15 @@ turn17['ANLEra_Undead']={'Necrophage', 'Bone Shooter', 'Revenant'}
 turn21['ANLEra_Undead']={'Dark Sorcerer'}
 turn23['ANLEra_Undead']={'Deathblade'}
 
+-- commented out units are not available in wesnoth 1.14
+turn7['ANLEra_Dunefolk']={'Dune Rider'}
+turn9['ANLEra_Dunefolk']={'Dune Soldier'}
+turn11['ANLEra_Dunefolk']={'Dune Rover'}
+turn13['ANLEra_Dunefolk']={'Dune Burner'}
+turn15['ANLEra_Dunefolk']={'Dune Skirmisher'}
+turn17['ANLEra_Dunefolk']={'Dune Spearguard', 'Dune Swordsman', 'Dune Explorer'} --'Dune Captain'
+turn21['ANLEra_Dunefolk']={'Dune Scorcher'} -- 'Dune Alchemist', 'Dune Strider'
+turn23['ANLEra_Dunefolk']={'Dune Raider', 'Dune Sunderer'} -- 'Dune Horse Archer'
 
 -- Making them available:
 anl.ai_units = {}
