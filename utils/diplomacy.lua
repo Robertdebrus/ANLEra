@@ -319,7 +319,7 @@ local drakish_units = {'Drake Fighter', 'Drake Clasher', 'Drake Burner', 'Drake 
 local undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
 local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bowman', 'Horseman'}
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
-local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Skirmisher', 'Dune Rover', 'Dune Rider'}
+local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Rover', 'Dune Rider'} -- 'Dune Skirmisher'
 local merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
 local hero_units = {'Elvish Hero', 'White Mage', 'Revenant', 'Dwarvish Berserker'}
 
