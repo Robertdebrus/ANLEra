@@ -1,0 +1,64 @@
+Differences / specials for factions:
+
+Human:   reference faction
+Outlaw:  have a random recruit (ruffian for 6 gold would be too cheap)
+Elves:   have a lot of 60% due to forests
+Dwarves: can have mines with 70%
+Drakes:  worker with much life
+Dune:    different movetype
+Orcs:    highest damage (and weaker research unit)
+Undead:  have plague (and reference from Undead Empire)
+
+Level 1 goblins & zombies are also considered to be workers.
+
+Cost for village, castle, keep
+Peasant     14      5      6
+Woodsman    15      5      5
+Ruffian     15      5      5
+Miner       15      5      6
+Citizen     15      5      8   Elves and Drakes get from forests the same bonus as from castles,
+Worker      15      5      6   their castles have to be cheap, but keeps can be more expensive.
+Nomad       15      5      6
+Goblin      15      6      6
+Zombie      15(18)  6      6   (can build on swamp)
+Mermen      17      5      5   (exclusively on water)
+
+Mines are 25 for all.
+Forest is  2 for all.
+
+Transform to terrain on which one can build:
+water       5       (reverse 4)
+cave hills  3
+cave ground 2
+ford        2
+ruined hex  0
+
+Create / remove ford: 3 & 1
+Remove castle, keep: 5 & 10
+
+
+Unit comparision:
+         cost, exp,   hp, melee / ranged, defence
+Peasant    8  23(16)  18     10 / 4       normal
+Woodsman   -  23(16)  18      3 / 12      forest bonus
+Ruffian    -  18(13)  16     10 / -       normal
+Citizen    8  23(16)  16      8 / 6       forest bonus
+Miner      9  26(18)  20     10 / 5       mountain & hill bonus, flat & village malus
+Worker    10  26(18)  25     12 / 6       double malus everywhere
+Nomad      8  23(16)  19     12 / -       normal (sand and hill get a bonus, the forest a malus)
+Goblin     9  18(13)  18     18 / 4       normal
+Zombie     8  24(17)  18     12 / -       normal
+Merman     9  22(15)  20     12 / -       water unit
+
+Dwarves have 1 move less, because they have minimum speed cost for mountains.
+Zombies have 1 move less, because they will create a new unit if they can catch an escaping enemy.
+
+From the table one can read:
+Ruffian  = less hp, same damage
+Woodsman = like Peasant, but for ranged
+Citizen  = weaker
+Miner    = stronger
+Worker   = even stronger, but must heal a lot
+Nomad    = hills have the role of forests, while sand and forests are like flat
+Goblin   = a problem
+Zombie   = like Peasant
