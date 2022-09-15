@@ -51,6 +51,9 @@ Wesnoth
 *.pbl
 _info.cfg
 
+# Dolphin .directory settings
+*.directory
+
 # woptipng.py leftover files if aborted
 *.tmp*
 
