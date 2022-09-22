@@ -10,7 +10,7 @@
 
 function anl.fix_colors()
     local all_sides = wesnoth.sides.find()
-    local all_colors = {'gold', 'lightblue', 'brightgreen', 'red', 'blue', 'green', 'purple', 'black', 'brown', 'orange', 'white', 'teal', 'darkred', 'brightorange', 'lightred'}
+    local all_colors = {'gold', 'lightblue', 'brightgreen', 'red', 'green', 'orange', 'white', 'teal', 'black', 'brown', 'purple', 'blue', 'darkred', 'brightorange', 'lightred'}
     local free_colors = {}
     local taken_colors = {}
     local needs_color = {}
@@ -27,17 +27,35 @@ function anl.fix_colors()
         end
     end
 
-    -- Look which colors we can give
-    for i, color in ipairs(all_colors) do
-        if not taken_colors[color] then
-            table.insert(free_colors, color)
+    -- Avoid having Rav_yellow and brightorange being both in the game.
+    -- This is done in a second loop to change color of the first side instead of the later, brightorange one;
+    -- brightorange is used in Undead Empire to match the sprite color of dragon & fire units.
+    if taken_colors['Rav_yellow'] and taken_colors['brightorange'] then
+        for i, player in ipairs(all_sides) do
+            if player.color == 'Rav_yellow' then
+                table.insert(needs_color, player)
+            end
         end
     end
 
-    -- Change the color
+    -- Look which colors we can give and save them into a new table.
+    -- Treat Rav_blue_light the same as lightblue, same about purple;
+    -- gold, Rav_yellow and brightorange are very similar too.
+    for i, color in ipairs(all_colors) do
+        if  not taken_colors[color] and
+            not (color == 'lightblue' and taken_colors['Rav_blue_light']) and
+            not (color == 'purple' and taken_colors['Rav_purple_light']) and
+            not (color == 'gold' and taken_colors['Rav_yellow']) and
+            not (color == 'gold' and taken_colors['brightorange']) and
+            not (color == 'blue' and taken_colors['darkblue']) then
+                table.insert(free_colors, color)
+        end
+    end
+
+    -- Change the color.
     for i, player in ipairs(needs_color) do
         if free_colors[1] then
-            wesnoth.sides.set_id(player.side, "", free_colors[1])
+            player:set_id(nil, free_colors[1])
             table.remove(free_colors, 1)
         end
     end
