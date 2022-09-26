@@ -57,9 +57,35 @@
 - Many fixes and improvements thanks to sevu (#49)
 - Port of The Last Stand by sevu
 
+...
 
-TODO :
-Inkana's ideas
-- fix the leader negotiation menus so a faction can't negotiate with itself (make it so elves cannot negotiate with elves)
-- fix the "donate fund" option for PVP. for now, you can give to ally or enemy without distinction. (may try and fix, but it seems to show the name)
+2.0.11
+ - first version uploaded to 1.16 server (still compatible with 1.14)
 
+2.0.12
+ - Old maps are added (End of Days, The Great Wall, Aybabtu Valley, Dome Isle)
+ - Dunefolk is now available
+ - 5p variant uses by default human faction (the recommendation, it was designed for them)
+ - 4p map spawns Chocobones after game end
+ - Drake Workers use now team coloring (their images are now downscaled by the engine)
+ - nerved Drake Worker (2mp over water), can obtain healthy trait in return.
+ - nerved Dwarven Miner resistances (same as Scout, 10% on everything)
+ - Hunter is now a normal worker (still has a now weakened bonus on forests)
+ - Saurian Augur is a new researcher (in addition to the existing one, needs to be unlocked first)
+ - fix regression: Drake Apprentice has animation back
+ - fix dagger-swish sound looking for ogg instead of wav
+ - adjusted construction prices for some builings/factions
+ - merfolk color fix (r.wesnoth.org/p656056)
+ - streets / paths cannot be broken up in the middle
+ - SP mod updated
+ - better compatibility with mainline pick advance mod
+ - teamcolors will be changed if two sides have the same
+
+Some hints, tweaks, tricks, easter eggs, gimmicks, …:
+- When removing allow_era= from the scenario file, it can be played with leaders from another era!
+  (the same way like in mainline). The recruits will be like in mainline (Peasant & Mage).
+  Downside: might now be you instead of the game, who has to guarantee that all use the same version.
+- By negotiation with mermen one can get a builder for water fields.
+- One can also get a merfolk mage, who can also research. Water based university exist too.
+- When starting wesnoth with --debug, one can to some extend change enemy sides (prior to starting the match).
+- When starting wesnoth with --debug, some cheats are available when clicking over forest terrain.
