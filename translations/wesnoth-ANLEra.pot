@@ -1489,7 +1489,7 @@ msgstr ""
 
 #. [lua]: anl.diplomacy_options
 #: ANLEra/utils/diplomacy.lua:494
-msgid "Strenghten the bond with the Merfolk"
+msgid "Strengthen the bond with the Merfolk"
 msgstr ""
 
 #. [lua]: anl.diplomacy_options

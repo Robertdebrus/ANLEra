@@ -1893,7 +1893,7 @@ msgstr "Ermöglicht es Euch, eine Einheit der Geächteten zu rekrutieren"
 
 #. [lua]: anl.diplomacy_options
 #: ANLEra/utils/diplomacy.lua:494
-msgid "Strenghten the bond with the Merfolk"
+msgid "Strengthen the bond with the Merfolk"
 msgstr "Allianz mit dem Meervolk stärken"
 
 #. [lua]: anl.diplomacy_options

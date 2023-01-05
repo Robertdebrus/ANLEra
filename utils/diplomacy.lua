@@ -491,7 +491,7 @@ function anl.diplomacy_options()
                                             'units/human-outlaws/highwayman.png~TC(' .. wesnoth.current.side ..' ,magenta)'))
     end
 
-    table.insert(x, anl.negotiation_option(_'Strenghten the bond with the Merfolk',
+    table.insert(x, anl.negotiation_option(_'Strengthen the bond with the Merfolk',
                                            _'You can obtain Merfolk builders and researchers',
                                             'Merfolk', 'leader_option_7',
                                             'units/merfolk/hoplite.png~TC(' .. wesnoth.current.side ..',magenta)'))
