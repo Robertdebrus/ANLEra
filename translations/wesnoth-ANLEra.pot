@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-10-05 19:50 UTC\n"
+"POT-Creation-Date: 2023-02-02 21:38 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,26 +46,36 @@ msgstr ""
 
 #. [era]: id=ANLEra
 #: ANLEra/era.cfg:6
-msgid "An Era that uses the macros for the mainline scenario A New Land, with more factions."
+msgid ""
+"An Era that uses the macros for the mainline scenario A New Land, with more factions.\n"
+"\n"
+"Humans\n"
+"Outlaws\n"
+"Orcs\n"
+"Elves (weaker, but better in forest)\n"
+"Dwarves (difficult to play due to 30% defence)\n"
+"Dunefolk (rely on hills instead of forests)\n"
+"Drakes\n"
+"Undeads"
 msgstr ""
 
 #. [checkbox]: id=anl_debug
-#: ANLEra/era.cfg:85
+#: ANLEra/era.cfg:95
 msgid "ANL no cheating"
 msgstr ""
 
 #. [checkbox]: id=anl_debug
-#: ANLEra/era.cfg:86
+#: ANLEra/era.cfg:96
 msgid "Adds some debug utilities over forest terrain. Only available if Wesnoth is started with --debug (or -d) as command line parameter. Using ingame :debug doesn't count. This option can also be toggled ingame by using :set_var anl_debug=no"
 msgstr ""
 
 #. [checkbox]: id=duplicate_team_colors
-#: ANLEra/era.cfg:92
+#: ANLEra/era.cfg:102
 msgid "Allow duplicate team colors"
 msgstr ""
 
 #. [checkbox]: id=duplicate_team_colors
-#: ANLEra/era.cfg:93
+#: ANLEra/era.cfg:103
 msgid ""
 "If two sides have the same team color, a new color will be assigned to the side with the higher number.\n"
 "Compatible with Color Changer mod."
@@ -95,26 +105,31 @@ msgid "You rediscover a forgotten island. You know that humans lived here, possi
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANI
-#: ANLEra/scenarios/2p_A_New_Island.cfg:43
-#: ANLEra/scenarios/2p_A_New_Island.cfg:46
+#: ANLEra/scenarios/2p_A_New_Island.cfg:17
+msgid "Your enemies have plague while beeing as strong as you. Thus, positioning of your units is extremely important on this map."
+msgstr ""
+
+#. [multiplayer]: id=ANLEra_ANI
+#: ANLEra/scenarios/2p_A_New_Island.cfg:45
+#: ANLEra/scenarios/2p_A_New_Island.cfg:48
 msgid "The farm"
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANI
 #. [terrain_type]: id=ANLEra_university
-#: ANLEra/scenarios/2p_A_New_Island.cfg:44
-#: ANLEra/scenarios/2p_A_New_Island.cfg:45
+#: ANLEra/scenarios/2p_A_New_Island.cfg:46
+#: ANLEra/scenarios/2p_A_New_Island.cfg:47
 #: ANLEra/terrain/terrain.cfg:6
 msgid "University"
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:64
+#: ANLEra/scenarios/2p_A_New_Island.cfg:66
 msgid "You have landed on an unknown island."
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:73
+#: ANLEra/scenarios/2p_A_New_Island.cfg:75
 msgid "Can you settle here?"
 msgstr ""
 
@@ -899,9 +914,9 @@ msgid "The Drake Magi are fresh members of the Obsidian Citadel, who have been b
 msgstr ""
 
 #. [attack]: type=cold
-#: ANLEra/units/drakes/Apprentice.cfg:53
-#: ANLEra/units/drakes/Druid.cfg:54
-#: ANLEra/units/drakes/Shaman.cfg:55
+#: ANLEra/units/drakes/Apprentice.cfg:43
+#: ANLEra/units/drakes/Druid.cfg:44
+#: ANLEra/units/drakes/Shaman.cfg:45
 msgid "ice shot"
 msgstr ""
 
@@ -990,6 +1005,14 @@ msgstr ""
 #. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
 #: ANLEra/units/dunefolk/Civilian.cfg:152
 msgid "variation^village head"
+msgstr ""
+
+#: ANLEra/units/dwarves/Dwarvish_Miner.cfg:8
+msgid "Dwarves are on flat terrain and in forest as weak as merfolk units. Take care!"
+msgstr ""
+
+#: ANLEra/units/dwarves/Dwarvish_Witness.cfg:7
+msgid "This unit can support the offensive capabilities of miners. It is a bit quicker than the average dwarf and can also slow enemy units. It also has better resistances, but do not forget that it does not increase the defensive capabilites — your units are still vulnerable on land and in forests. This unit needs to be actively used to profit from its potential."
 msgstr ""
 
 #. [unit_type]: id=ANLEra Elvish Civilian, race=elf
@@ -1834,7 +1857,7 @@ msgstr ""
 #. [option]
 #. Text for the option to cancel. Decide later which unit to choose.
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/research.lua:203
+#: ANLEra/utils/research.lua:208
 #: ANLEra/utils/wml/helper_macros.cfg:35
 msgid "Choose later."
 msgstr ""
@@ -1843,28 +1866,28 @@ msgstr ""
 #. [option]
 #. Text for the option to cancel. Just one unit is left to be chosen.
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/research.lua:206
+#: ANLEra/utils/research.lua:211
 #: ANLEra/utils/wml/helper_macros.cfg:50
 msgid "No, maybe not."
 msgstr ""
 
 #. [lua]: anl.determine_faction
-#: ANLEra/utils/research.lua:306
+#: ANLEra/utils/research.lua:311
 msgid "Researching is not fully supported for this unit."
 msgstr ""
 
 #. [lua]: anl.determine_faction
-#: ANLEra/utils/research.lua:307
+#: ANLEra/utils/research.lua:312
 msgid "This is likely a bug. Researcher’s type is "
 msgstr ""
 
 #. [lua]: anl.determine_faction
-#: ANLEra/utils/research.lua:307
+#: ANLEra/utils/research.lua:312
 msgid "NOT GIVEN"
 msgstr ""
 
 #. [lua]: anl.choose_new_recruit
-#: ANLEra/utils/research.lua:336
+#: ANLEra/utils/research.lua:341
 msgid "No units left to be researched. It’s a bug that this option was offered to you."
 msgstr ""
 
@@ -1872,7 +1895,7 @@ msgstr ""
 #. [message]: speaker=unit
 #. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
 #. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
-#: ANLEra/utils/research.lua:348
+#: ANLEra/utils/research.lua:353
 #: ANLEra/utils/wml/research_options.cfg:411
 msgid "Would you like to be able to recruit this unit?"
 msgstr ""
@@ -1880,52 +1903,52 @@ msgstr ""
 #. [lua]: text
 #. [lua]: anl.research_complete
 #. [lua]: book
-#: ANLEra/utils/research.lua:387
-#: ANLEra/utils/research.lua:440
-#: ANLEra/utils/research.lua:468
-#: ANLEra/utils/research.lua:497
-#: ANLEra/utils/research.lua:507
-#: ANLEra/utils/research.lua:550
-#: ANLEra/utils/research.lua:562
+#: ANLEra/utils/research.lua:392
+#: ANLEra/utils/research.lua:445
+#: ANLEra/utils/research.lua:473
+#: ANLEra/utils/research.lua:502
+#: ANLEra/utils/research.lua:512
+#: ANLEra/utils/research.lua:555
+#: ANLEra/utils/research.lua:567
 msgid "Study Complete"
 msgstr ""
 
 #. [lua]: text
-#: ANLEra/utils/research.lua:389
+#: ANLEra/utils/research.lua:394
 msgid "We researched all units. It would be wise to change the research target now."
 msgstr ""
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:442
+#: ANLEra/utils/research.lua:447
 msgid "$side_name|’s farms produce now $amount gold."
 msgstr ""
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:470
+#: ANLEra/utils/research.lua:475
 msgid "$side_name|’s mines produce now $amount gold."
 msgstr ""
 
 #. [lua]: anl.research_complete
 #. one new unit available
-#: ANLEra/utils/research.lua:500
+#: ANLEra/utils/research.lua:505
 msgid "$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select a unit to recruit."
 msgstr ""
 
 #. [lua]: anl.research_complete
 #. multiple new units available
-#: ANLEra/utils/research.lua:510
+#: ANLEra/utils/research.lua:515
 msgid "$side_name|, we have finished researching warfare. Right-click on a researcher in a university to select new units to recruit."
 msgstr ""
 
 #. [lua]: book
 #. shown after accomplishing the philisophy research project the first time
-#: ANLEra/utils/research.lua:554
+#: ANLEra/utils/research.lua:559
 msgid "By coordinating research efforts and creating dedicated teams $side_name|’s scholars managed to double their research results."
 msgstr ""
 
 #. [lua]: book
 #. shown the 2nd and later times after completing philisophy research
-#: ANLEra/utils/research.lua:565
+#: ANLEra/utils/research.lua:570
 msgid "The scienific progress of $side_name|’s scholars is by now at $amount|00%."
 msgstr ""
 

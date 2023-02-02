@@ -3,7 +3,7 @@ Differences / specials for factions:
 Human:   reference faction
 Outlaw:  have a random recruit (ruffian for 6 gold would be too cheap)
 Elves:   have a lot of 60% due to forests
-Dwarves: can have mines with 70%
+Dwarves: can have mines with 70%, but have only 30% on land.
 Drakes:  worker with much life
 Dune:    different movetype
 Orcs:    highest damage (and weaker research unit)
@@ -57,7 +57,7 @@ From the table one can read:
 Ruffian  = less hp, same damage
 Woodsman = like Peasant, but for ranged
 Citizen  = weaker
-Miner    = stronger
+Miner    = stronger, very vulnerable on flat & forests
 Worker   = even stronger, but must heal a lot
 Nomad    = hills have the role of forests, while sand and forests are like flat
 Goblin   = a problem
