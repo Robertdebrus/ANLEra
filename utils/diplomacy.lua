@@ -316,26 +316,36 @@ end
 local dwarvish_units = {'Dwarvish Fighter', 'Dwarvish Guardsman', 'Dwarvish Scout', 'Dwarvish Thunderer', 'Dwarvish Ulfserker'}
 local elvish_units = {'Elvish Archer', 'Elvish Fighter', 'Elvish Scout'}
 local drakish_units = {'Drake Fighter', 'Drake Clasher', 'Drake Burner', 'Drake Glider'}
-local undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
+local undead_units
+if wesnoth.unit_types['Skeleton Rider'] == nil then
+    undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
+else
+    undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul', 'Skeleton Rider'}
+end
 local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bowman', 'Horseman'}
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
 local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Rover', 'Dune Rider'} -- 'Dune Skirmisher'
-local merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
+local merfolk_units
+if wesnoth.unit_types['Merman Citizen'] == nil then
+    merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
+else
+    merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'Merman Citizen'}
+end
 local hero_units = {'Elvish Hero', 'White Mage', 'Revenant', 'Dwarvish Berserker'}
 
 
--- Checks whether the player can negotiate with that faction
+-- Checks whether the player can negotiate with that faction.
 -- Reasons to not:
--- -> Player has the same faction (checked via faction ID)
--- -> Player can recruit already all the units of the faction
+-- -> Player has the same faction (checked via faction ID).
+-- -> Player can already recruit all the units of the faction.
 function anl.can_negotiate_with(other_faction)
     if wesnoth.sides[wesnoth.current.side].faction == other_faction then return false end
 
-    -- This faction's already available recruits
+    -- This faction's already available recruits.
     local recruits = wesnoth.sides[wesnoth.current.side].recruit
-    -- This faction's possible new ones
+    -- This faction's possible new ones.
     local partner = {}
-    -- Find the units which can be negotiated
+    -- Find the units which can be negotiated.
     if other_faction == 'ANLEra_Dwarves' then
         partner = dwarvish_units
     elseif other_faction == 'ANLEra_Elves' then
@@ -363,7 +373,7 @@ function anl.can_negotiate_with(other_faction)
         end
     end
 
-    -- Not needed, only to catch potential coding mistake
+    -- Not needed, only to catch potential coding mistake.
     if partner[1] == nil then
         wesnoth.message( 'ANL', other_faction .. ' has no units for negotiation')
         return false
@@ -409,10 +419,10 @@ end
 -- Need to build a string with 3 lines and 2 such variables
 function anl.negotiation_option(who, desc, id, leader_option, image)
 
-    -- Check if we want this first
+    -- Check if we want this first.
     if not anl.can_negotiate_with(id) then return nil end
 
-    -- Helper function for formatting the text
+    -- Helper function for formatting the text.
     local function negotiation_option_text(who, desc, leader_option)
         local _ = wesnoth.textdomain 'wesnoth-ANLEra'
         return "<span color='green'>" .. who .. "</span>" .. '\n' .. desc .. '\n' .. _'Negotiation Progress: ' ..
