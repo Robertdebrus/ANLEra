@@ -474,31 +474,30 @@ function anl.diplomacy_options()
                                             'ANLEra_Drakes', 'leader_option_3',
                                             'units/drakes/flameheart.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
-    table.insert(x, anl.negotiation_option(_'Negotiate with the Undead',
+    table.insert(x, anl.negotiation_option(_'Search for a Necromancer',
                                            _'Lets you recruit an Undead unit',
                                             'ANLEra_Undead', 'leader_option_4',
                                             'units/undead-necromancers/ancient-lich.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
-    table.insert(x, anl.negotiation_option(_'Negotiate with Loyalists',
+    table.insert(x, anl.negotiation_option(_'Contact the Loyalists',
                                            _'Lets you recruit a Loyalist unit',
                                             'ANLEra_Humans', 'leader_option_5',
                                             'units/human-loyalists/marshal.png~TC(' .. wesnoth.current.side ..', magenta)'))
 
-    -- Planning to remove them from negotiation:
     if false then
-    table.insert(x, anl.negotiation_option(_'Negotiate with the Outlaws',
-                                           _'Lets you recruit a Outlaw unit',
+    table.insert(x, anl.negotiation_option(_'Integrate the Outlaws',
+                                           _'Lets you recruit an Outlaw unit',
                                             'ANLEra_Outlaws', 'leader_option_6',
                                             'units/human-outlaws/highwayman.png~TC(' .. wesnoth.current.side ..' ,magenta)'))
     end
 
-    table.insert(x, anl.negotiation_option(_'Negotiate with the Merfolk',
-                                           _'Lets you recruit a Merfolk unit',
+    table.insert(x, anl.negotiation_option(_'Strenghten the bond with the Merfolk',
+                                           _'You can obtain Merfolk builders and researchers',
                                             'Merfolk', 'leader_option_7',
                                             'units/merfolk/hoplite.png~TC(' .. wesnoth.current.side ..',magenta)'))
 
-    table.insert(x, anl.negotiation_option(_'Negotiate with Mercenaries',
-                                           _'Lets you recruit Mercenary units',
+    table.insert(x, anl.negotiation_option(_'Hire Mercenaries',
+                                           _'Lets you recruit a level 2 unit',
                                             'Heroes', 'leader_option_8',
                                             'units/elves-wood/champion.png~TC(' .. wesnoth.current.side ..',magenta)'))
 
