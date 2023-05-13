@@ -324,7 +324,7 @@ else
 end
 local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bowman', 'Horseman'}
 local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
-local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Rover', 'Dune Rider'} -- 'Dune Skirmisher'
+local dunefolk_units = {'Dune Burner', 'Dune Soldier', 'Dune Skirmisher', 'Dune Rover', 'Dune Rider'}
 local merfolk_units
 if wesnoth.unit_types['Merman Citizen'] == nil then
     merfolk_units = {'Merman Fighter', 'Merman Hunter', 'Mermaid Initiate', 'ANLEra Merman Citizen'}
