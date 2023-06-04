@@ -62,7 +62,7 @@
 2.0.11
  - first version uploaded to 1.16 server (still compatible with 1.14)
 
-2.0.12
+3.0.0
  - Old maps are added (End of Days, The Great Wall, Aybabtu Valley, Dome Isle)
  - Dunefolk is now available
  - 5p variant uses by default human faction (the recommendation, it was designed for them)
@@ -80,6 +80,44 @@
  - SP mod updated
  - better compatibility with mainline pick advance mod
  - teamcolors will be changed if two sides have the same
+
+3.1
+ - Trenches & Landfill work like in older versions
+ - Reworked Orcish Shamans (stronger)
+ - Reworked Dunefolk worker (is a Dunefolk tutorial)
+ - New Saurian worker unit for Drakes
+ - Drake mages need less experience to level up and are cheaper
+ - Dwarf resist nerv reverted
+ - Runesmith, Dune Captain, Troll Hero, Elvish Lord are available as leaders
+ - Several extra advancements from mainline are unlocked
+ - Merfolk worker earns 1 gold when not building
+ - Added hints to unit and era descriptions
+ - Reworded negotiation options
+ - Maps are grouped
+ - Building changes:
+   * Dwarves, Dunefolk and Orcs cannot plant forests
+   * Elves can now exclusively plant forests on hills
+   * Saurians/Drakes can now in addition to Undead create swamps
+   * Big Tree cannot be removed (reserverd for story purposes)
+ - For 2p A New Island:
+   * Enemy leaders are easier to kill
+   * Nothern chamber is connected to enemy base
+   * Soulless drake variation for one leader
+   * One of the captives is a Merfolk researcher
+   * AI can play one of the player sides
+   * Messages are omitted when only one side is played
+   * Hidden tunnels
+ - For 4p Undead Empire:
+   * Bridges and Paths can be removed everywhere
+ - For 5p A New Land:
+   * Djinn replaces Wose
+   * Captives can move better
+   * Storm Trident
+   * Better turn 2 message
+ - For 1.17:
+   * New undead units available
+   * Uses mainline miner and mainline merfolk units
+   * Dwarves work differently
 
 Some hints, tweaks, tricks, easter eggs, gimmicks, …:
 - When removing allow_era= from the scenario file, it can be played with leaders from another era!

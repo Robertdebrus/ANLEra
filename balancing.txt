@@ -4,10 +4,10 @@ Human:   reference faction
 Outlaw:  have a random recruit (ruffian for 6 gold would be too cheap)
 Elves:   have a lot of 60% due to forests
 Dwarves: can have mines with 70%, but have only 30% on land.
-Drakes:  worker with much life
-Dune:    different movetype
-Orcs:    highest damage (and weaker research unit)
-Undead:  have plague (and reference from Undead Empire)
+Drakes:  workers with highest and lowest hitpoints
+Dune:    different movetype, unit variations
+Orcs:    highest damage
+Undead:  have plague (and reference faction from Undead Empire)
 
 Level 1 goblins & zombies are also considered to be workers.
 
@@ -26,10 +26,11 @@ Mermen      17      5      5   (exclusively on water)
 Mines are 25 for all.
 Forest is  2 for all.
 
-Transform to terrain on which one can build:
+Cost to transform towards terrain, onto which one can build:
 water       5       (reverse 4)
 cave hills  3
 cave ground 2
+swamp       3
 ford        2
 ruined hex  0
 
@@ -45,6 +46,7 @@ Ruffian    -  18(13)  16     10 / -       normal
 Citizen    8  23(16)  16      8 / 6       forest bonus
 Miner      9  26(18)  20     10 / 5       mountain & hill bonus, flat & village malus
 Worker    10  26(18)  25     12 / 6       double malus everywhere
+Young      8  23(16)  15     differs      forest bonus
 Nomad      8  23(16)  19     12 / -       normal (sand and hill get a bonus, the forest a malus)
 Goblin     9  18(13)  18     18 / 4       normal
 Zombie     8  24(17)  18     12 / -       normal
@@ -59,6 +61,7 @@ Woodsman = like Peasant, but for ranged
 Citizen  = weaker
 Miner    = stronger, very vulnerable on flat & forests
 Worker   = even stronger, but must heal a lot
+Young    = ?
 Nomad    = hills have the role of forests, while sand and forests are like flat
 Goblin   = a problem
 Zombie   = like Peasant
