@@ -119,6 +119,29 @@
    * Uses mainline miner and mainline merfolk units
    * Dwarves work differently
 
+3.2
+ - Elves can recruit a Wose Sapling, limited to once per game
+ - Scrolling to units generating income/research happens only for active player
+ - Ingame help and map descriptions updated
+ - Building changes:
+   * Limitations on removing paths remain only for the two »A New Land« maps
+   * Merfolk builders can recover destroyed terrain
+ - Units:
+   * Female Orc sprites created by Mechanical and portrait by Kordov
+   * +1 HP for Dunefolk
+ - For 2p A New Land:
+   * Mushroom chambers are connected
+   * Improved bottom chamber reward
+   * Players are informed about possibility to use merfolk unit as researcher
+   * Hint about Dark Adept
+   * Changes to chocobone, should be excluded from attacks and not take villages
+   * Increased village_support for players
+   * Very minor gold/upkeep tweak to enemies
+   * Thunderer added
+ - For 2p Undead Empire:
+   * Fix game breaking bug introduced in previous version of ANLEra
+
+
 Some hints, tweaks, tricks, easter eggs, gimmicks, …:
 - When removing allow_era= from the scenario file, it can be played with leaders from another era!
   (the same way like in mainline). The recruits will be like in mainline (Peasant & Mage).
