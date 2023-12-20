@@ -16,15 +16,12 @@ This add-on is formed around an era, with which this mechanisms can be applied t
 
 Also included are several custom scenarios, for 2 to 5 players.
 
-Besides it contains 2 modifications:
- - Scorched Earth: Can be used standalone as well, it lets the ai destroy villages, castles and farmland.
- - And a modification with which allows level 0 units to terraform in campaigns too.
-
- Original idea and implementation was done by Bob_the_Mighty."
+Original idea and implementation was done by Bob_the_Mighty."
 [translation]
 language="de"
 title="Eine Neue Heimat"
 description="Ein Add-on nach dem Vorbild des Szenarios »Eine Neue Heimat« im Hauptspiel.
+https://github.com/Robertdebrus/ANLEra
 
 Level 0 Einheiten können Gebäude errichten und die Umgebung verändern, Gelehrte erforschen neue Einheiten und Anführer können entweder andere Spieler unterstützen oder Einheiten anderer Fraktionen freischalten.
 KI-Gegner erhalten ebenfalls mit der Zeit neue Einheiten, und sie können Eure Gebäude zerstören.
@@ -32,10 +29,6 @@ KI-Gegner erhalten ebenfalls mit der Zeit neue Einheiten, und sie können Eure G
 Dieses Add-on basiert auf einer Epoche, durch welche diese Funktionalität mit jeder Karte genutzt werden kann.
 
 Ebenfalls sind einige maßgeschneiderte Szenarien enthalten, für 2 bis 5 Spieler.
-
-Neben der Epoche sind 2 Modifikationen enthalten:
- - Verbrannte Erde: Kann unabhängig von der Epoche benutzt werden, KI-Einheiten zerstören Dörfer, Burgen und Ackerland.
- - Sowie eine Modifikation, mit der Level 0 Einheiten auch in Kampagnen bauen können.
 
 Die Idee und frühere Implementierungen gehen auf Bob_the_Mighty zurück."
 [/translation]
