@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-05-28 16:19 UTC\n"
+"POT-Creation-Date: 2023-12-21 17:25 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,25 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:352
-#: ANLEra/utils/worker_options.cfg:628
+#: ANLEra/utils/worker_options.cfg:666
 msgid "Remove Fireplace"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:365
-#: ANLEra/utils/worker_options.cfg:641
+#: ANLEra/utils/worker_options.cfg:679
 msgid "Light a Fire"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:378
-#: ANLEra/utils/worker_options.cfg:667
+#: ANLEra/utils/worker_options.cfg:704
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:388
-#: ANLEra/utils/worker_options.cfg:678
+#: ANLEra/utils/worker_options.cfg:731
 msgid "Melt Ice"
 msgstr ""
 
@@ -65,28 +65,28 @@ msgstr ""
 
 #. [effect]
 #. [special_note]
-#: ANLEra/era.cfg:103
-#: ANLEra/units/dwarves/Dwarvish_Miner.cfg:46
+#: ANLEra/era.cfg:104
+#: ANLEra/units/dwarves/Dwarvish_Miner.cfg:42
 msgid "Dwarves are on flat terrain and in forest as weak as merfolk units. Take care!"
 msgstr ""
 
 #. [checkbox]: id=anl_debug
-#: ANLEra/era.cfg:187
+#: ANLEra/era.cfg:228
 msgid "ANL no cheating"
 msgstr ""
 
 #. [checkbox]: id=anl_debug
-#: ANLEra/era.cfg:188
+#: ANLEra/era.cfg:229
 msgid "Adds some debug utilities over forest terrain. Only available if Wesnoth is started with --debug (or -d) as command line parameter. Using ingame :debug doesn't count. This option can also be toggled ingame by using :set_var anl_debug=no"
 msgstr ""
 
 #. [checkbox]: id=duplicate_team_colors
-#: ANLEra/era.cfg:194
+#: ANLEra/era.cfg:235
 msgid "Allow duplicate team colors"
 msgstr ""
 
 #. [checkbox]: id=duplicate_team_colors
-#: ANLEra/era.cfg:195
+#: ANLEra/era.cfg:236
 msgid ""
 "If two sides have the same team color, a new color will be assigned to the side with the higher number.\n"
 "Compatible with Color Changer mod."
@@ -117,7 +117,7 @@ msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANI
 #: ANLEra/scenarios/2p_A_New_Island.cfg:16
-msgid "Your enemies have plague while beeing as strong as you. Thus, positioning of your units is extremely important on this map."
+msgid "You have more enemies than on other maps, but less players! Try to defeat some."
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANI
@@ -135,12 +135,12 @@ msgid "University"
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:65
+#: ANLEra/scenarios/2p_A_New_Island.cfg:66
 msgid "You have landed on an unknown island."
 msgstr ""
 
 #. [part]
-#: ANLEra/scenarios/2p_A_New_Island.cfg:74
+#: ANLEra/scenarios/2p_A_New_Island.cfg:75
 msgid "Can you settle here?"
 msgstr ""
 
@@ -170,8 +170,8 @@ msgid "This 4p survival scenario allows you to construct buildings and terraform
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANL
-#: ANLEra/scenarios/4p_A_New_Land.cfg:14
-msgid "Edited by Robertdebrus for use with A New Land Era."
+#: ANLEra/scenarios/4p_A_New_Land.cfg:13
+msgid "Your enemies have plague while beeing as strong as you. Thus, positioning of your units is extremely important on this map."
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_Aybabtu
@@ -356,7 +356,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [note]
 #: ANLEra/scenarios/4p_End_Of_Days.cfg:88
-#: ANLEra/utils/objectives.cfg:304
+#: ANLEra/utils/objectives.cfg:311
 msgid "Ogres are your demolition workers. They are extremely useful for clearing ground and destroying enemy positions."
 msgstr ""
 
@@ -378,7 +378,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [note]
 #: ANLEra/scenarios/4p_End_Of_Days.cfg:105
-#: ANLEra/utils/objectives.cfg:295
+#: ANLEra/utils/objectives.cfg:302
 msgid "Monuments cost $monumentprice?70| gold and can only be built on cave. They cannot be destroyed."
 msgstr ""
 
@@ -515,44 +515,44 @@ msgid "Adjust the starting gold as needed, experts can try with 75."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:693
+#: ANLEra/scenarios/5p_A_New_Land.cfg:689
 msgid "You received word about something dangerous in the nearby shallow water."
 msgstr ""
 
 #. [message]: type=ANLEra Dwarvish Miner,Dwarvish Miner,ANLEra Elvish Civilian,ANLEra Drake Worker,ANLEra Young Saurian,Ruffian,Woodsman,Peasant,Goblin Spearman,Walking Corpse
-#: ANLEra/scenarios/5p_A_New_Land.cfg:699
+#: ANLEra/scenarios/5p_A_New_Land.cfg:695
 msgid "Maybe we should be careful, there’s a lot of dangers about."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:777
+#: ANLEra/scenarios/5p_A_New_Land.cfg:787
 msgid "Beware of enemy creatures in the mud."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/5p_A_New_Land.cfg:900
+#: ANLEra/scenarios/5p_A_New_Land.cfg:910
 msgid "Not so fast…"
 msgstr ""
 
 #. [message]: type=Death Knight
-#: ANLEra/scenarios/5p_A_New_Land.cfg:908
+#: ANLEra/scenarios/5p_A_New_Land.cfg:918
 msgid "Deeaaathh…"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/scenarios/5p_A_New_Land.cfg:981
+#: ANLEra/scenarios/5p_A_New_Land.cfg:991
 msgid "They’ll never take me alive!"
 msgstr ""
 
 #. [message]: type=Merman Fighter
 #. Message shown if the player plays this 2 player scenario alone.
-#: ANLEra/scenarios/ANI/1-player.cfg:73
+#: ANLEra/scenarios/ANI/1-player.cfg:78
 msgid "Fighting this battle alone?"
 msgstr ""
 
 #. [message]: type=Merman Fighter
 #. Message shown if the player plays this 2 player scenario alone.
-#: ANLEra/scenarios/ANI/1-player.cfg:78
+#: ANLEra/scenarios/ANI/1-player.cfg:83
 msgid "Let me help out."
 msgstr ""
 
@@ -609,17 +609,17 @@ msgstr ""
 msgid "Explorers"
 msgstr ""
 
-#: ANLEra/scenarios/ANI/define_sides.cfg:83
+#: ANLEra/scenarios/ANI/define_sides.cfg:85
 msgid "Inhabitants"
 msgstr ""
 
 #. [side]: type=Goblin Rouser
-#: ANLEra/scenarios/ANI/define_sides.cfg:179
+#: ANLEra/scenarios/ANI/define_sides.cfg:185
 msgid "Shivshank"
 msgstr ""
 
 #. [side]: type=Goblin Rouser
-#: ANLEra/scenarios/ANI/define_sides.cfg:206
+#: ANLEra/scenarios/ANI/define_sides.cfg:215
 msgid "Gagor"
 msgstr ""
 
@@ -644,6 +644,32 @@ msgstr ""
 #. TODO: actually the players have no vision over this shrouded place…
 #: ANLEra/scenarios/ANI/messages.cfg:78
 msgid "Move any unit onto these villages to destroy the mine."
+msgstr ""
+
+#. [message]: id=$unit.id
+#: ANLEra/scenarios/ANI/messages.cfg:145
+msgid "The water here has been blocked. Let me remove the blockade."
+msgstr ""
+
+#. [message]: id=$builder.id
+#: ANLEra/scenarios/ANI/messages.cfg:178
+msgid "I can build not only castles and villages, but also a Merfolk university. Merfolk researchers can study there."
+msgstr ""
+
+#. [message]: type=Mermaid Enchantress
+#: ANLEra/scenarios/ANI/messages.cfg:187
+msgid "I can fight skeletons – or devote my time to studies in a Merfolk university."
+msgstr ""
+
+#. [message]: type=Mermaid Enchantress
+#: ANLEra/scenarios/ANI/messages.cfg:188
+msgid "Merfolk units of level 0 can build villages and universities in the water and at the shore."
+msgstr ""
+
+#. [message]: id=$unit.id
+#. hint, that the unit does not guard this place in other stages of the game
+#: ANLEra/scenarios/ANI/messages.cfg:218
+msgid "I need to go back to the base … but since you came by …"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -676,6 +702,16 @@ msgstr ""
 #. Translate it with the same term.
 #: ANLEra/scenarios/ANI/mushroom_mine_destroy.cfg:138
 msgid "You destroy the mushroom mine. The southwest undead now have $amount less base income."
+msgstr ""
+
+#. [trait]
+#: ANLEra/scenarios/ANI/protect_goblins.cfg:81
+msgid "You don’t have to hide from this unit. Just because it can reach you, doesn’t mean that it will leave the cave to attack you."
+msgstr ""
+
+#. [message]
+#: ANLEra/scenarios/ANI/protect_goblins.cfg:115
+msgid "Come and cover me."
 msgstr ""
 
 #. [side]
@@ -749,7 +785,7 @@ msgstr ""
 #. [option]
 #. [option]: description=<span size='small'>
 #: ANLEra/scenarios/EoD/monolith.cfg:51
-#: ANLEra/utils/worker_options.cfg:136
+#: ANLEra/utils/worker_options.cfg:173
 msgid "Cost:"
 msgstr ""
 
@@ -757,8 +793,8 @@ msgstr ""
 #. [option]: description=<span size='small'>
 #. "g" denotes the unit for Gold. Depending on your language's rules you may want to use a capital letter.
 #: ANLEra/scenarios/EoD/monolith.cfg:51
-#: ANLEra/utils/worker_options.cfg:138
-#: ANLEra/utils/worker_options.cfg:212
+#: ANLEra/utils/worker_options.cfg:175
+#: ANLEra/utils/worker_options.cfg:249
 msgid "g"
 msgstr ""
 
@@ -867,7 +903,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/scenarios/TGW/victory.cfg:13
-#: ANLEra/scenarios/TGW/victory.cfg:40
+#: ANLEra/scenarios/TGW/victory.cfg:41
 msgid "I have the enemy’s flag! Victory is at hand!"
 msgstr ""
 
@@ -877,17 +913,17 @@ msgid "Team 1 has won the game."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/TGW/victory.cfg:44
+#: ANLEra/scenarios/TGW/victory.cfg:45
 msgid "Team 2 has won the game."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/TGW/victory.cfg:95
+#: ANLEra/scenarios/TGW/victory.cfg:97
 msgid "The last leader of side 1 died. Thus, team 2 has won the game."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/scenarios/TGW/victory.cfg:112
+#: ANLEra/scenarios/TGW/victory.cfg:115
 msgid "The last leader of side 2 died. Thus, team 1 has won the game."
 msgstr ""
 
@@ -1131,6 +1167,31 @@ msgstr ""
 msgid "female^Elvish Citizen"
 msgstr ""
 
+#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc
+#: ANLEra/units/orcs/Novice_Orcish_Shaman.cfg:11
+msgid "Young Orcish Shaman"
+msgstr ""
+
+#. [female]
+#: ANLEra/units/orcs/Novice_Orcish_Shaman.cfg:126
+msgid "female^Young Orcish Shaman"
+msgstr ""
+
+#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc
+#: ANLEra/units/orcs/Old_Orcish_Shaman.cfg:11
+msgid "Elder Orcish Shaman"
+msgstr ""
+
+#. [female]
+#: ANLEra/units/orcs/Old_Orcish_Shaman.cfg:131
+msgid "female^Elder Orcish Shaman"
+msgstr ""
+
+#. [female]
+#: ANLEra/units/orcs/Orcish_Shaman.cfg:123
+msgid "female^Orcish Shaman"
+msgstr ""
+
 #. [unit_type]: id=ANLEra Youngster, race=human
 #: ANLEra/units/outlaws/random-recruit.cfg:12
 msgid "Youngster"
@@ -1141,7 +1202,7 @@ msgstr ""
 msgid ""
 "Randomly either a Ruffian or a Woodsman will be recruited.\n"
 "\n"
-"Ruffians can build and work on farmland, while Woodsmen can hunt in forests.\n"
+"Ruffians can build and work on farmland, Woodsmen can additionally hunt in forests.\n"
 "\n"
 "In difference to the stats displayed on this help page, the Woodsman is of neutral alignment, has improved defence values on swamps and forest and performs a bit better in combat."
 msgstr ""
@@ -1548,39 +1609,39 @@ msgid ""
 msgstr ""
 
 #. similar string in mainline
-#: ANLEra/utils/general_purpose/trapped.cfg:177
-#: ANLEra/utils/general_purpose/trapped.cfg:215
+#: ANLEra/utils/general_purpose/trapped.cfg:185
+#: ANLEra/utils/general_purpose/trapped.cfg:233
 msgid "Let’s cut you free from this web."
 msgstr ""
 
 #. similar string in mainline
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:180
+#: ANLEra/utils/general_purpose/trapped.cfg:188
 msgid "male critter^You release the $|critter.language_name from the web and it agrees to help you."
 msgstr ""
 
 #. similar string in mainline
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:183
+#: ANLEra/utils/general_purpose/trapped.cfg:191
 msgid "female critter^You release the $|critter.language_name from the web and it agrees to help you."
 msgstr ""
 
-#: ANLEra/utils/general_purpose/trapped.cfg:195
+#: ANLEra/utils/general_purpose/trapped.cfg:210
 msgid "Let’s free you from this cage."
 msgstr ""
 
 #. the released unit is male
-#: ANLEra/utils/general_purpose/trapped.cfg:197
+#: ANLEra/utils/general_purpose/trapped.cfg:212
 msgid "male critter^You release the $|critter.language_name from the cage and it agrees to help you."
 msgstr ""
 
 #. the released unit is female
-#: ANLEra/utils/general_purpose/trapped.cfg:199
+#: ANLEra/utils/general_purpose/trapped.cfg:214
 msgid "female critter^You release the $|critter.language_name from the cage and it agrees to help you."
 msgstr ""
 
-#: ANLEra/utils/general_purpose/trapped.cfg:216
-#: ANLEra/utils/general_purpose/trapped.cfg:217
+#: ANLEra/utils/general_purpose/trapped.cfg:234
+#: ANLEra/utils/general_purpose/trapped.cfg:235
 msgid "You release the wose from the web and it agrees to help you."
 msgstr ""
 
@@ -1603,7 +1664,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/help.cfg:27
-#: ANLEra/utils/help.cfg:150
+#: ANLEra/utils/help.cfg:170
 msgid "Workers"
 msgstr ""
 
@@ -1617,7 +1678,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: ANLEra/utils/help.cfg:41
-#: ANLEra/utils/help.cfg:157
+#: ANLEra/utils/help.cfg:177
 msgid "Researchers"
 msgstr ""
 
@@ -1629,22 +1690,46 @@ msgid "Mages, and the other people who know some form of magic, can study at uni
 msgstr ""
 
 #. [message]: speaker=narrator
-#. [option]
-#: ANLEra/utils/help.cfg:66
-#: ANLEra/utils/help.cfg:173
+#. translation should not be longer
+#: ANLEra/utils/help.cfg:68
+msgid "Sometimes you may have access to an additional unit"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/help.cfg:70
+msgid "The Outlaw faction can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/help.cfg:71
+msgid "Similarly, Merfolk Citizens earn 1 gold per turn by fishing, when they were not doing construction works."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/help.cfg:72
+msgid "The Wose Sapling is not a worker, but a unit which can be summoned only once in the game."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ANLEra/utils/help.cfg:80
 msgid "Forests"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ANLEra/utils/help.cfg:68
+#: ANLEra/utils/help.cfg:82
 msgid "Forests can only be planted on grassland. The Outlaw faction can recruit Woodsmen, and the Woodsman and Poacher line will begin to automatically hunt for game in the forests, producing gold dependent on their level."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. This contains only slight variations compared to the string from mainline.
 #. See https://www.wesnoth.org/gettext/?package=wesnoth-anl
-#: ANLEra/utils/help.cfg:101
+#: ANLEra/utils/help.cfg:115
 msgid "Any of the “Town” style villages represent universities. At the start of your turn, researcher in universities automatically add to the study progress of your chosen research target. Right-click on a researcher in an university to change the research target."
+msgstr ""
+
+#. [option]
+#: ANLEra/utils/help.cfg:185
+msgid "Situational Workers"
 msgstr ""
 
 #. Part of the scenario objectives
@@ -1701,153 +1786,158 @@ msgid "Warning:"
 msgstr ""
 
 #. [note]
-#. This variant is shown if the hints for teamplay are placed together with other hints.
-#: ANLEra/utils/objectives.cfg:53
-msgid "Don’t forget: This is a team game. Support each other. Talk about your plans."
-msgstr ""
-
-#. [note]
-#: ANLEra/utils/objectives.cfg:59
+#: ANLEra/utils/objectives.cfg:52
 msgid "This map can be played with other factions if the »A New Land Era« is used."
 msgstr ""
 
-#: ANLEra/utils/objectives.cfg:71
+#: ANLEra/utils/objectives.cfg:64
 msgid "Recommended to be played with A New Land Era."
 msgstr ""
 
-#: ANLEra/utils/objectives.cfg:78
+#: ANLEra/utils/objectives.cfg:71
 msgid "(Survival)"
 msgstr ""
 
 #. [note]
-#: ANLEra/utils/objectives.cfg:102
-#: ANLEra/utils/objectives.cfg:172
+#: ANLEra/utils/objectives.cfg:94
+#: ANLEra/utils/objectives.cfg:179
 msgid "Support each other."
 msgstr ""
 
 #. [note]
-#: ANLEra/utils/objectives.cfg:105
+#: ANLEra/utils/objectives.cfg:97
 msgid "Use the chat! (Press button »m«)"
 msgstr ""
 
 #. [note]
-#: ANLEra/utils/objectives.cfg:108
-#: ANLEra/utils/objectives.cfg:178
+#: ANLEra/utils/objectives.cfg:100
+#: ANLEra/utils/objectives.cfg:185
 msgid "Plan together."
 msgstr ""
 
 #. [note]
-#: ANLEra/utils/objectives.cfg:169
+#: ANLEra/utils/objectives.cfg:135
+msgid "It might be helpful to defeat some enemy leaders."
+msgstr ""
+
+#. [note]
+#. This variant is shown if the hints for teamplay are placed together with other hints.
+#: ANLEra/utils/objectives.cfg:139
+msgid "Don’t forget: This is a team game. Support each other. Talk about your plans."
+msgstr ""
+
+#. [note]
+#: ANLEra/utils/objectives.cfg:176
 msgid "The map is huge, do not build everywhere."
 msgstr ""
 
 #. [note]
-#: ANLEra/utils/objectives.cfg:175
+#: ANLEra/utils/objectives.cfg:182
 msgid "Use the teamchat! (Press »ctrl« + »m«)"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:232
+#: ANLEra/utils/objectives.cfg:239
 msgid "Monuments:"
 msgstr ""
 
 #. [objective]: condition=win
-#: ANLEra/utils/objectives.cfg:237
+#: ANLEra/utils/objectives.cfg:244
 msgid "The winner is the first player to construct 4 monuments"
 msgstr ""
 
 #. [objective]: condition=win
-#: ANLEra/utils/objectives.cfg:243
+#: ANLEra/utils/objectives.cfg:250
 msgid "Kill all enemy leaders — or survive longer than they"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:249
+#: ANLEra/utils/objectives.cfg:256
 msgid "Side 1 built one monument"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:250
+#: ANLEra/utils/objectives.cfg:257
 msgid "Side 1 built two monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:251
+#: ANLEra/utils/objectives.cfg:258
 msgid "Side 1 built <b>three</b> monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:252
+#: ANLEra/utils/objectives.cfg:259
 msgid "Side 1 built four monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:253
+#: ANLEra/utils/objectives.cfg:260
 msgid "Side 2 built one monument"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:254
+#: ANLEra/utils/objectives.cfg:261
 msgid "Side 2 built two monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:255
+#: ANLEra/utils/objectives.cfg:262
 msgid "Side 2 built <b>three</b> monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:256
+#: ANLEra/utils/objectives.cfg:263
 msgid "Side 2 built four monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:257
+#: ANLEra/utils/objectives.cfg:264
 msgid "Side 3 built one monument"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:258
+#: ANLEra/utils/objectives.cfg:265
 msgid "Side 3 built two monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:259
+#: ANLEra/utils/objectives.cfg:266
 msgid "Side 3 built <b>three</b> monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:260
+#: ANLEra/utils/objectives.cfg:267
 msgid "Side 3 built four monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:261
+#: ANLEra/utils/objectives.cfg:268
 msgid "Side 4 built one monument"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:262
+#: ANLEra/utils/objectives.cfg:269
 msgid "Side 4 built two monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:263
+#: ANLEra/utils/objectives.cfg:270
 msgid "Side 4 built <b>three</b> monuments"
 msgstr ""
 
 #. [objectives]
-#: ANLEra/utils/objectives.cfg:264
+#: ANLEra/utils/objectives.cfg:271
 msgid "Side 4 built four monuments"
 msgstr ""
 
 #. [objective]: condition=lose
-#: ANLEra/utils/objectives.cfg:266
+#: ANLEra/utils/objectives.cfg:273
 msgid "Nobody built any monuments yet"
 msgstr ""
 
 #. [objective]: condition=lose
-#: ANLEra/utils/objectives.cfg:278
+#: ANLEra/utils/objectives.cfg:285
 msgid "You cannot hide from the Inferno Drakes"
 msgstr ""
 
@@ -2111,37 +2201,42 @@ msgid "Diplomacy for free"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:168
+#: ANLEra/utils/worker_options.cfg:205
 msgid "No costs"
 msgstr ""
 
 #. [option]: description=<span size='small'>
-#: ANLEra/utils/worker_options.cfg:212
+#: ANLEra/utils/worker_options.cfg:249
 msgid "Earns:"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:296
+#: ANLEra/utils/worker_options.cfg:333
 msgid "Demolish Farmland"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:656
+#: ANLEra/utils/worker_options.cfg:693
 msgid "Shorten Path"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:688
+#: ANLEra/utils/worker_options.cfg:715
+msgid "Destroy Bridge"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:741
 msgid "Renovate Encampment"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:707
+#: ANLEra/utils/worker_options.cfg:760
 msgid "Demolish Castle"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:715
+#: ANLEra/utils/worker_options.cfg:768
 msgid "Demolish Keep"
 msgstr ""
 
