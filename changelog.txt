@@ -128,7 +128,9 @@
    * Merfolk builders can recover destroyed terrain
  - Units:
    * Female Orc sprites created by Mechanical and portrait by Kordov
-   * +1 HP for Dunefolk
+   * XP buff for Rouge Mage and Shadow Mage
+   * Intelligent workers from Dunefolk, Elves, Saurians need one kill less to advance
+   * +1 HP for Dunefolk worker
  - For 2p A New Land:
    * Mushroom chambers are connected
    * Improved bottom chamber reward
