@@ -45,7 +45,7 @@ msgstr "Eis schmelzen"
 
 #. [modification]: id=Anewlandsp, type=hybrid
 #: ANLEra/_main.cfg:26
-msgid "A Sp/Mp modification, which allows level 0s to build (no research)."
+msgid "A SP/MP modification, which allows level 0s to build (no research)."
 msgstr ""
 "Modifikation, welche Einheiten der Stufe 0 das Bauen verschiedener Dinge "
 "erlaubt, z.B. Dörfer, Burgen oder das Pflanzen und Abholzen von Wäldern.\n"
@@ -237,7 +237,7 @@ msgstr ""
 #. [multiplayer]: id=ANLEra_ANL
 #: ANLEra/scenarios/4p_A_New_Land.cfg:13
 msgid ""
-"Your enemies have plague while beeing as strong as you. Thus, positioning of "
+"Your enemies have plague while being as strong as you. Thus, positioning of "
 "your units is extremely important on this map."
 msgstr ""
 "Die Einheiten eurer Feinde sind euch ebenbürtig, aber sie verfügen über die "

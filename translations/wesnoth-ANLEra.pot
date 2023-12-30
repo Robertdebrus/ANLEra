@@ -41,7 +41,7 @@ msgstr ""
 
 #. [modification]: id=Anewlandsp, type=hybrid
 #: ANLEra/_main.cfg:26
-msgid "A Sp/Mp modification, which allows level 0s to build (no research)."
+msgid "A SP/MP modification, which allows level 0s to build (no research)."
 msgstr ""
 
 #. [era]: id=ANLEra
@@ -171,7 +171,7 @@ msgstr ""
 
 #. [multiplayer]: id=ANLEra_ANL
 #: ANLEra/scenarios/4p_A_New_Land.cfg:13
-msgid "Your enemies have plague while beeing as strong as you. Thus, positioning of your units is extremely important on this map."
+msgid "Your enemies have plague while being as strong as you. Thus, positioning of your units is extremely important on this map."
 msgstr ""
 
 #. [multiplayer]: id=ANLEra_Aybabtu
