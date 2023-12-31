@@ -121,6 +121,8 @@
 
 3.2
  - Elves can recruit a Wose Sapling, limited to once per game
+ - AI destroyers can now be disabled in the »Custom Options« section of the era
+   when creating a game and are no longer a modification
  - Scrolling to units generating income/research happens only for active player
  - Ingame help and map descriptions updated
  - Building changes:
@@ -128,8 +130,9 @@
    * Merfolk builders can recover destroyed terrain
  - Units:
    * Female Orc sprites created by Mechanical and portrait by Kordov
-   * XP buff for Rouge Mage and Shadow Mage
    * Intelligent workers from Dunefolk, Elves, Saurians need one kill less to advance
+   * Leadership and XP buff for Rouge Mage and Shadow Mage
+   * Diversion ability and more HP for Drake magicans
    * +1 HP for Dunefolk worker
  - For 2p A New Land:
    * Mushroom chambers are connected
