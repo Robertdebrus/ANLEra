@@ -106,7 +106,8 @@ function anl.research_menu(undo_forbidden)
     local rc
 
     -- Set up the message dialog:
-    local options = { _ 'Continue as before'}
+    local options = {}
+    table.insert(options, { label = _ 'Continue as before' } )
     table.insert(options, anl.offer_agriculture() )
     table.insert(options, anl.offer_mining() )
     table.insert(options, anl.offer_philosophy() )
@@ -205,10 +206,10 @@ function anl.build_recruit_options(choosable)
 
     if choosable[2] ~= nil then
         -- po: Text for the option to cancel. Decide later which unit to choose.
-        options = { _'Choose later.'}
+        options = { { label = _ 'Choose later.' } }
     else
         -- po: Text for the option to cancel. Just one unit is left to be chosen.
-        options = { _'No, maybe not.'}
+        options = { { label = _ 'No, maybe not.' } }
     end
 
     for i, v in ipairs(choosable) do

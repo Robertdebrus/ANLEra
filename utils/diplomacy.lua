@@ -192,7 +192,7 @@ end
 -- If philosophy was researched, the bonus will be higher,
 function anl.send_tech()
     local _ = wesnoth.textdomain 'wesnoth-anl'
-    local options = { _'Back'}
+    local options = { { label = _ 'Back' } }
     local list1 = {} -- Side will be saved here.
     local list2 = {} -- Tech number will be saved here.
     local own_farming = wml.variables['player_' .. wesnoth.current.side][1][2].gold
@@ -446,7 +446,7 @@ end
 -- Previous functions decide if the options will be active to chose from.
 function anl.diplomacy_options()
     local _ = wesnoth.textdomain 'wesnoth-anl'
-    local x = { _ 'Back',
+    local x = { { label = _ 'Back' },
                 { label = _ "<span color='green'>Donate Funds</span>\nGive 20 gold to another player",
                   image = 'items/gold-coins-small.png' },
                 { label = _ "<span color='green'>Share Knowledge</span>\nHelp an ally with their research",
