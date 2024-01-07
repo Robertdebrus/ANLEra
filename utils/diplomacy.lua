@@ -210,7 +210,9 @@ function anl.send_tech()
                 label = wesnoth.format(_"<span color='green'>$side_name from side $side_no|</span>\nShare knowledge of agriculture",
                                       { side_name = v.side_name,
                                         side_no = v.side }),
-                image = 'items/flower4.png',
+                -- Cropping to have not 72px heigh, which would then use more space than the label text.
+                -- Can use 18,28,35,16 for cropping, but a bit extra to align.
+                image = 'items/flower4.png~CROP(12,28,49,16)',
             })
             table.insert(list1, v )
             table.insert(list2, 1 )
@@ -221,7 +223,8 @@ function anl.send_tech()
                 label = wesnoth.format(_"<span color='green'>$side_name from side $side_no|</span>\nShare knowledge of mining",
                                       { side_name = v.side_name,
                                         side_no = v.side } ),
-                image = 'items/gold-coins-small.png',
+                -- Can use 22,25,33,30 for cropping, but uses different values to align.
+                image = 'items/gold-coins-small.png~CROP(13,25,49,30)',
             })
             table.insert(list1, v )
             table.insert(list2, 2 )
@@ -235,7 +238,8 @@ function anl.send_tech()
                     label =  wesnoth.format(_"<span color='green'>$side_name from side $side_no|</span>\nShare knowledge of warfare",
                                            { side_name = v.side_name,
                                              side_no = v.side } ),
-                    image = 'wesnoth-icon.png~SCALE(72,72)',
+                    -- With 49px it will not use more space than already used by the label text.
+                    image = 'wesnoth-icon.png~SCALE(49,49)',
                 })
                 table.insert(list1, v )
                 table.insert(list2, 3 )
