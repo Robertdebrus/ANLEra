@@ -127,13 +127,15 @@ function anl.send_gold()
 
     -- Calculating the options - whom can we send gold? (Only to alive allies).
     local _ = wesnoth.textdomain 'wesnoth-anl'
-    local diplomacy_gold_text = { _'Back' }
+    local diplomacy_gold_text = { { label = _'Back' } }
 
     _ = wesnoth.textdomain 'wesnoth-ANLEra'
     for k,v in ipairs( anl.get_allies() ) do
-        table.insert(diplomacy_gold_text, wesnoth.format(_'Send gold to $side_name from side $side_no|.',
-                                         { side_name = v.side_name,
-                                           side_no = v.side })
+        table.insert(diplomacy_gold_text,
+            { label = wesnoth.format(_'Send gold to $side_name from side $side_no|.',
+                      { side_name = v.side_name,
+                        side_no = v.side }),
+              image = v.flag_icon .. '~TC(' .. v.side .. ', flag_green)' }
         )
     end
 
