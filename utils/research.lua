@@ -184,7 +184,8 @@ local dwarvish_units = {'Dwarvish Fighter', 'Dwarvish Guardsman', 'Dwarvish Scou
 local elvish_units = {'Elvish Archer', 'Elvish Fighter', 'Elvish Scout', 'Wose'}
 local human_units = {'Spearman', 'Fencer', 'Heavy Infantryman', 'Sergeant', 'Bowman', 'Horseman', 'Cavalryman'}
 local orcish_units = {'Orcish Grunt', 'Orcish Archer', 'Orcish Assassin', 'Troll Whelp', 'Wolf Rider'}
-local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher'}
+-- https://www.reddit.com/r/wesnoth/comments/15799mv/myrline_the_outcasts
+local outlaw_units = {'Thug', 'Thief', 'Footpad', 'Poacher', 'Wolf', 'Young Ogre'}
 local undead_units
 if wesnoth.unit_types['Skeleton Rider'] == nil then
     undead_units = {'Skeleton', 'Skeleton Archer', 'Vampire Bat', 'Ghost', 'Ghoul'}
