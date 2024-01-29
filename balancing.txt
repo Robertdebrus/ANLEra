@@ -43,11 +43,11 @@ Unit comparision:
 Peasant    8  23(16)  18     10 / 4       normal
 Woodsman   -  23(16)  18      3 / 12      forest bonus
 Ruffian    -  18(13)  16     10 / -       normal
-Citizen    8  23(16)  16      8 / 6       forest bonus
+Citizen    8  22(15)  17      8 / 8       forest bonus
 Miner      9  26(18)  20     10 / 5       mountain & hill bonus, flat & village malus
 Worker    10  26(18)  25     12 / 6       double malus everywhere
-Young      8  23(16)  15     differs      forest bonus
-Nomad      8  23(16)  19     12 / -       normal (sand and hill get a bonus, the forest a malus)
+Young      8  20(14)  15     differs      forest bonus
+Nomad      8  21(15)  20     12 / -       normal (sand and hill get a bonus, the forest a malus)
 Goblin     9  18(13)  18     18 / 4       normal
 Zombie     8  24(17)  18     12 / -       normal
 Merman     9  22(15)  20     12 / -       water unit
