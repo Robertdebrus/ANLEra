@@ -131,7 +131,7 @@
  - Units:
    * Female Orc sprites created by Mechanical and portrait by Kordov
    * Intelligent workers from Dunefolk, Elves, Saurians need one kill less to advance
-   * Leadership and XP buff for Rouge Mage and Shadow Mage
+   * Leadership and XP buff for Rogue Mage and Shadow Mage
    * Diversion ability and more HP for Drake magicans
    * +1 HP for Dunefolk worker
  - For 2p A New Land:
@@ -146,6 +146,37 @@
  - For 2p Undead Empire:
    * Fix game breaking bug introduced in previous version of ANLEra
 
+3.3
+ - Message dialogs show the back button on all Wesnoth versions in the correct column
+ - Graphical tweaks for Diplomacy Menu
+ - Help contains now era and faction descriptions, accessible with F1
+ - With multiple Elvish players a second Wose Sapling can be optained
+ - Income can be increased on all maps, recommended for allied ai sides
+ - Optimized for playing with 2x scaling on FullHD
+ - Building changes:
+   * Flowers are ignored
+ - Units:
+   * +1 HP and ranged damage for Elvish Civilians
+   * Orcish Shamans inflict arcane damage
+   * Drake Mages secondary attack improved
+   * Dunefolk worker has now unit descriptions with hints
+   * 1/7 chance to get diversion ability for Dunefolk worker (not in 1.14)
+   * 1/7 chance to get ranged poison special for Dunefolk worker
+   * 1/7 chance to get ranged plumbata attack for Dunefolk worker
+   * Missing shadows of Dunefolk sprites added
+   * Rogue Mage costs again 17 gold
+   * Outlaws can research Ogres and Wolves (Myrians’s concept)
+ - For 2p A New Land:
+   * MapBottom chamber is easier to reach
+   * New path from bottom chamber into enemy base
+ - For 5p A New Land:
+   * South-western guard is avoided when player 4 is ai-controlled
+ - For 1.14:
+   * Liminal Dunefolk units are as strong as on newer versions
+ - For 1.17:
+   * New Dunefolk poison attack can also become a fire attack
+   * Leadership works on level 1 Dwarvish Miner
+   * Portrait restored for mainline Dwarvish Miner
 
 Some hints, tweaks, tricks, easter eggs, gimmicks, …:
 - When removing allow_era= from the scenario file, it can be played with leaders from another era!
