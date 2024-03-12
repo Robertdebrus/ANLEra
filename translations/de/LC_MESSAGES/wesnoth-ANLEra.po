@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-02-08 01:27 UTC\n"
-"PO-Revision-Date: 2024-02-08 02:29+0100\n"
+"POT-Creation-Date: 2024-03-11 19:43 UTC\n"
+"PO-Revision-Date: 2024-03-11 20:47+0100\n"
 "Last-Translator: Severin Glöckner <severin.gloeckner@stud.htwk-leipzig.de>\n"
 "Language-Team: German <irc://irc.libera.chat/#wesnoth-de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.02.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [message]: speaker=unit
@@ -231,7 +231,7 @@ msgstr ""
 "zuverlässig Goblins und Zombies eliminieren, weil er des Tages nur 2 Treffer "
 "benötigt. Er hat auch einen Vorteil gegenüber Skeletten."
 
-#. [multiplayer_side]: id=ANLEra_Orcs, type=Goblin Spearman, description=<img>src='portraits/shaman_woman.png~SCALE(200,200)' align='middle'</img>
+#. [multiplayer_side]: id=ANLEra_Orcs, type=Goblin Spearman, description=<img>src='portraits/shaman_woman.png' align='middle'</img>
 #: ANLEra/factions/orcs.cfg:16
 msgid "The advantage of this faction is that they do very high damage."
 msgstr "Der Vorteil dieser Fraktion ist ihr hoher Schaden."
@@ -1349,12 +1349,12 @@ msgstr ""
 msgid "Due to their dedication to research, the Universities heal less."
 msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
 
-#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake, gender=female
 #: ANLEra/units/drakes/Apprentice.cfg:5
 msgid "Drake Apprentice"
 msgstr "Drakenlehrling"
 
-#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake, gender=female
 #: ANLEra/units/drakes/Apprentice.cfg:20 ANLEra/units/drakes/Apprentice.cfg:22
 msgid ""
 "The Drake Magi are fresh members of the Obsidian Citadel, who have been "
@@ -1376,13 +1376,13 @@ msgstr ""
 msgid "ice shot"
 msgstr "Eisgeschoss"
 
-#. [unit_type]: id=ANLEra Drake Druid, race=drake
+#. [unit_type]: id=ANLEra Drake Druid, race=drake, gender=female
 #: ANLEra/units/drakes/Druid.cfg:5
 msgid "Drake Druid"
 msgstr "Drakendruide"
 
-#. [unit_type]: id=ANLEra Drake Druid, race=drake
-#. [unit_type]: id=ANLEra Drake Shaman, race=drake
+#. [unit_type]: id=ANLEra Drake Druid, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake, gender=female
 #: ANLEra/units/drakes/Druid.cfg:21 ANLEra/units/drakes/Druid.cfg:23
 #: ANLEra/units/drakes/Shaman.cfg:21 ANLEra/units/drakes/Shaman.cfg:23
 msgid ""
@@ -1400,7 +1400,7 @@ msgstr ""
 "hinweg einsetzen. Aufgrund der Energie welche sie dafür benötigen fehlt es "
 "ihnen jedoch an Schnelligkeit und Kraft."
 
-#. [unit_type]: id=ANLEra Drake Shaman, race=drake
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake, gender=female
 #: ANLEra/units/drakes/Shaman.cfg:5
 msgid "Drake Shaman"
 msgstr "Drakenschamane"
@@ -1431,13 +1431,13 @@ msgstr ""
 "fliegen und es fehlt ihnen noch an der Ausdauer, um über tiefem Wasser und "
 "unbegehbarem Gelände zu fliegen."
 
-#. [unit_type]: id=ANLEra Young Saurian, race=lizard
+#. [unit_type]: id=ANLEra Young Saurian, race=lizard, gender=male,female
 #. unit type name for both male and female
 #: ANLEra/units/drakes/Young.cfg:8
 msgid "unit^Young Saurian"
 msgstr "Junger Saurianer"
 
-#. [unit_type]: id=ANLEra Young Saurian, race=lizard
+#. [unit_type]: id=ANLEra Young Saurian, race=lizard, gender=male,female
 #: ANLEra/units/drakes/Young.cfg:28
 msgid ""
 "Young saurians often work for Drakes. Some work underground in mines, while "
@@ -1455,26 +1455,26 @@ msgstr ""
 "Neben den auf Nahkampf ausgerichteten jungen Saurianern gibt es auch "
 "Magieliebhaber, die sich auf den Fernkampf spezialisiert haben."
 
-#. [female]
+#. [female]: gender=female
 #. rather gender-neutral, skirmisher tree
 #: ANLEra/units/drakes/Young.cfg:119
 msgid "miner^Young Saurian"
 msgstr "Junger Saurianer"
 
-#. [female]
+#. [female]: gender=female
 #: ANLEra/units/drakes/Young.cfg:121
 msgid ""
 "Young saurians work often as miners because they are smaller than Drakes."
 msgstr ""
 "Junge Saurianer arbeiten oft in Bergwerken weil sie kleiner sind als Draken."
 
-#. [male]
+#. [male]: gender=male
 #. rather gender-neutral, augur tree
 #: ANLEra/units/drakes/Young.cfg:130
 msgid "magican^Young Saurian"
 msgstr "Junger Saurianer"
 
-#. [male]
+#. [male]: gender=male
 #: ANLEra/units/drakes/Young.cfg:138
 msgid ""
 "Saurians have some knowledge of what men call sorcery, but their practice of "
@@ -1487,7 +1487,7 @@ msgstr ""
 
 #. [variation]
 #. General hint about playing dunefolk, part of the unit description.
-#: ANLEra/units/dunefolk/Civilian.cfg:464 ANLEra/units/dunefolk/Civilian.cfg:30
+#: ANLEra/units/dunefolk/Civilian.cfg:465 ANLEra/units/dunefolk/Civilian.cfg:30
 msgid ""
 "Like many Dunefolk units, the Civilians do not benefit from forests, nor "
 "does sand lower their defence — it is the same as on flat terrain. When they "
@@ -1498,12 +1498,12 @@ msgstr ""
 "nicht geschwächt – es ist stets die selbe wie auf flachem Terrain. Wenn eine "
 "defensive Position benötigt wird, ziehen sie sich in die Hügel zurück."
 
-#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
+#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk, gender=male
 #: ANLEra/units/dunefolk/Civilian.cfg:61
 msgid "Dune Civilian"
 msgstr "Wüstenbewohner"
 
-#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
+#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk, gender=male
 #. General hint about playing dunefolk, part of the unit description of all variations.
 #: ANLEra/units/dunefolk/Civilian.cfg:81
 msgid ""
@@ -1565,8 +1565,8 @@ msgid ""
 "not something you do for a lifetime. Another way you can get poison is by "
 "advancing a researcher unit to level 2."
 msgstr ""
-"Ihr könnt entweder das Gift nutzen oder bauen – aber nicht beides. Ein"
-" Gemisch zu Werfen ist auch nichts was man auf Ewigkeiten macht. Ihr könnt "
+"Ihr könnt entweder das Gift nutzen oder bauen – aber nicht beides. Ein "
+"Gemisch zu Werfen ist auch nichts was man auf Ewigkeiten macht. Ihr könnt "
 "auch Gift einzusetzen, wenn Ihr einen der Forscher auf Stufe 2 aufsteigen "
 "lasst."
 
@@ -1602,17 +1602,17 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. historical weapon similar to darts
-#: ANLEra/units/dunefolk/Civilian.cfg:414
+#: ANLEra/units/dunefolk/Civilian.cfg:415
 msgid "plumbata"
 msgstr "Wurfpfeil"
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:432
+#: ANLEra/units/dunefolk/Civilian.cfg:433
 msgid "variation^skirt"
 msgstr "Rock"
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:433
+#: ANLEra/units/dunefolk/Civilian.cfg:434
 msgid ""
 "Special about this unit’s attack is, that strong units will receive no bonus "
 "during the night, but deal even +2 during day."
@@ -1622,7 +1622,7 @@ msgstr ""
 "von +2 erhalten."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:435
+#: ANLEra/units/dunefolk/Civilian.cfg:436
 msgid ""
 "On advancement, this unit will either become a better melee fighter or "
 "obtain a ranged fire attack.\n"
@@ -1636,12 +1636,12 @@ msgstr ""
 "in Hügeln, Gebirgen und Dörfern halten."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:442
+#: ANLEra/units/dunefolk/Civilian.cfg:443
 msgid "variation^hoodie"
 msgstr "Hoodie"
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:443
+#: ANLEra/units/dunefolk/Civilian.cfg:444
 msgid ""
 "The units whose clothes are in light colors are of lawful alignment and do "
 "all have a base damage of 6. Look out for the strong ones, as they do 2 more "
@@ -1654,7 +1654,7 @@ msgstr ""
 "Unterschied."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:445
+#: ANLEra/units/dunefolk/Civilian.cfg:446
 msgid ""
 "You can advance this unit to one of the strongest melee fighters for its "
 "level in the game. Not only will it do very high damage per strike, but it "
@@ -1668,12 +1668,12 @@ msgstr ""
 "guter Verteidigung gebunden."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:451
+#: ANLEra/units/dunefolk/Civilian.cfg:452
 msgid "variation^no hoodie"
 msgstr "Ohne Hoodie"
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:452
+#: ANLEra/units/dunefolk/Civilian.cfg:453
 msgid ""
 "Due to rounding, strong units will inflict even +2 damage during daytime, "
 "while causing the same damage as others during the night."
@@ -1683,7 +1683,7 @@ msgstr ""
 "der Nacht genauso stark sind wie die anderen."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:454
+#: ANLEra/units/dunefolk/Civilian.cfg:455
 msgid ""
 "Choosing the fire unit as advancement is an useful option. It is a strong "
 "ranged unit and the fire type is very useful. As a bonus it will also get a "
@@ -1696,14 +1696,14 @@ msgstr ""
 "Allerdings muss man nach wie vor auf die Terrainverteidigung achten."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:460
+#: ANLEra/units/dunefolk/Civilian.cfg:461
 msgid "variation^village head"
 msgstr "Dorfältester"
 
 #. [variation]
 #. text needs to be short, because the one thereafter is long and part of the same unit description.
-#: ANLEra/units/dunefolk/Civilian.cfg:462
-#: ANLEra/units/dunefolk/Civilian.cfg:467
+#: ANLEra/units/dunefolk/Civilian.cfg:463
+#: ANLEra/units/dunefolk/Civilian.cfg:468
 msgid ""
 "If this unit has the strong trait, it will have +2 damage during the day, "
 "and the same as non-strong units during the night."
@@ -1712,13 +1712,13 @@ msgstr ""
 "verursachen, aber nachts genauso viel wie andere. "
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:469
+#: ANLEra/units/dunefolk/Civilian.cfg:470
 msgid ""
 "Most Dunefolk units do not get a bonus on forest terrain, and thus not on a "
 "huge part of the map. The ability of this one does help in that regard, as "
-"it can be used in offensive to lower the enemies hitchance. Upon advancement "
-"the ability will not be retained. Though there exists a level 2 unit with a "
-"falcon which also has it.\n"
+"it can be used in offensive to lower the enemies chance to hit. Upon "
+"advancement the ability will not be retained. Though there exists a level 2 "
+"unit with a falcon which also has it.\n"
 "After advancement, this unit can deal with the situation of low defence by "
 "having a higher resistance to blade and pierce attacks instead. Unless you "
 "advance it to another unit."
@@ -1733,19 +1733,19 @@ msgstr ""
 "stattdessen mit ihren Resistenzen begegnen kann."
 
 #. [variation]
-#: ANLEra/units/dunefolk/Civilian.cfg:486
+#: ANLEra/units/dunefolk/Civilian.cfg:487
 msgid "variation^worker"
 msgstr "Arbeiter"
 
 #. [variation]
 #. Hinting at the upgrade path to Dune Herbalist.
-#: ANLEra/units/dunefolk/Civilian.cfg:491
+#: ANLEra/units/dunefolk/Civilian.cfg:492
 msgid "This unit keeps his impact attack upon advancement."
 msgstr ""
 "Diese Einheit behält beim Stufenaufstieg ihren wuchtigen Angriffstyp bei."
 
 #. [attack]: type=impact
-#: ANLEra/units/dunefolk/Civilian.cfg:503
+#: ANLEra/units/dunefolk/Civilian.cfg:504
 msgid "shovel"
 msgstr "Schaufel"
 
@@ -1765,12 +1765,12 @@ msgstr ""
 "Gelände und in Wäldern verwundbar. Um ihr volles Potenzial auszuschöpfen "
 "müsst Ihr diese Einheit aktiv einsetzen."
 
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
 #: ANLEra/units/elves/Citizen.cfg:8
 msgid "Elvish Citizen"
 msgstr "Elfischer Bürger"
 
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
 #: ANLEra/units/elves/Citizen.cfg:29 ANLEra/units/elves/Citizen.cfg:31
 msgid ""
 "Since elves are not warlike by nature, most of their population is composed "
@@ -1787,24 +1787,24 @@ msgstr ""
 "überlegenen Einheiten."
 
 #. [special_note]
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
 #: ANLEra/units/elves/Citizen.cfg:33 ANLEra/units/elves/Citizen.cfg:29
 msgid "Depending on its gender this unit has different advancement paths."
 msgstr ""
 "Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
-#. [female]
+#. [female]: gender=female
 #: ANLEra/units/elves/Citizen.cfg:106
 msgid "female^Elvish Citizen"
 msgstr "Elfische Bürgerin"
 
-#. [female]
+#. [female]: gender=female
 #. [variation]
 #: ANLEra/units/elves/Citizen.cfg:225 ANLEra/units/elves/Citizen.cfg:165
 msgid "New"
 msgstr "Neue"
 
-#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc
+#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc, gender=male,female
 #: ANLEra/units/orcs/Novice_Orcish_Shaman.cfg:11
 msgid "Young Orcish Shaman"
 msgstr "Junger Orkschamane"
@@ -1814,7 +1814,7 @@ msgstr "Junger Orkschamane"
 msgid "female^Young Orcish Shaman"
 msgstr "Junge Orkschamanin"
 
-#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc
+#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc, gender=male,female
 #: ANLEra/units/orcs/Old_Orcish_Shaman.cfg:11
 msgid "Elder Orcish Shaman"
 msgstr "Alter Orkschamane"
@@ -2754,7 +2754,7 @@ msgstr ""
 #. [option]
 #. Text for the option to cancel. Decide later which unit to choose.
 #. Decide later which unit to obtain from research
-#: ANLEra/utils/research.lua:209 ANLEra/utils/wml/helper_macros.cfg:35
+#: ANLEra/utils/research.lua:210 ANLEra/utils/wml/helper_macros.cfg:35
 msgid "Choose later."
 msgstr "Einheitentyp später wählen."
 
@@ -2762,29 +2762,29 @@ msgstr "Einheitentyp später wählen."
 #. [option]
 #. Text for the option to cancel. Just one unit is left to be chosen.
 #. Decide later whether to obtain this unit from research
-#: ANLEra/utils/research.lua:212 ANLEra/utils/wml/helper_macros.cfg:50
+#: ANLEra/utils/research.lua:213 ANLEra/utils/wml/helper_macros.cfg:50
 msgid "No, maybe not."
 msgstr "Nein, vielleicht nicht."
 
 #. [lua]: anl.determine_faction
-#: ANLEra/utils/research.lua:312
+#: ANLEra/utils/research.lua:313
 msgid "Researching is not fully supported for this unit."
 msgstr "Für diese Einheit ist die Forschung nicht vollständig implementiert."
 
 #. [lua]: anl.determine_faction
-#: ANLEra/utils/research.lua:313
+#: ANLEra/utils/research.lua:314
 msgid "This is likely a bug. Researcher’s type is "
 msgstr ""
 "Das ist aller Wahrscheinlichkeit nach eine Kurzsichtigkeit bei der "
 "Programmierung. Typ der Forschungseinheit: "
 
 #. [lua]: anl.determine_faction
-#: ANLEra/utils/research.lua:313
+#: ANLEra/utils/research.lua:314
 msgid "NOT GIVEN"
 msgstr "NICHT ANGEGEBEN"
 
 #. [lua]: anl.choose_new_recruit
-#: ANLEra/utils/research.lua:342
+#: ANLEra/utils/research.lua:343
 msgid ""
 "No units left to be researched. It’s a bug that this option was offered to "
 "you."
@@ -2796,22 +2796,22 @@ msgstr ""
 #. [message]: speaker=unit
 #. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
 #. Only one unit to choose from. Similar string in textdomain wesnoth-anl.
-#: ANLEra/utils/research.lua:354 ANLEra/utils/wml/research_options.cfg:411
+#: ANLEra/utils/research.lua:355 ANLEra/utils/wml/research_options.cfg:411
 msgid "Would you like to be able to recruit this unit?"
 msgstr "Wollt Ihr diesen Einheitentyp rekrutieren können?"
 
 #. [lua]: text
 #. [lua]: anl.research_complete
 #. [lua]: book
-#: ANLEra/utils/research.lua:393 ANLEra/utils/research.lua:446
-#: ANLEra/utils/research.lua:474 ANLEra/utils/research.lua:503
-#: ANLEra/utils/research.lua:513 ANLEra/utils/research.lua:556
-#: ANLEra/utils/research.lua:568
+#: ANLEra/utils/research.lua:394 ANLEra/utils/research.lua:447
+#: ANLEra/utils/research.lua:475 ANLEra/utils/research.lua:504
+#: ANLEra/utils/research.lua:514 ANLEra/utils/research.lua:557
+#: ANLEra/utils/research.lua:569
 msgid "Study Complete"
 msgstr "Forschungsprojekt abgeschlossen"
 
 #. [lua]: text
-#: ANLEra/utils/research.lua:395
+#: ANLEra/utils/research.lua:396
 msgid ""
 "We researched all units. It would be wise to change the research target now."
 msgstr ""
@@ -2819,18 +2819,18 @@ msgstr ""
 "Forschungsrichtung zu ändern."
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:448
+#: ANLEra/utils/research.lua:449
 msgid "$side_name|’s farms produce now $amount gold."
 msgstr "$side_name|s Farmen produzieren nun $amount Gold."
 
 #. [lua]: anl.research_complete
-#: ANLEra/utils/research.lua:476
+#: ANLEra/utils/research.lua:477
 msgid "$side_name|’s mines produce now $amount gold."
 msgstr "$side_name|s Bergwerke produzieren jetzt $amount Gold."
 
 #. [lua]: anl.research_complete
 #. one new unit available
-#: ANLEra/utils/research.lua:506
+#: ANLEra/utils/research.lua:507
 msgid ""
 "$side_name|, we have finished researching warfare. Right-click on a "
 "researcher in a university to select a unit to recruit."
@@ -2841,7 +2841,7 @@ msgstr ""
 
 #. [lua]: anl.research_complete
 #. multiple new units available
-#: ANLEra/utils/research.lua:516
+#: ANLEra/utils/research.lua:517
 msgid ""
 "$side_name|, we have finished researching warfare. Right-click on a "
 "researcher in a university to select new units to recruit."
@@ -2852,7 +2852,7 @@ msgstr ""
 
 #. [lua]: book
 #. shown after accomplishing the philisophy research project the first time
-#: ANLEra/utils/research.lua:560
+#: ANLEra/utils/research.lua:561
 msgid ""
 "By coordinating research efforts and creating dedicated teams $side_name|’s "
 "scholars managed to double their research results."
@@ -2862,7 +2862,7 @@ msgstr ""
 
 #. [lua]: book
 #. shown the 2nd and later times after completing philisophy research
-#: ANLEra/utils/research.lua:571
+#: ANLEra/utils/research.lua:572
 msgid ""
 "The scienific progress of $side_name|’s scholars is by now at $amount|00%."
 msgstr ""
