@@ -178,6 +178,16 @@
    * Leadership works on level 1 Dwarvish Miner
    * Portrait restored for mainline Dwarvish Miner
 
+3.3.1
+ - Disabled unit placed event (maybe OOS)
+ - Show different message to others when constructing buildings
+ - Display version number in the ANL help
+ - Units:
+   * Young Orc Shaman costs now only 18 gold
+ - For 2p A New Land:
+   * Northern chamber is more accessible
+   * Death Squire instead of Thunderer
+
 Some hints, tweaks, tricks, easter eggs, gimmicks, …:
 - When removing allow_era= from the scenario file, it can be played with leaders from another era!
   (the same way like in mainline). The recruits will be like in mainline (Peasant & Mage).
