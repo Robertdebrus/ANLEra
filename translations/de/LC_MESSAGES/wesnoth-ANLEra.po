@@ -2989,6 +2989,9 @@ msgstr "Burg einreißen"
 msgid "Demolish Keep"
 msgstr "Burgfried einreißen"
 
+msgid "construction"
+msgstr "Bauarbeiten"
+
 #~ msgid "You can either use poison or build — not both!"
 #~ msgstr "Ihr könnt entweder das Gift nutzen oder bauen – aber nicht beides."
 
