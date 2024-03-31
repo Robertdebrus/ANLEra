@@ -92,7 +92,7 @@ function anl.update_research_target(project, name, undo_forbidden)
         -- Allowing undo if the new research project is the old one.
         -- Except if undoing is not allowed due to other reasons.
         if not undo_forbidden then
-            wesnoth.wml_actions.allow_undo{}
+            -- wesnoth.wml_actions.allow_undo{}
         end
     end
 end
@@ -144,7 +144,7 @@ function anl.research_menu(undo_forbidden)
         anl.update_research_target(options[rc].saveslot, options[rc].language_name, undo_forbidden)
     else
         if not undo_forbidden then
-            wesnoth.wml_actions.allow_undo{}
+            -- wesnoth.wml_actions.allow_undo{}
         end
     end
 end
@@ -334,14 +334,14 @@ function anl.choose_new_recruit()
 
     if choosable == nil then
         -- An error message was just shown.
-        wesnoth.wml_actions.allow_undo{}
+        -- wesnoth.wml_actions.allow_undo{}
         return
     end
 
     if choosable[1] == nil then
         local _ = wesnoth.textdomain 'wesnoth-ANLEra'
         wesnoth.message('ANL', _'No units left to be researched. It’s a bug that this option was offered to you.')
-        wesnoth.wml_actions.allow_undo{}
+        -- wesnoth.wml_actions.allow_undo{}
         return
     end
 
@@ -402,7 +402,7 @@ function anl.choose_new_recruit()
         end
     else
         -- Option 1 is always the option to abort:
-        wesnoth.wml_actions.allow_undo{}
+        -- wesnoth.wml_actions.allow_undo{}
     end
 end
 
