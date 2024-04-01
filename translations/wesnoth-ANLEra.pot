@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-03-11 19:47 UTC\n"
+"POT-Creation-Date: 2024-04-01 03:22 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,25 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:352
-#: ANLEra/utils/worker_options.cfg:666
+#: ANLEra/utils/worker_options.cfg:669
 msgid "Remove Fireplace"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:365
-#: ANLEra/utils/worker_options.cfg:679
+#: ANLEra/utils/worker_options.cfg:682
 msgid "Light a Fire"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:378
-#: ANLEra/utils/worker_options.cfg:704
+#: ANLEra/utils/worker_options.cfg:707
 msgid "Remove Path"
 msgstr ""
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:388
-#: ANLEra/utils/worker_options.cfg:731
+#: ANLEra/utils/worker_options.cfg:734
 msgid "Melt Ice"
 msgstr ""
 
@@ -1027,12 +1027,12 @@ msgstr ""
 msgid "Due to their dedication to research, the Universities heal less."
 msgstr ""
 
-#. [unit_type]: id=ANLEra Drake Apprentice, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
 #: ANLEra/units/drakes/Apprentice.cfg:5
 msgid "Drake Apprentice"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Drake Apprentice, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
 #: ANLEra/units/drakes/Apprentice.cfg:20
 #: ANLEra/units/drakes/Apprentice.cfg:22
 msgid "The Drake Magi are fresh members of the Obsidian Citadel, who have been bound to the cult. Although they have undergone training harsh enough to kill any human or orc, they are inexperienced, and thus can only safely wield a weaker form of their feared fireball spell. However, they also share the weaknesses of the High Magi."
@@ -1045,13 +1045,13 @@ msgstr ""
 msgid "ice shot"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Drake Druid, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Druid, race=drake
 #: ANLEra/units/drakes/Druid.cfg:5
 msgid "Drake Druid"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Drake Druid, race=drake, gender=female
-#. [unit_type]: id=ANLEra Drake Shaman, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Druid, race=drake
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake
 #: ANLEra/units/drakes/Druid.cfg:21
 #: ANLEra/units/drakes/Druid.cfg:23
 #: ANLEra/units/drakes/Shaman.cfg:21
@@ -1059,7 +1059,7 @@ msgstr ""
 msgid "The Drake High Magi are elite members of an order of magic-using drakes who spend their days in the Obsidian Citadel, honing their powers for use in times of crisis. They can summon blasts of intense cold with a gesture, and can hurl powerful fireballs across great distances. However, due to the extensive energy that is required of these drakes to harness and use these powers, they are frail and slow."
 msgstr ""
 
-#. [unit_type]: id=ANLEra Drake Shaman, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake
 #: ANLEra/units/drakes/Shaman.cfg:5
 msgid "Drake Shaman"
 msgstr ""
@@ -1077,13 +1077,13 @@ msgid ""
 "Drake Workers are still young and cannot fly as good as their more experienced brethren. It takes them more effort to cross over waters and they do not yet have the endurance to pass over deep water and unwalkable terrain."
 msgstr ""
 
-#. [unit_type]: id=ANLEra Young Saurian, race=lizard, gender=male,female
+#. [unit_type]: id=ANLEra Young Saurian, race=lizard
 #. unit type name for both male and female
 #: ANLEra/units/drakes/Young.cfg:8
 msgid "unit^Young Saurian"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Young Saurian, race=lizard, gender=male,female
+#. [unit_type]: id=ANLEra Young Saurian, race=lizard
 #: ANLEra/units/drakes/Young.cfg:28
 msgid "Young saurians often work for Drakes. Some work underground in mines, while others are in the countryside and dabble in magic."
 msgstr ""
@@ -1093,24 +1093,24 @@ msgstr ""
 msgid "Besides the melee orientated young saurians, there are also devotees with a focus on ranged magic."
 msgstr ""
 
-#. [female]: gender=female
+#. [female]
 #. rather gender-neutral, skirmisher tree
 #: ANLEra/units/drakes/Young.cfg:119
 msgid "miner^Young Saurian"
 msgstr ""
 
-#. [female]: gender=female
+#. [female]
 #: ANLEra/units/drakes/Young.cfg:121
 msgid "Young saurians work often as miners because they are smaller than Drakes."
 msgstr ""
 
-#. [male]: gender=male
+#. [male]
 #. rather gender-neutral, augur tree
 #: ANLEra/units/drakes/Young.cfg:130
 msgid "magican^Young Saurian"
 msgstr ""
 
-#. [male]: gender=male
+#. [male]
 #: ANLEra/units/drakes/Young.cfg:138
 msgid "Saurians have some knowledge of what men call sorcery, but their practice of it reeks of augury and black magic. It is little understood, but rightly regarded with fear by those against whom it is used."
 msgstr ""
@@ -1122,12 +1122,12 @@ msgstr ""
 msgid "Like many Dunefolk units, the Civilians do not benefit from forests, nor does sand lower their defence — it is the same as on flat terrain. When they need a defensive position, they hide in the hills."
 msgstr ""
 
-#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk, gender=male
+#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
 #: ANLEra/units/dunefolk/Civilian.cfg:61
 msgid "Dune Civilian"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk, gender=male
+#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
 #. General hint about playing dunefolk, part of the unit description of all variations.
 #: ANLEra/units/dunefolk/Civilian.cfg:81
 msgid "This unit has multiple variations. While their stats are generally the same, they do resemble different level 1 units. What you learn about them can be applied to their level 1 counterpart."
@@ -1279,37 +1279,30 @@ msgstr ""
 msgid "This unit can support the offensive capabilities of miners. It is a bit quicker than the average dwarf and can also slow enemy units. It also has better resistances, but do not forget that it does not increase the defensive capabilites — your units are still vulnerable on land and in forests. This unit needs to be actively used to profit from its potential."
 msgstr ""
 
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
 #: ANLEra/units/elves/Citizen.cfg:8
 msgid "Elvish Citizen"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
 #: ANLEra/units/elves/Citizen.cfg:29
 #: ANLEra/units/elves/Citizen.cfg:31
 msgid "Since elves are not warlike by nature, most of their population is composed by civilians who learn, at very early age, basic usage of swords and bows. This allows them to defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you’re clearly out of superior forces."
 msgstr ""
 
 #. [special_note]
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
 #: ANLEra/units/elves/Citizen.cfg:33
 #: ANLEra/units/elves/Citizen.cfg:29
 msgid "Depending on its gender this unit has different advancement paths."
 msgstr ""
 
-#. [female]: gender=female
+#. [female]
 #: ANLEra/units/elves/Citizen.cfg:106
 msgid "female^Elvish Citizen"
 msgstr ""
 
-#. [female]: gender=female
-#. [variation]
-#: ANLEra/units/elves/Citizen.cfg:225
-#: ANLEra/units/elves/Citizen.cfg:165
-msgid "New"
-msgstr ""
-
-#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc, gender=male,female
+#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc
 #: ANLEra/units/orcs/Novice_Orcish_Shaman.cfg:11
 msgid "Young Orcish Shaman"
 msgstr ""
@@ -1319,7 +1312,7 @@ msgstr ""
 msgid "female^Young Orcish Shaman"
 msgstr ""
 
-#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc, gender=male,female
+#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc
 #: ANLEra/units/orcs/Old_Orcish_Shaman.cfg:11
 msgid "Elder Orcish Shaman"
 msgstr ""
@@ -2315,32 +2308,37 @@ msgid "Earns:"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:333
+#: ANLEra/utils/worker_options.cfg:309
+msgid "construction"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:336
 msgid "Demolish Farmland"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:693
+#: ANLEra/utils/worker_options.cfg:696
 msgid "Shorten Path"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:715
+#: ANLEra/utils/worker_options.cfg:718
 msgid "Destroy Bridge"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:741
+#: ANLEra/utils/worker_options.cfg:744
 msgid "Renovate Encampment"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:760
+#: ANLEra/utils/worker_options.cfg:763
 msgid "Demolish Castle"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:768
+#: ANLEra/utils/worker_options.cfg:771
 msgid "Demolish Keep"
 msgstr ""
 

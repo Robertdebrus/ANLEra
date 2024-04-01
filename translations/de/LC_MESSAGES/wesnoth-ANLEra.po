@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-03-11 19:43 UTC\n"
+"POT-Creation-Date: 2024-04-01 03:04 UTC\n"
 "PO-Revision-Date: 2024-03-11 20:47+0100\n"
 "Last-Translator: Severin Glöckner <severin.gloeckner@stud.htwk-leipzig.de>\n"
 "Language-Team: German <irc://irc.libera.chat/#wesnoth-de>\n"
@@ -21,25 +21,25 @@ msgstr "Rasen pflanzen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:352
-#: ANLEra/utils/worker_options.cfg:666
+#: ANLEra/utils/worker_options.cfg:669
 msgid "Remove Fireplace"
 msgstr "Feuerstelle beseitigen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:365
-#: ANLEra/utils/worker_options.cfg:679
+#: ANLEra/utils/worker_options.cfg:682
 msgid "Light a Fire"
 msgstr "Feuer entzünden"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:378
-#: ANLEra/utils/worker_options.cfg:704
+#: ANLEra/utils/worker_options.cfg:707
 msgid "Remove Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
 #: ANLEra/ANLEra_Sp/worker_options_sp.cfg:388
-#: ANLEra/utils/worker_options.cfg:731
+#: ANLEra/utils/worker_options.cfg:734
 msgid "Melt Ice"
 msgstr "Eis schmelzen"
 
@@ -1349,12 +1349,12 @@ msgstr ""
 msgid "Due to their dedication to research, the Universities heal less."
 msgstr "Aufgrund ihrer Widmung zur Forschung heilen Universitäten weniger."
 
-#. [unit_type]: id=ANLEra Drake Apprentice, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
 #: ANLEra/units/drakes/Apprentice.cfg:5
 msgid "Drake Apprentice"
 msgstr "Drakenlehrling"
 
-#. [unit_type]: id=ANLEra Drake Apprentice, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Apprentice, race=drake
 #: ANLEra/units/drakes/Apprentice.cfg:20 ANLEra/units/drakes/Apprentice.cfg:22
 msgid ""
 "The Drake Magi are fresh members of the Obsidian Citadel, who have been "
@@ -1376,13 +1376,13 @@ msgstr ""
 msgid "ice shot"
 msgstr "Eisgeschoss"
 
-#. [unit_type]: id=ANLEra Drake Druid, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Druid, race=drake
 #: ANLEra/units/drakes/Druid.cfg:5
 msgid "Drake Druid"
 msgstr "Drakendruide"
 
-#. [unit_type]: id=ANLEra Drake Druid, race=drake, gender=female
-#. [unit_type]: id=ANLEra Drake Shaman, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Druid, race=drake
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake
 #: ANLEra/units/drakes/Druid.cfg:21 ANLEra/units/drakes/Druid.cfg:23
 #: ANLEra/units/drakes/Shaman.cfg:21 ANLEra/units/drakes/Shaman.cfg:23
 msgid ""
@@ -1400,7 +1400,7 @@ msgstr ""
 "hinweg einsetzen. Aufgrund der Energie welche sie dafür benötigen fehlt es "
 "ihnen jedoch an Schnelligkeit und Kraft."
 
-#. [unit_type]: id=ANLEra Drake Shaman, race=drake, gender=female
+#. [unit_type]: id=ANLEra Drake Shaman, race=drake
 #: ANLEra/units/drakes/Shaman.cfg:5
 msgid "Drake Shaman"
 msgstr "Drakenschamane"
@@ -1431,13 +1431,13 @@ msgstr ""
 "fliegen und es fehlt ihnen noch an der Ausdauer, um über tiefem Wasser und "
 "unbegehbarem Gelände zu fliegen."
 
-#. [unit_type]: id=ANLEra Young Saurian, race=lizard, gender=male,female
+#. [unit_type]: id=ANLEra Young Saurian, race=lizard
 #. unit type name for both male and female
 #: ANLEra/units/drakes/Young.cfg:8
 msgid "unit^Young Saurian"
 msgstr "Junger Saurianer"
 
-#. [unit_type]: id=ANLEra Young Saurian, race=lizard, gender=male,female
+#. [unit_type]: id=ANLEra Young Saurian, race=lizard
 #: ANLEra/units/drakes/Young.cfg:28
 msgid ""
 "Young saurians often work for Drakes. Some work underground in mines, while "
@@ -1455,26 +1455,26 @@ msgstr ""
 "Neben den auf Nahkampf ausgerichteten jungen Saurianern gibt es auch "
 "Magieliebhaber, die sich auf den Fernkampf spezialisiert haben."
 
-#. [female]: gender=female
+#. [female]
 #. rather gender-neutral, skirmisher tree
 #: ANLEra/units/drakes/Young.cfg:119
 msgid "miner^Young Saurian"
 msgstr "Junger Saurianer"
 
-#. [female]: gender=female
+#. [female]
 #: ANLEra/units/drakes/Young.cfg:121
 msgid ""
 "Young saurians work often as miners because they are smaller than Drakes."
 msgstr ""
 "Junge Saurianer arbeiten oft in Bergwerken weil sie kleiner sind als Draken."
 
-#. [male]: gender=male
+#. [male]
 #. rather gender-neutral, augur tree
 #: ANLEra/units/drakes/Young.cfg:130
 msgid "magican^Young Saurian"
 msgstr "Junger Saurianer"
 
-#. [male]: gender=male
+#. [male]
 #: ANLEra/units/drakes/Young.cfg:138
 msgid ""
 "Saurians have some knowledge of what men call sorcery, but their practice of "
@@ -1498,12 +1498,12 @@ msgstr ""
 "nicht geschwächt – es ist stets die selbe wie auf flachem Terrain. Wenn eine "
 "defensive Position benötigt wird, ziehen sie sich in die Hügel zurück."
 
-#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk, gender=male
+#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
 #: ANLEra/units/dunefolk/Civilian.cfg:61
 msgid "Dune Civilian"
 msgstr "Wüstenbewohner"
 
-#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk, gender=male
+#. [unit_type]: id=ANLEra Dune Civilian, race=dunefolk
 #. General hint about playing dunefolk, part of the unit description of all variations.
 #: ANLEra/units/dunefolk/Civilian.cfg:81
 msgid ""
@@ -1765,12 +1765,12 @@ msgstr ""
 "Gelände und in Wäldern verwundbar. Um ihr volles Potenzial auszuschöpfen "
 "müsst Ihr diese Einheit aktiv einsetzen."
 
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
 #: ANLEra/units/elves/Citizen.cfg:8
 msgid "Elvish Citizen"
 msgstr "Elfischer Bürger"
 
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
 #: ANLEra/units/elves/Citizen.cfg:29 ANLEra/units/elves/Citizen.cfg:31
 msgid ""
 "Since elves are not warlike by nature, most of their population is composed "
@@ -1787,24 +1787,18 @@ msgstr ""
 "überlegenen Einheiten."
 
 #. [special_note]
-#. [unit_type]: id=ANLEra Elvish Civilian, race=elf, gender=male,female
+#. [unit_type]: id=ANLEra Elvish Civilian, race=elf
 #: ANLEra/units/elves/Citizen.cfg:33 ANLEra/units/elves/Citizen.cfg:29
 msgid "Depending on its gender this unit has different advancement paths."
 msgstr ""
 "Je nach Geschlecht hat diese Einheit verschiedene Aufstiegsmöglichkeiten."
 
-#. [female]: gender=female
+#. [female]
 #: ANLEra/units/elves/Citizen.cfg:106
 msgid "female^Elvish Citizen"
 msgstr "Elfische Bürgerin"
 
-#. [female]: gender=female
-#. [variation]
-#: ANLEra/units/elves/Citizen.cfg:225 ANLEra/units/elves/Citizen.cfg:165
-msgid "New"
-msgstr "Neue"
-
-#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc, gender=male,female
+#. [unit_type]: id=ANLEra Novice Orcish Shaman, race=orc
 #: ANLEra/units/orcs/Novice_Orcish_Shaman.cfg:11
 msgid "Young Orcish Shaman"
 msgstr "Junger Orkschamane"
@@ -1814,7 +1808,7 @@ msgstr "Junger Orkschamane"
 msgid "female^Young Orcish Shaman"
 msgstr "Junge Orkschamanin"
 
-#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc, gender=male,female
+#. [unit_type]: id=ANLEra Old Orcish Shaman, race=orc
 #: ANLEra/units/orcs/Old_Orcish_Shaman.cfg:11
 msgid "Elder Orcish Shaman"
 msgstr "Alter Orkschamane"
@@ -2960,83 +2954,42 @@ msgid "Earns:"
 msgstr "Einnahmen:"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:333
+#: ANLEra/utils/worker_options.cfg:309
+msgid "construction"
+msgstr "Bauarbeiten"
+
+#. [message]: speaker=unit
+#: ANLEra/utils/worker_options.cfg:336
 msgid "Demolish Farmland"
 msgstr "Ackerland beseitigen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:693
+#: ANLEra/utils/worker_options.cfg:696
 msgid "Shorten Path"
 msgstr "Weg beseitigen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:715
+#: ANLEra/utils/worker_options.cfg:718
 msgid "Destroy Bridge"
 msgstr "Brücke zerstören"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:741
+#: ANLEra/utils/worker_options.cfg:744
 msgid "Renovate Encampment"
 msgstr "Lager renovieren"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:760
+#: ANLEra/utils/worker_options.cfg:763
 msgid "Demolish Castle"
 msgstr "Burg einreißen"
 
 #. [message]: speaker=unit
-#: ANLEra/utils/worker_options.cfg:768
+#: ANLEra/utils/worker_options.cfg:771
 msgid "Demolish Keep"
 msgstr "Burgfried einreißen"
 
-msgid "construction"
-msgstr "Bauarbeiten"
-
-#~ msgid "You can either use poison or build — not both!"
-#~ msgstr "Ihr könnt entweder das Gift nutzen oder bauen – aber nicht beides."
-
-#~ msgid ""
-#~ "Many Dunefolk units do not benefit from forests, nor does sand lower "
-#~ "their defence — it is the same as on flat terrain. When they need a "
-#~ "defensive position, they hide in the hills.\n"
-#~ "\n"
-#~ "Their level 0 unit on the other hand has good damage and hitpoints to "
-#~ "make up for it.\n"
-#~ "Their researcher unit on the other hand is comparable to their level 0 "
-#~ "unit, with healing bonus and more hp.\n"
-#~ "The builder unit has many variations. They are all more or less the same, "
-#~ "but have different bonuses or synergies:\n"
-#~ "1/7 chance for weak ranged\n"
-#~ "1/7 chance for good ranged\n"
-#~ "1/7 chance for impact bonus against skeletons\n"
-#~ "1/7 chance for positional support ability\n"
-#~ "2/7 chance to get strong on a lawful variation where it does extra damage "
-#~ "during daytime"
-#~ msgstr ""
-#~ "Der Nachteil dieser Fraktion ist, das sie keinen Bonus in Wäldern erhält, "
-#~ "welche einen großen Teil der Karte ausmachen. Sie erhält jedoch den "
-#~ "vollen Bonus auf Hügeln, ohne dass dafür erst ein Bergwerk errichtet "
-#~ "werden muss.\n"
-#~ "\n"
-#~ "Die Einheiten in hellen Gewändern sind redlich und verursachen jeweils 6 "
-#~ "Schaden pro Schlag. Achtet auf die starken Einheiten unter ihnen, da sie "
-#~ "tagsüber ganze 2 Schadenspunkte mehr verursachen. In der Nacht dagegen "
-#~ "sind sie alle gleich.\n"
-#~ "\n"
-#~ "Den Arbeiter gibt es in vielen Variationen. Sie sind alle sehr ähnlich, "
-#~ "aber verfügen über unterschiedliche Boni oder Synergien:\n"
-#~ "2/7 Chance, die Charakteristik stark auf einer redlichen Variation zu "
-#~ "bekommen, wo sie Extraschaden verursacht\n"
-#~ "1/7 Chance für eine unterstützende Fähigkeit\n"
-#~ "1/7 Chance für Wuchtschaden, der Skeletten gegenüber nützlich ist\n"
-#~ "1/7 Chance für einen schwachen Fernkampfangriff\n"
-#~ "1/7 Chance für einen gefährlichen Fernkampfangriff\n"
-#~ "\n"
-#~ "Mit ihrem Forscher verfügt das Wüstenvolk auch über einen Heiler, der in "
-#~ "seiner Kampfkraft mit dem Arbeiter vergleichbar"
-
-#~ msgid "female^Dune Civilian"
-#~ msgstr "Wüstenbewohnerin"
+#~ msgid "New"
+#~ msgstr "Neue"
 
 #~ msgid "AI destroyers for allies"
 #~ msgstr "KI Zerstörer für Verbündete"
@@ -3069,10 +3022,3 @@ msgstr "Bauarbeiten"
 #~ "\n"
 #~ "Für Spiele im A New Land Style ist 12-18 ein guter Wert.\n"
 #~ "Bei normalen Spielen ist dagegen 3 ein guter Wert."
-
-#~ msgid "female^Novice Orcish Shaman"
-#~ msgstr "Junge Orkschamanin"
-
-#~ msgid "Edited by Robertdebrus for use with A New Land Era."
-#~ msgstr "Von Robertdebrus für die Benutzung mit der ANL Epoche angepasst."
-
